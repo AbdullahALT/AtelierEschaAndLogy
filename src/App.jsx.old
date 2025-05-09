@@ -1,0 +1,46 @@
+import { useState } from 'react';
+import properties from '../files/properties.json';
+import { Tabs, TabsList, TabsTrigger } from '@/components/ui/tabs';
+import { Filters } from './Filters';
+import { Sort } from './Sort';
+import { TableView } from './TableView';
+import { CardView } from './CardView';
+
+export default function App() {
+  const [view, setView] = useState<'table' | 'card'>('table');
+  const [filters, setFilters] = useState({});
+  const [sortField, setSortField] = useState(null);
+  const [sortOrder, setSortOrder] = useState<'asc' | 'desc'>('asc');
+
+  const fields = Object.keys(properties[0] || {});
+
+  const toggleSort = (field) => {
+    if (sortField === field) {
+      setSortOrder(sortOrder === 'asc' ? 'desc' : 'asc');
+    } else {
+      setSortField(field);
+      setSortOrder('asc');
+    }
+  };
+
+  return (
+    <div className="p-4 max-w-screen-xl mx-auto">
+      <Tabs value={view} onValueChange={setView} className="mb-4">
+        <TabsList>
+          <TabsTrigger value="table">Table View</TabsTrigger>
+          <TabsTrigger value="card">Card View</TabsTrigger>
+        </TabsList>
+      </Tabs>
+
+      <Filters fields={fields} filters={filters} setFilters={setFilters} />
+
+      <Sort fields={fields} sortField={sortField} sortOrder={sortOrder} toggleSort={toggleSort} />
+
+      {view === 'table' ? (
+        <TableView fields={fields} filters={filters} sortField={sortField} sortOrder={sortOrder} properties={properties} />
+      ) : (
+        <CardView fields={fields} filters={filters} sortField={sortField} sortOrder={sortOrder} properties={properties} />
+      )}
+    </div>
+  );
+}
