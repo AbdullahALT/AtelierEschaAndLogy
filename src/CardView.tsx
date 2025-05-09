@@ -8,6 +8,7 @@ import {
   StarIcon,
   PlusCircleIcon
 } from 'lucide-react';
+import { JSX } from 'react';
 
 const groupIcons: Record<string, JSX.Element> = {
   Bomb: <BombIcon className="w-4 h-4 text-red-500" />,
@@ -26,35 +27,41 @@ export default function CardView({
   fields: string[];
 }) {
   return (
-    <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
+    <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 p-4">
       {items.map((item, index) => (
         <div
           key={index}
-          className="rounded-xl shadow-lg bg-white dark:bg-card p-4 border border-border"
+          className="rounded-xl shadow-lg bg-white dark:bg-card p-4 border border-border flex flex-col justify-between"
         >
-          <h2 className="text-xl font-semibold text-primary mb-1">
-            {item['Property Name']}
-          </h2>
-          <p className="text-muted-foreground mb-2">
-            {item['Property Description']}
-          </p>
-          <div className="text-sm text-foreground mb-1">
-            <strong>Cost:</strong> {item['Property Cost']}
+          <div>
+            <h2 className="text-lg font-semibold text-primary mb-2">
+              {item['Property Name']}
+            </h2>
+            <p className="text-sm text-muted-foreground mb-3">
+              {item['Property Description']}
+            </p>
+            <div className="text-sm text-foreground mb-2">
+              <strong>Cost:</strong> {item['Property Cost']}
+            </div>
+            {item['Property Fusion'] && (
+              <div className="text-sm text-foreground mb-2">
+                <strong>Fusion:</strong> {item['Property Fusion']}
+              </div>
+            )}
+            {item['Property Items'] && (
+              <div className="text-sm text-foreground mb-2">
+                <strong>Items:</strong> {item['Property Items']}
+              </div>
+            )}
           </div>
-          {item['Property Fusion']? (
-            <div className="text-sm text-foreground mb-1">
-            <strong>Fusion:</strong> {item['Property Fusion'] || 'N/A'}
-          </div>
-          ): <div></div>}
-          {item['Property Items']? (
-            <div className="text-sm text-foreground mt-2">
-            <strong>Items:</strong> {item['Property Items'] || 'None'}
-          </div>
-          ): <div></div>}
-          <div className="flex flex-wrap gap-1 my-2">
+          <div className="flex flex-wrap gap-2 mt-3">
             {Object.keys(groupIcons).map((group) =>
               item[group] ? (
-                <Badge key={group} variant="outline" className="flex items-center gap-1 px-2 py-1 text-xs">
+                <Badge
+                  key={group}
+                  variant="outline"
+                  className="flex items-center gap-1 px-2 py-1 text-xs"
+                >
                   {groupIcons[group]}
                   {group}
                 </Badge>

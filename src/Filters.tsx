@@ -29,9 +29,9 @@ export default function Filters({
   };
 
   return (
-    <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 mb-6">
+    <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 mb-6">
       {textFields.map(field => (
-        <div key={field}>
+        <div key={field} className="flex flex-col">
           <label className="block text-sm font-medium mb-1">{field}</label>
           <input
             type="text"
@@ -44,7 +44,7 @@ export default function Filters({
       ))}
 
       {booleanFields.map(field => (
-        <div key={field}>
+        <div key={field} className="flex flex-col">
           <label className="block text-sm font-medium mb-1">{field}</label>
           <select
             className="w-full border border-gray-300 rounded px-2 py-1"
@@ -59,7 +59,7 @@ export default function Filters({
       ))}
 
       {dropdownFields.map(field => (
-        <div key={field}>
+        <div key={field} className="flex flex-col">
           <label className="block text-sm font-medium mb-1">{field}</label>
           <select
             className="w-full border border-gray-300 rounded px-2 py-1"

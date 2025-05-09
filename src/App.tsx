@@ -95,10 +95,18 @@ export default function App() {
 
   return (
     <div className="p-4 max-w-screen-xl mx-auto">
-      <Tabs value={view} onValueChange={(val) => setView(val as 'table' | 'card')} className="mb-4">
-        <TabsList>
-          <TabsTrigger value="table">Table View</TabsTrigger>
-          <TabsTrigger value="card">Card View</TabsTrigger>
+      <Tabs
+        value={view}
+        onValueChange={(val) => setView(val as 'table' | 'card')}
+        className="mb-4"
+      >
+        <TabsList className="flex flex-wrap gap-2">
+          <TabsTrigger value="table" className="flex-1 sm:flex-none">
+            Table View
+          </TabsTrigger>
+          <TabsTrigger value="card" className="flex-1 sm:flex-none">
+            Card View
+          </TabsTrigger>
         </TabsList>
       </Tabs>
 
@@ -121,11 +129,11 @@ export default function App() {
         />
       ) : (
         <>
-          <div className="flex items-center gap-4 mb-4">
-            <label className="flex items-center gap-2">
+          <div className="flex flex-col sm:flex-row items-start sm:items-center gap-4 mb-4">
+            <label className="flex items-center gap-2 w-full sm:w-auto">
               <span className="text-sm font-medium">Sort By</span>
               <select
-                className="border rounded p-1"
+                className="border rounded p-1 w-full sm:w-auto"
                 value={sortField ?? ''}
                 onChange={(e) => setSortField(e.target.value)}
               >
@@ -149,7 +157,6 @@ export default function App() {
           <CardView items={sorted} fields={fields} />
         </>
       )}
-
     </div>
   );
 }
