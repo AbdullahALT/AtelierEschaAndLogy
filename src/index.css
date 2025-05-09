@@ -1,4 +1,3 @@
-
 :root {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
@@ -12,6 +11,34 @@
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  --primary-color: #1E2A38;
+  --secondary-color: #F5F7FA;
+  --accent-color: #00BFA6;
+  --text-color: #333333;
+  --background-color: #FFFFFF;
+
+  --border-color: #e5e7eb;
+  --radius: 0.5rem;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden; /* Prevent horizontal scrolling */
+  overflow-y: auto; /* Ensure vertical scrolling works */
+  height: 100%; /* Ensure the body takes up the full height */
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Ensure the root container takes up the full viewport height */
+  width: 100%;
+  margin: 0 auto;
+  padding: 1rem;
+  box-sizing: border-box;
+  text-align: center;
 }
 
 a {
@@ -26,14 +53,18 @@ a:hover {
 body {
   margin: 0;
   display: flex;
-  place-items: center;
+  flex-direction: column;
+  align-items: center;
   min-width: 320px;
   min-height: 100vh;
+  background-color: var(--background-color);
+  color: var(--text-color);
 }
 
 h1 {
   font-size: 3.2em;
   line-height: 1.1;
+  text-align: center;
 }
 
 button {
@@ -55,6 +86,107 @@ button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
 
+/* Responsive Typography */
+@media (max-width: 768px) {
+  h1 {
+    font-size: 2.5em;
+  }
+  button {
+    font-size: 0.9em;
+    padding: 0.5em 1em;
+  }
+}
+
+@media (max-width: 480px) {
+  h1 {
+    font-size: 2em;
+  }
+  button {
+    font-size: 0.8em;
+    padding: 0.4em 0.8em;
+  }
+}
+
+/* Responsive Layout */
+@media (max-width: 768px) {
+  body {
+    padding: 1em;
+  }
+}
+
+@media (max-width: 480px) {
+  body {
+    padding: 0.5em;
+  }
+}
+
+/* Table Styles */
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table-wrapper {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch; /* Smooth scrolling on mobile */
+}
+
+th, td {
+  padding: 0.5em;
+  text-align: left;
+  word-wrap: break-word;
+}
+
+@media (max-width: 768px) {
+  th, td {
+    font-size: 0.9em;
+    padding: 0.4em;
+  }
+}
+
+/* Grid Styles */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1rem;
+}
+
+@media (max-width: 480px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Animations */
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+/* Light Mode Adjustments */
 @media (prefers-color-scheme: light) {
   :root {
     color: #213547;
@@ -68,6 +200,7 @@ button:focus-visible {
   }
 }
 
+/* Tailwind Base, Components, and Utilities */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -94,11 +227,10 @@ button:focus-visible {
     --input: 240 5.9% 90%;
     --ring: 240 10% 3.9%;
     --chart-1: 12 76% 61%;
-    --chart-2: 173 58% 39%;
-    --chart-3: 197 37% 24%;
-    --chart-4: 43 74% 66%;
-    --chart-5: 27 87% 67%;
-    --radius: 0.5rem;
+    --chart-2: 160 60% 45%;
+    --chart-3: 30 80% 55%;
+    --chart-4: 280 65% 60%;
+    --chart-5: 340 75% 55%;
   }
   .dark {
     --background: 240 10% 3.9%;
@@ -135,12 +267,4 @@ button:focus-visible {
   body {
     @apply bg-background text-foreground;
   }
-}
-
-:root {
-  --primary-color: #1E2A38;
-  --secondary-color: #F5F7FA;
-  --accent-color: #00BFA6;
-  --text-color: #333333;
-  --background-color: #FFFFFF;
 }

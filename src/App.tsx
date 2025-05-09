@@ -94,7 +94,7 @@ export default function App() {
   const sorted = applySort(filtered);
 
   return (
-    <div className="p-4 max-w-screen-xl mx-auto">
+    <div className="p-4 w-full overflow-x-hidden">
       <Tabs
         value={view}
         onValueChange={(val) => setView(val as 'table' | 'card')}
@@ -120,13 +120,15 @@ export default function App() {
       />
 
       {view === 'table' ? (
-        <TableView
-          items={sorted}
-          fields={fields}
-          sortField={sortField}
-          sortOrder={sortOrder}
-          onSort={toggleSort}
-        />
+        <div className="table-wrapper">
+          <TableView
+            items={sorted}
+            fields={fields}
+            sortField={sortField}
+            sortOrder={sortOrder}
+            onSort={toggleSort}
+          />
+        </div>
       ) : (
         <>
           <div className="flex flex-col sm:flex-row items-start sm:items-center gap-4 mb-4">

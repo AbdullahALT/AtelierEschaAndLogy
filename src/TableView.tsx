@@ -14,14 +14,14 @@ export default function TableView({
   onSort: (field: string) => void;
 }) {
   return (
-    <div className="overflow-auto border rounded-lg shadow bg-white dark:bg-card">
-      <table className="w-full table-auto text-sm text-left border-collapse">
+    <div className="table-wrapper overflow-x-auto">
+      <table className="w-full min-w-max">
         <thead className="bg-secondary dark:bg-muted text-muted-foreground">
           <tr>
             {fields.map((field) => (
               <th
                 key={field}
-                className="px-4 py-2 cursor-pointer hover:underline"
+                className="px-4 py-2 cursor-pointer hover:underline whitespace-nowrap"
                 onClick={() => onSort(field)}
               >
                 {field}
@@ -34,7 +34,7 @@ export default function TableView({
           {items.map((item, i) => (
             <tr key={i} className="border-t hover:bg-secondary/50">
               {fields.map((field) => (
-                <td key={field} className="px-4 py-2">
+                <td key={field} className="px-4 py-2 whitespace-nowrap">
                   {String(item[field] ?? '')}
                 </td>
               ))}
