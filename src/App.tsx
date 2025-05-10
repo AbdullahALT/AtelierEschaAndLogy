@@ -16,14 +16,18 @@ import { Checkbox } from './components/ui/checkbox';
 import { SortAscIcon, SortDescIcon, XIcon } from "lucide-react"; // Importing the SortAsc icon
 import { Button } from './components/ui/button';
 
+export type PropertyItem = {
+  name: string;
+  url: string;
+};
 
 export type Property = {
-  [key: string]: string | number | boolean | null;
+  [key: string]: string | number | boolean | null | PropertyItem[];
   "Property Name": string;
   "Property Cost": number;
   "Property Fusion": string | null;
   "Property Description": string;
-  "Property Items": string;
+  "Property Items": PropertyItem[];
   "Property Grade": number | string | null;
   Bomb: boolean;
   Heal: boolean;
