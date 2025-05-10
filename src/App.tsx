@@ -5,6 +5,17 @@ import { Tabs, TabsList, TabsTrigger } from '@/components/ui/tabs';
 import Filters from './Filters';
 import CardView from './CardView';
 import TableView from './TableView';
+import {
+  Select,
+  SelectTrigger,
+  SelectContent,
+  SelectItem,
+  SelectValue,
+} from './components/ui/select';
+import { Checkbox } from './components/ui/checkbox';
+import { SortAscIcon, SortDescIcon, XIcon } from "lucide-react"; // Importing the SortAsc icon
+import { Button } from './components/ui/button';
+
 
 export type Property = {
   [key: string]: string | number | boolean | null;
@@ -29,7 +40,6 @@ const properties: Property[] = propertiesRaw.map(p => ({
 }));
 
 export default function App() {
-  const [view, setView] = useState<'table' | 'card'>('table');
   const [filters, setFilters] = useState<Record<string, Set<string>>>({});
   const [textFilters, setTextFilters] = useState<Record<string, string>>({});
   const [sortField, setSortField] = useState<string | null>(null);
@@ -37,7 +47,9 @@ export default function App() {
 
   const fields = Object.keys(properties[0] || {});
 
-  const toggleSort = (field: string) => {
+  const toggleSort = (field: string | null) => {
+    if (!field) return;
+
     if (sortField === field) {
       setSortOrder(sortOrder === 'asc' ? 'desc' : 'asc');
     } else {
@@ -95,20 +107,6 @@ export default function App() {
 
   return (
     <div className="p-4 w-full overflow-x-hidden">
-      <Tabs
-        value={view}
-        onValueChange={(val) => setView(val as 'table' | 'card')}
-        className="mb-4"
-      >
-        <TabsList className="flex flex-wrap gap-2">
-          <TabsTrigger value="table" className="flex-1 sm:flex-none">
-            Table View
-          </TabsTrigger>
-          <TabsTrigger value="card" className="flex-1 sm:flex-none">
-            Card View
-          </TabsTrigger>
-        </TabsList>
-      </Tabs>
 
       <Filters
         fields={fields}
@@ -119,46 +117,52 @@ export default function App() {
         onTextChange={handleTextFilterChange}
       />
 
-      {view === 'table' ? (
-        <div className="table-wrapper">
-          <TableView
-            items={sorted}
-            fields={fields}
-            sortField={sortField}
-            sortOrder={sortOrder}
-            onSort={toggleSort}
-          />
+      <div className="flex flex-col sm:flex-row items-center gap-2 w-full sm:w-auto mb-4">
+        {/* label "sort by" */}
+        <span className="text-sm font-medium whitespace-nowrap">Sort By:</span>
+
+        <div className="flex flex-row w-full items-center gap-2">
+          {/* Sort by dropdown */}
+          <Select
+            onValueChange={(value) => setSortField(value === "none" ? null : value)}
+            value={sortField ?? "none"}
+          >
+            <SelectTrigger>
+              <SelectValue placeholder="Sort By" />
+            </SelectTrigger>
+            <SelectContent>
+              <SelectItem value="none">None</SelectItem>
+              {fields.map((field) => (
+                <SelectItem key={field} value={field}>
+                  {field}
+                </SelectItem>
+              ))}
+            </SelectContent>
+          </Select>
+          <Button
+            onClick={() => {
+              setSortField(null);
+              setSortOrder('asc');
+            }}
+            disabled={!sortField}
+            type="button"
+            aria-label="Clear Sort"
+            title="Clear Sort"
+          >
+            <XIcon className="w-4" />
+          </Button>
+          <Button
+            onClick={() => toggleSort(sortField)}
+            disabled={!sortField}
+          >
+            {sortOrder === 'asc' ? <SortAscIcon className="w-4" /> : <SortDescIcon className="w-4" />}
+          </Button>
         </div>
-      ) : (
-        <>
-          <div className="flex flex-col sm:flex-row items-start sm:items-center gap-4 mb-4">
-            <label className="flex items-center gap-2 w-full sm:w-auto">
-              <span className="text-sm font-medium">Sort By</span>
-              <select
-                className="border rounded p-1 w-full sm:w-auto"
-                value={sortField ?? ''}
-                onChange={(e) => setSortField(e.target.value)}
-              >
-                <option value="">None</option>
-                {fields.map(field => (
-                  <option key={field} value={field}>{field}</option>
-                ))}
-              </select>
-            </label>
 
-            <label className="flex items-center gap-2">
-              <input
-                type="checkbox"
-                checked={sortOrder === 'asc'}
-                onChange={() => setSortOrder(sortOrder === 'asc' ? 'desc' : 'asc')}
-              />
-              <span className="text-sm">Ascending</span>
-            </label>
-          </div>
 
-          <CardView items={sorted} fields={fields} />
-        </>
-      )}
+      </div>
+
+      <CardView items={sorted} fields={fields} />
     </div>
   );
 }

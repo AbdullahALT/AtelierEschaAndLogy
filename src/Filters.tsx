@@ -1,6 +1,14 @@
 // Filters.tsx
 import React from 'react';
 import { Property } from './App';
+import {
+  Select,
+  SelectTrigger,
+  SelectContent,
+  SelectItem,
+  SelectValue,
+} from './components/ui/select';
+import { Input } from './components/ui/input';
 
 type FiltersProps = {
   fields: string[];
@@ -35,12 +43,11 @@ export default function Filters({
           <label htmlFor={field} className="block text-sm font-medium mb-1">
             {field}
           </label>
-          <input
+          <Input
             id={field}
             type="text"
             value={textFilters[field] || ''}
             onChange={e => onTextChange(field, e.target.value)}
-            className="w-full border border-gray-300 rounded px-2 py-1 focus:ring-2 focus:ring-accent-color focus:outline-none"
             placeholder={`Search ${field}`}
           />
         </div>
@@ -51,16 +58,19 @@ export default function Filters({
           <label htmlFor={field} className="block text-sm font-medium mb-1">
             {field}
           </label>
-          <select
-            id={field}
-            className="w-full border border-gray-300 rounded px-2 py-1 focus:ring-2 focus:ring-accent-color focus:outline-none"
-            onChange={e => onChange(field, e.target.value)}
-            value={Array.from(filters[field] ?? [])[0] ?? ''}
+          <Select
+            onValueChange={value => onChange(field, value === "any" ? "" : value)}
+            value={Array.from(filters[field] ?? [])[0] ?? "any"}
           >
-            <option value="">Any</option>
-            <option value="true">True</option>
-            <option value="false">False</option>
-          </select>
+            <SelectTrigger>
+              <SelectValue placeholder="Any" />
+            </SelectTrigger>
+            <SelectContent>
+              <SelectItem value="any">Any</SelectItem>
+              <SelectItem value="true">True</SelectItem>
+              <SelectItem value="false">False</SelectItem>
+            </SelectContent>
+          </Select>
         </div>
       ))}
 
@@ -69,19 +79,22 @@ export default function Filters({
           <label htmlFor={field} className="block text-sm font-medium mb-1">
             {field}
           </label>
-          <select
-            id={field}
-            className="w-full border border-gray-300 rounded px-2 py-1 focus:ring-2 focus:ring-accent-color focus:outline-none"
-            onChange={e => onChange(field, e.target.value)}
-            value={Array.from(filters[field] ?? [])[0] ?? ''}
+          <Select
+            onValueChange={value => onChange(field, value === "any" ? "" : value)}
+            value={Array.from(filters[field] ?? [])[0] ?? "any"}
           >
-            <option value="">Any</option>
-            {getUniqueValues(field).map(val => (
-              <option key={val} value={val}>
-                {val}
-              </option>
-            ))}
-          </select>
+            <SelectTrigger>
+              <SelectValue placeholder="Any" />
+            </SelectTrigger>
+            <SelectContent>
+              <SelectItem value="any">Any</SelectItem>
+              {getUniqueValues(field).map(val => (
+                <SelectItem key={val} value={val}>
+                  {val}
+                </SelectItem>
+              ))}
+            </SelectContent>
+          </Select>
         </div>
       ))}
     </div>
