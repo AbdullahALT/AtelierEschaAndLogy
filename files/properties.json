@@ -4,7 +4,20 @@
     "Property Cost": 1,
     "Property Fusion": null,
     "Property Description": "Slightly increases the money from selling items to shops.",
-    "Property Items": "Soft Fur, Abrasive, Polished Crystal",
+    "Property Items": [
+      {
+        "name": "Soft Fur",
+        "url": "https://barrelwisdom.com/escha/items/soft-fur/en"
+      },
+      {
+        "name": "Abrasive",
+        "url": "https://barrelwisdom.com/escha/items/abrasive/en"
+      },
+      {
+        "name": "Polished Crystal",
+        "url": "https://barrelwisdom.com/escha/items/polished-crystal/en"
+      }
+    ],
     "Property Grade": 2,
     "Bomb": true,
     "Heal": true,
@@ -18,7 +31,20 @@
     "Property Cost": 2,
     "Property Fusion": null,
     "Property Description": "Moderately increases the money from selling items to shops.",
-    "Property Items": "Verdure Grass, Quality Fur, Flight Gas Jar",
+    "Property Items": [
+      {
+        "name": "Verdure Grass",
+        "url": "https://barrelwisdom.com/escha/items/verdure-grass/en"
+      },
+      {
+        "name": "Quality Fur",
+        "url": "https://barrelwisdom.com/escha/items/quality-fur/en"
+      },
+      {
+        "name": "Flight Gas Jar",
+        "url": "https://barrelwisdom.com/escha/items/flight-gas-jar/en"
+      }
+    ],
     "Property Grade": 5,
     "Bomb": true,
     "Heal": true,
@@ -32,7 +58,20 @@
     "Property Cost": 3,
     "Property Fusion": null,
     "Property Description": "Greatly increases the money from selling items to shops.",
-    "Property Items": "Silver Hive, Silver Fur, Comet Crest Stone",
+    "Property Items": [
+      {
+        "name": "Silver Hive",
+        "url": "https://barrelwisdom.com/escha/items/silver-hive/en"
+      },
+      {
+        "name": "Silver Fur",
+        "url": "https://barrelwisdom.com/escha/items/silver-fur/en"
+      },
+      {
+        "name": "Comet Crest Stone",
+        "url": "https://barrelwisdom.com/escha/items/comet-crest-stone/en"
+      }
+    ],
     "Property Grade": 7,
     "Bomb": true,
     "Heal": true,
@@ -46,7 +85,12 @@
     "Property Cost": 3,
     "Property Fusion": "High Price x High Price+",
     "Property Description": "Increases money from selling items to shops.",
-    "Property Items": "Honey Melon",
+    "Property Items": [
+      {
+        "name": "Honey Melon",
+        "url": "https://barrelwisdom.com/escha/items/honey-melon/en"
+      }
+    ],
     "Property Grade": 10,
     "Bomb": true,
     "Heal": true,
@@ -60,7 +104,12 @@
     "Property Cost": 5,
     "Property Fusion": "High Price+ x High Price++",
     "Property Description": "Increases money from selling items to shops.",
-    "Property Items": "Jewel Beans",
+    "Property Items": [
+      {
+        "name": "Jewel Beans",
+        "url": "https://barrelwisdom.com/escha/items/jewel-beans/en"
+      }
+    ],
     "Property Grade": 20,
     "Bomb": true,
     "Heal": true,
@@ -74,7 +123,12 @@
     "Property Cost": 8,
     "Property Fusion": "High Class Item x Rare Goods",
     "Property Description": "Price for selling item to shops jumps.",
-    "Property Items": "Golden Hive",
+    "Property Items": [
+      {
+        "name": "Golden Hive",
+        "url": "https://barrelwisdom.com/escha/items/golden-hive/en"
+      }
+    ],
     "Property Grade": 30,
     "Bomb": true,
     "Heal": true,
@@ -88,7 +142,24 @@
     "Property Cost": 5,
     "Property Fusion": null,
     "Property Description": "Cost to equip Search Equipment is reduced by 1. (It cannot go below 1.)",
-    "Property Items": "Sky Wasabi, Trio Taun, Hard Taro, And more...",
+    "Property Items": [
+      {
+        "name": "Sky Wasabi",
+        "url": "https://barrelwisdom.com/escha/items/sky-wasabi/en"
+      },
+      {
+        "name": "Trio Taun",
+        "url": "https://barrelwisdom.com/escha/items/trio-taun/en"
+      },
+      {
+        "name": "Hard Taro",
+        "url": "https://barrelwisdom.com/escha/items/hard-taro/en"
+      },
+      {
+        "name": "View more...",
+        "url": "https://barrelwisdom.com/escha/properties/frame-compress/en"
+      }
+    ],
     "Property Grade": 15,
     "Bomb": true,
     "Heal": true,
@@ -102,7 +173,24 @@
     "Property Cost": 10,
     "Property Fusion": null,
     "Property Description": "Cost to equip Search Equipment is reduced by 2. (It cannot go below 1.)",
-    "Property Items": "Green Crystal, Sun Flower, Gold Dust, And more...",
+    "Property Items": [
+      {
+        "name": "Green Crystal",
+        "url": "https://barrelwisdom.com/escha/items/green-crystal/en"
+      },
+      {
+        "name": "Sun Flower",
+        "url": "https://barrelwisdom.com/escha/items/sun-flower/en"
+      },
+      {
+        "name": "Gold Dust",
+        "url": "https://barrelwisdom.com/escha/items/gold-dust/en"
+      },
+      {
+        "name": "View more...",
+        "url": "https://barrelwisdom.com/escha/properties/frame-compress-plus/en"
+      }
+    ],
     "Property Grade": 30,
     "Bomb": true,
     "Heal": true,
@@ -116,7 +204,7 @@
     "Property Cost": 15,
     "Property Fusion": "Frame Compress x Frame Compress+",
     "Property Description": "Cost to equip Search Equipment reduced by 3.",
-    "Property Items": "",
+    "Property Items": [],
     "Property Grade": null,
     "Bomb": true,
     "Heal": true,
@@ -130,7 +218,16 @@
     "Property Cost": 1,
     "Property Fusion": null,
     "Property Description": "Cost to equip Search Equipment is increased by 1. Item's effect is increased.",
-    "Property Items": "Sky Wasabi, Big Bone",
+    "Property Items": [
+      {
+        "name": "Sky Wasabi",
+        "url": "https://barrelwisdom.com/escha/items/sky-wasabi/en"
+      },
+      {
+        "name": "Big Bone",
+        "url": "https://barrelwisdom.com/escha/items/big-bone/en"
+      }
+    ],
     "Property Grade": 1,
     "Bomb": true,
     "Heal": true,
@@ -144,7 +241,20 @@
     "Property Cost": 4,
     "Property Fusion": null,
     "Property Description": "Cost to equip Search Equipment is increased by 2. Item's effect is increased.",
-    "Property Items": "Mutated Taun, Comet Crest Stone, Automatic Drive",
+    "Property Items": [
+      {
+        "name": "Mutated Taun",
+        "url": "https://barrelwisdom.com/escha/items/mutated-taun/en"
+      },
+      {
+        "name": "Comet Crest Stone",
+        "url": "https://barrelwisdom.com/escha/items/comet-crest-stone/en"
+      },
+      {
+        "name": "Automatic Drive",
+        "url": "https://barrelwisdom.com/escha/items/automatic-drive/en"
+      }
+    ],
     "Property Grade": 10,
     "Bomb": true,
     "Heal": true,
@@ -158,7 +268,12 @@
     "Property Cost": 5,
     "Property Fusion": "Frame Expand x Frame Expand+",
     "Property Description": "Cost for Search Equipment increased by 4. Effect increased.",
-    "Property Items": "Ancient Root",
+    "Property Items": [
+      {
+        "name": "Ancient Root",
+        "url": "https://barrelwisdom.com/escha/items/ancient-root/en"
+      }
+    ],
     "Property Grade": 30,
     "Bomb": true,
     "Heal": true,
@@ -172,7 +287,24 @@
     "Property Cost": 2,
     "Property Fusion": null,
     "Property Description": "Increases item's effect by (equipment cost squared x3)%.",
-    "Property Items": "Wing Plant, Craft, Living Bomb, And more...",
+    "Property Items": [
+      {
+        "name": "Wing Plant",
+        "url": "https://barrelwisdom.com/escha/items/wing-plant/en"
+      },
+      {
+        "name": "Craft",
+        "url": "https://barrelwisdom.com/escha/items/craft/en"
+      },
+      {
+        "name": "Living Bomb",
+        "url": "https://barrelwisdom.com/escha/items/living-bomb/en"
+      },
+      {
+        "name": "View more...",
+        "url": "https://barrelwisdom.com/escha/properties/frame-reinforce/en"
+      }
+    ],
     "Property Grade": 5,
     "Bomb": true,
     "Heal": true,
@@ -186,7 +318,24 @@
     "Property Cost": 5,
     "Property Fusion": null,
     "Property Description": "Increases item's effect by (equipment cost squared x4)%.",
-    "Property Items": "Jelly Gem, Knowledge Book, Blitz Stone, And more...",
+    "Property Items": [
+      {
+        "name": "Jelly Gem",
+        "url": "https://barrelwisdom.com/escha/items/jelly-gem/en"
+      },
+      {
+        "name": "Knowledge Book",
+        "url": "https://barrelwisdom.com/escha/items/knowledge-book/en"
+      },
+      {
+        "name": "Blitz Stone",
+        "url": "https://barrelwisdom.com/escha/items/blitz-stone/en"
+      },
+      {
+        "name": "View more...",
+        "url": "https://barrelwisdom.com/escha/properties/frame-reinforce-plus/en"
+      }
+    ],
     "Property Grade": 15,
     "Bomb": true,
     "Heal": true,
@@ -200,7 +349,7 @@
     "Property Cost": 7,
     "Property Fusion": "Frame Reinforce x Frame Reinforce+",
     "Property Description": "Increases item's effect by (equipment cost squared x5)%.",
-    "Property Items": "",
+    "Property Items": [],
     "Property Grade": null,
     "Bomb": true,
     "Heal": true,
@@ -214,7 +363,24 @@
     "Property Cost": 1,
     "Property Fusion": null,
     "Property Description": "Increases effect power of synthesized item by 10%.",
-    "Property Items": "River Water, Rich Root, Corundum Stone, And more...",
+    "Property Items": [
+      {
+        "name": "River Water",
+        "url": "https://barrelwisdom.com/escha/items/river-water/en"
+      },
+      {
+        "name": "Rich Root",
+        "url": "https://barrelwisdom.com/escha/items/rich-root/en"
+      },
+      {
+        "name": "Corundum Stone",
+        "url": "https://barrelwisdom.com/escha/items/corundum-stone/en"
+      },
+      {
+        "name": "View more...",
+        "url": "https://barrelwisdom.com/escha/properties/effect-up/en"
+      }
+    ],
     "Property Grade": 2,
     "Bomb": true,
     "Heal": true,
@@ -228,7 +394,24 @@
     "Property Cost": 2,
     "Property Fusion": null,
     "Property Description": "Increases effect power of synthesized item by 15%.",
-    "Property Items": "Legged Radish, Fresh Meat, Bomb, And more...",
+    "Property Items": [
+      {
+        "name": "Legged Radish",
+        "url": "https://barrelwisdom.com/escha/items/legged-radish/en"
+      },
+      {
+        "name": "Fresh Meat",
+        "url": "https://barrelwisdom.com/escha/items/fresh-meat/en"
+      },
+      {
+        "name": "Bomb",
+        "url": "https://barrelwisdom.com/escha/items/bomb/en"
+      },
+      {
+        "name": "View more...",
+        "url": "https://barrelwisdom.com/escha/properties/effect-up-plus/en"
+      }
+    ],
     "Property Grade": 5,
     "Bomb": true,
     "Heal": true,
@@ -242,7 +425,24 @@
     "Property Cost": 4,
     "Property Fusion": null,
     "Property Description": "Increases effect power of synthesized item by 20%.",
-    "Property Items": "Earth Root, Antique Moss, Dimension Bomb, And more...",
+    "Property Items": [
+      {
+        "name": "Earth Root",
+        "url": "https://barrelwisdom.com/escha/items/earth-root/en"
+      },
+      {
+        "name": "Antique Moss",
+        "url": "https://barrelwisdom.com/escha/items/antique-moss/en"
+      },
+      {
+        "name": "Dimension Bomb",
+        "url": "https://barrelwisdom.com/escha/items/dimension-bomb/en"
+      },
+      {
+        "name": "View more...",
+        "url": "https://barrelwisdom.com/escha/properties/effect-up-plus-plus/en"
+      }
+    ],
     "Property Grade": 11,
     "Bomb": true,
     "Heal": true,
@@ -256,7 +456,20 @@
     "Property Cost": 3,
     "Property Fusion": "Effect Up x Effect Up+",
     "Property Description": "Increases effect power of synthesized item by 20%.",
-    "Property Items": "Black Bone, Epicure Nut, Spring Water",
+    "Property Items": [
+      {
+        "name": "Black Bone",
+        "url": "https://barrelwisdom.com/escha/items/black-bone/en"
+      },
+      {
+        "name": "Epicure Nut",
+        "url": "https://barrelwisdom.com/escha/items/epicure-nut/en"
+      },
+      {
+        "name": "Spring Water",
+        "url": "https://barrelwisdom.com/escha/items/spring-water/en"
+      }
+    ],
     "Property Grade": 10,
     "Bomb": true,
     "Heal": true,
@@ -270,7 +483,12 @@
     "Property Cost": 6,
     "Property Fusion": "Effect Up+ x Effect Up++",
     "Property Description": "Increases effect power of synthesized item by 30%.",
-    "Property Items": "Noble Berry",
+    "Property Items": [
+      {
+        "name": "Noble Berry",
+        "url": "https://barrelwisdom.com/escha/items/noble-berry/en"
+      }
+    ],
     "Property Grade": 20,
     "Bomb": true,
     "Heal": true,
@@ -284,7 +502,7 @@
     "Property Cost": 9,
     "Property Fusion": "Finely Crafted x Professional",
     "Property Description": "Increases effect power of synthesized item by 50%.",
-    "Property Items": "",
+    "Property Items": [],
     "Property Grade": null,
     "Bomb": true,
     "Heal": true,
@@ -298,7 +516,24 @@
     "Property Cost": 1,
     "Property Fusion": null,
     "Property Description": "Increases effect of Attack Items by 10%.",
-    "Property Items": "Phlogiston, Ice Bomb, Omega Craft, And more...",
+    "Property Items": [
+      {
+        "name": "Phlogiston",
+        "url": "https://barrelwisdom.com/escha/items/phlogiston/en"
+      },
+      {
+        "name": "Ice Bomb",
+        "url": "https://barrelwisdom.com/escha/items/ice-bomb/en"
+      },
+      {
+        "name": "Omega Craft",
+        "url": "https://barrelwisdom.com/escha/items/omega-craft/en"
+      },
+      {
+        "name": "View more...",
+        "url": "https://barrelwisdom.com/escha/properties/destruction-up/en"
+      }
+    ],
     "Property Grade": 3,
     "Bomb": true,
     "Heal": false,
@@ -312,7 +547,24 @@
     "Property Cost": 2,
     "Property Fusion": null,
     "Property Description": "Increases effect of Attack Items by 20%.",
-    "Property Items": "Buoyant Gas, Charcoal Pieces, Bomb, And more...",
+    "Property Items": [
+      {
+        "name": "Buoyant Gas",
+        "url": "https://barrelwisdom.com/escha/items/buoyant-gas/en"
+      },
+      {
+        "name": "Charcoal Pieces",
+        "url": "https://barrelwisdom.com/escha/items/charcoal-pieces/en"
+      },
+      {
+        "name": "Bomb",
+        "url": "https://barrelwisdom.com/escha/items/bomb/en"
+      },
+      {
+        "name": "View more...",
+        "url": "https://barrelwisdom.com/escha/properties/destruction-up-plus/en"
+      }
+    ],
     "Property Grade": 6,
     "Bomb": true,
     "Heal": false,
@@ -326,7 +578,24 @@
     "Property Cost": 3,
     "Property Fusion": null,
     "Property Description": "Increases effect of Attack Items by 30%.",
-    "Property Items": "Sea Bird Egg, Dimension Bomb, Tauzent Blitz, And more...",
+    "Property Items": [
+      {
+        "name": "Sea Bird Egg",
+        "url": "https://barrelwisdom.com/escha/items/sea-bird-egg/en"
+      },
+      {
+        "name": "Dimension Bomb",
+        "url": "https://barrelwisdom.com/escha/items/dimension-bomb/en"
+      },
+      {
+        "name": "Tauzent Blitz",
+        "url": "https://barrelwisdom.com/escha/items/tauzent-blitz/en"
+      },
+      {
+        "name": "View more...",
+        "url": "https://barrelwisdom.com/escha/properties/destruction-up-plus-plus/en"
+      }
+    ],
     "Property Grade": 8,
     "Bomb": true,
     "Heal": false,
@@ -340,7 +609,7 @@
     "Property Cost": 3,
     "Property Fusion": "Destruction Up x Destruction Up+",
     "Property Description": "Increases effect of item by 30%.",
-    "Property Items": "",
+    "Property Items": [],
     "Property Grade": null,
     "Bomb": true,
     "Heal": false,
@@ -354,7 +623,7 @@
     "Property Cost": 5,
     "Property Fusion": "Destruction Up+ x Destruction Up++",
     "Property Description": "Increases effect of item by 50%.",
-    "Property Items": "",
+    "Property Items": [],
     "Property Grade": null,
     "Bomb": true,
     "Heal": false,
@@ -368,7 +637,7 @@
     "Property Cost": 8,
     "Property Fusion": "Very Destructive x Intense Blast",
     "Property Description": "Increases effect of item by 75%.",
-    "Property Items": "",
+    "Property Items": [],
     "Property Grade": null,
     "Bomb": true,
     "Heal": false,
@@ -382,7 +651,24 @@
     "Property Cost": 2,
     "Property Fusion": null,
     "Property Description": "Attack item is slightly enhanced. Weaker the power, the stronger the effect.",
-    "Property Items": "Fire Flower, Silver Hive, Craft, And more...",
+    "Property Items": [
+      {
+        "name": "Fire Flower",
+        "url": "https://barrelwisdom.com/escha/items/fire-flower/en"
+      },
+      {
+        "name": "Silver Hive",
+        "url": "https://barrelwisdom.com/escha/items/silver-hive/en"
+      },
+      {
+        "name": "Craft",
+        "url": "https://barrelwisdom.com/escha/items/craft/en"
+      },
+      {
+        "name": "View more...",
+        "url": "https://barrelwisdom.com/escha/properties/fixed-increase/en"
+      }
+    ],
     "Property Grade": 6,
     "Bomb": true,
     "Heal": false,
@@ -396,7 +682,24 @@
     "Property Cost": 4,
     "Property Fusion": null,
     "Property Description": "Attack item enhanced by a set amount. Weaker the power, the stronger the effect.",
-    "Property Items": "Poly. Poison, Knowledge Book, Airto Blitz, And more...",
+    "Property Items": [
+      {
+        "name": "Poly. Poison",
+        "url": "https://barrelwisdom.com/escha/items/poly-poison/en"
+      },
+      {
+        "name": "Knowledge Book",
+        "url": "https://barrelwisdom.com/escha/items/knowledge-book/en"
+      },
+      {
+        "name": "Airto Blitz",
+        "url": "https://barrelwisdom.com/escha/items/airto-blitz/en"
+      },
+      {
+        "name": "View more...",
+        "url": "https://barrelwisdom.com/escha/properties/fixed-increase-plus/en"
+      }
+    ],
     "Property Grade": 12,
     "Bomb": true,
     "Heal": false,
@@ -410,7 +713,16 @@
     "Property Cost": 6,
     "Property Fusion": null,
     "Property Description": "Attack item enhanced by a set amount. Weaker the power, the stronger the effect.",
-    "Property Items": "Gold Spiky Fruit, Rainbow Powder",
+    "Property Items": [
+      {
+        "name": "Gold Spiky Fruit",
+        "url": "https://barrelwisdom.com/escha/items/gold-spiky-fruit/en"
+      },
+      {
+        "name": "Rainbow Powder",
+        "url": "https://barrelwisdom.com/escha/items/rainbow-powder/en"
+      }
+    ],
     "Property Grade": 16,
     "Bomb": true,
     "Heal": false,
@@ -424,7 +736,7 @@
     "Property Cost": 6,
     "Property Fusion": "Fixed Increase x Fixed Increase+",
     "Property Description": "Attack item enhanced. Weaker the power, stronger the effect.",
-    "Property Items": "",
+    "Property Items": [],
     "Property Grade": null,
     "Bomb": true,
     "Heal": false,
@@ -438,7 +750,16 @@
     "Property Cost": 10,
     "Property Fusion": "Fixed Increase+ x Fixed Increase++",
     "Property Description": "Attack item enhanced. Weaker the power, stronger the effect.",
-    "Property Items": "Heaven's Branch, Ext. Bird Egg",
+    "Property Items": [
+      {
+        "name": "Heaven's Branch",
+        "url": "https://barrelwisdom.com/escha/items/heaven-s-branch/en"
+      },
+      {
+        "name": "Ext. Bird Egg",
+        "url": "https://barrelwisdom.com/escha/items/ext-bird-egg/en"
+      }
+    ],
     "Property Grade": 30,
     "Bomb": true,
     "Heal": false,
@@ -452,7 +773,12 @@
     "Property Cost": 16,
     "Property Fusion": "Painful Numbers x Harmful Numbers",
     "Property Description": "Attack item enhanced. Weaker the power, stronger the effect.",
-    "Property Items": "Dragon Core",
+    "Property Items": [
+      {
+        "name": "Dragon Core",
+        "url": "https://barrelwisdom.com/escha/items/dragon-core/en"
+      }
+    ],
     "Property Grade": 50,
     "Bomb": true,
     "Heal": false,
@@ -466,7 +792,24 @@
     "Property Cost": 1,
     "Property Fusion": null,
     "Property Description": "Increases effect of healing items by 10%.",
-    "Property Items": "Lethe Grass, Aqua Light, Red Devil, And more...",
+    "Property Items": [
+      {
+        "name": "Lethe Grass",
+        "url": "https://barrelwisdom.com/escha/items/lethe-grass/en"
+      },
+      {
+        "name": "Aqua Light",
+        "url": "https://barrelwisdom.com/escha/items/aqua-light/en"
+      },
+      {
+        "name": "Red Devil",
+        "url": "https://barrelwisdom.com/escha/items/red-devil/en"
+      },
+      {
+        "name": "View more...",
+        "url": "https://barrelwisdom.com/escha/properties/healing-up/en"
+      }
+    ],
     "Property Grade": 2,
     "Bomb": false,
     "Heal": true,
@@ -480,7 +823,24 @@
     "Property Cost": 2,
     "Property Fusion": null,
     "Property Description": "Increases effect of healing items by 15%.",
-    "Property Items": "Fresh Salat, Fully Ripe Fruit, Healing Cloud, And more...",
+    "Property Items": [
+      {
+        "name": "Fresh Salat",
+        "url": "https://barrelwisdom.com/escha/items/fresh-salat/en"
+      },
+      {
+        "name": "Fully Ripe Fruit",
+        "url": "https://barrelwisdom.com/escha/items/fully-ripe-fruit/en"
+      },
+      {
+        "name": "Healing Cloud",
+        "url": "https://barrelwisdom.com/escha/items/healing-cloud/en"
+      },
+      {
+        "name": "View more...",
+        "url": "https://barrelwisdom.com/escha/properties/healing-up-plus/en"
+      }
+    ],
     "Property Grade": 6,
     "Bomb": false,
     "Heal": true,
@@ -494,7 +854,24 @@
     "Property Cost": 3,
     "Property Fusion": null,
     "Property Description": "Increases effect of healing items by 20%.",
-    "Property Items": "White Salat, Honey Melon, Elixir, And more...",
+    "Property Items": [
+      {
+        "name": "White Salat",
+        "url": "https://barrelwisdom.com/escha/items/white-salat/en"
+      },
+      {
+        "name": "Honey Melon",
+        "url": "https://barrelwisdom.com/escha/items/honey-melon/en"
+      },
+      {
+        "name": "Elixir",
+        "url": "https://barrelwisdom.com/escha/items/elixir/en"
+      },
+      {
+        "name": "View more...",
+        "url": "https://barrelwisdom.com/escha/properties/healing-up-plus-plus/en"
+      }
+    ],
     "Property Grade": 8,
     "Bomb": false,
     "Heal": true,
@@ -508,7 +885,12 @@
     "Property Cost": 3,
     "Property Fusion": "Healing Up x Healing Up+",
     "Property Description": "Increases effect of item by 25%.",
-    "Property Items": "Water Source",
+    "Property Items": [
+      {
+        "name": "Water Source",
+        "url": "https://barrelwisdom.com/escha/items/water-source/en"
+      }
+    ],
     "Property Grade": 11,
     "Bomb": false,
     "Heal": true,
@@ -522,7 +904,7 @@
     "Property Cost": 5,
     "Property Fusion": "Healing Up+ x Healing Up++",
     "Property Description": "Increases effect of item by 35%.",
-    "Property Items": "",
+    "Property Items": [],
     "Property Grade": null,
     "Bomb": false,
     "Heal": true,
@@ -536,7 +918,12 @@
     "Property Cost": 8,
     "Property Fusion": "Strong Healing x Intense Healing",
     "Property Description": "Increases effect of item by 50%.",
-    "Property Items": "Time Flower",
+    "Property Items": [
+      {
+        "name": "Time Flower",
+        "url": "https://barrelwisdom.com/escha/items/time-flower/en"
+      }
+    ],
     "Property Grade": 40,
     "Bomb": false,
     "Heal": true,
@@ -550,7 +937,24 @@
     "Property Cost": 2,
     "Property Fusion": null,
     "Property Description": "Healing item enhanced by set amount. Weaker the base power, higher the effect.",
-    "Property Items": "Water Flower, Blue Devil, Healing Salve, And more...",
+    "Property Items": [
+      {
+        "name": "Water Flower",
+        "url": "https://barrelwisdom.com/escha/items/water-flower/en"
+      },
+      {
+        "name": "Blue Devil",
+        "url": "https://barrelwisdom.com/escha/items/blue-devil/en"
+      },
+      {
+        "name": "Healing Salve",
+        "url": "https://barrelwisdom.com/escha/items/healing-salve/en"
+      },
+      {
+        "name": "View more...",
+        "url": "https://barrelwisdom.com/escha/properties/fixed-healing/en"
+      }
+    ],
     "Property Grade": 4,
     "Bomb": false,
     "Heal": true,
@@ -564,7 +968,24 @@
     "Property Cost": 4,
     "Property Fusion": null,
     "Property Description": "Healing item is enhanced by a set amount. Weaker the base power, higher the effect.",
-    "Property Items": "White Salat, Mysterious Silk, Healing Cloud, And more...",
+    "Property Items": [
+      {
+        "name": "White Salat",
+        "url": "https://barrelwisdom.com/escha/items/white-salat/en"
+      },
+      {
+        "name": "Mysterious Silk",
+        "url": "https://barrelwisdom.com/escha/items/mysterious-silk/en"
+      },
+      {
+        "name": "Healing Cloud",
+        "url": "https://barrelwisdom.com/escha/items/healing-cloud/en"
+      },
+      {
+        "name": "View more...",
+        "url": "https://barrelwisdom.com/escha/properties/fixed-healing-plus/en"
+      }
+    ],
     "Property Grade": 12,
     "Bomb": false,
     "Heal": true,
@@ -578,7 +999,24 @@
     "Property Cost": 6,
     "Property Fusion": null,
     "Property Description": "Healing item enhanced by set amount. Weaker the base power, higher the effect.",
-    "Property Items": "Dragon Crystal, Natural Extract, Medical Solution, And more...",
+    "Property Items": [
+      {
+        "name": "Dragon Crystal",
+        "url": "https://barrelwisdom.com/escha/items/dragon-crystal/en"
+      },
+      {
+        "name": "Natural Extract",
+        "url": "https://barrelwisdom.com/escha/items/natural-extract/en"
+      },
+      {
+        "name": "Medical Solution",
+        "url": "https://barrelwisdom.com/escha/items/medical-solution/en"
+      },
+      {
+        "name": "View more...",
+        "url": "https://barrelwisdom.com/escha/properties/fixed-healing-plus-plus/en"
+      }
+    ],
     "Property Grade": 16,
     "Bomb": false,
     "Heal": true,
@@ -592,7 +1030,16 @@
     "Property Cost": 6,
     "Property Fusion": "Fixed Healing x Fixed Healing+",
     "Property Description": "Item enhanced by set amount. Weaker base power, higher the effect.",
-    "Property Items": "Water Source, Dragon Fang",
+    "Property Items": [
+      {
+        "name": "Water Source",
+        "url": "https://barrelwisdom.com/escha/items/water-source/en"
+      },
+      {
+        "name": "Dragon Fang",
+        "url": "https://barrelwisdom.com/escha/items/dragon-fang/en"
+      }
+    ],
     "Property Grade": 22,
     "Bomb": false,
     "Heal": true,
@@ -606,7 +1053,12 @@
     "Property Cost": 10,
     "Property Fusion": "Fixed Healing+ x Fixed Healing++",
     "Property Description": "Item enhanced by set amount. Weaker the base power, higher the effect.",
-    "Property Items": "Dunkelheit",
+    "Property Items": [
+      {
+        "name": "Dunkelheit",
+        "url": "https://barrelwisdom.com/escha/items/dunkelheit/en"
+      }
+    ],
     "Property Grade": 30,
     "Bomb": false,
     "Heal": true,
@@ -620,7 +1072,7 @@
     "Property Cost": 16,
     "Property Fusion": "Strong Medicine x Strong Medicine+",
     "Property Description": "Item enhanced. Weaker the base power, higher the effect.",
-    "Property Items": "",
+    "Property Items": [],
     "Property Grade": null,
     "Bomb": false,
     "Heal": true,
@@ -634,7 +1086,24 @@
     "Property Cost": 2,
     "Property Fusion": null,
     "Property Description": "Item has a 15% chance to critically hit.",
-    "Property Items": "Mixed Oil, Wind Core, Bomb, And more...",
+    "Property Items": [
+      {
+        "name": "Mixed Oil",
+        "url": "https://barrelwisdom.com/escha/items/mixed-oil/en"
+      },
+      {
+        "name": "Wind Core",
+        "url": "https://barrelwisdom.com/escha/items/wind-core/en"
+      },
+      {
+        "name": "Bomb",
+        "url": "https://barrelwisdom.com/escha/items/bomb/en"
+      },
+      {
+        "name": "View more...",
+        "url": "https://barrelwisdom.com/escha/properties/critical/en"
+      }
+    ],
     "Property Grade": 5,
     "Bomb": true,
     "Heal": true,
@@ -648,7 +1117,24 @@
     "Property Cost": 4,
     "Property Fusion": null,
     "Property Description": "Item has a 25% chance to critically hit.",
-    "Property Items": "Flame Root, Old Melon, Poly. Poison, And more...",
+    "Property Items": [
+      {
+        "name": "Flame Root",
+        "url": "https://barrelwisdom.com/escha/items/flame-root/en"
+      },
+      {
+        "name": "Old Melon",
+        "url": "https://barrelwisdom.com/escha/items/old-melon/en"
+      },
+      {
+        "name": "Poly. Poison",
+        "url": "https://barrelwisdom.com/escha/items/poly-poison/en"
+      },
+      {
+        "name": "View more...",
+        "url": "https://barrelwisdom.com/escha/properties/critical-plus/en"
+      }
+    ],
     "Property Grade": 10,
     "Bomb": true,
     "Heal": true,
@@ -662,7 +1148,20 @@
     "Property Cost": 5,
     "Property Fusion": null,
     "Property Description": "Item has a 35% chance to critically hit.",
-    "Property Items": "Sun Flower, SP Neutralizer, Rainbow Powder",
+    "Property Items": [
+      {
+        "name": "Sun Flower",
+        "url": "https://barrelwisdom.com/escha/items/sun-flower/en"
+      },
+      {
+        "name": "SP Neutralizer",
+        "url": "https://barrelwisdom.com/escha/items/sp-neutralizer/en"
+      },
+      {
+        "name": "Rainbow Powder",
+        "url": "https://barrelwisdom.com/escha/items/rainbow-powder/en"
+      }
+    ],
     "Property Grade": 15,
     "Bomb": true,
     "Heal": true,
@@ -676,7 +1175,7 @@
     "Property Cost": 6,
     "Property Fusion": "Critical x Critical+",
     "Property Description": "Item has a 40% chance to critically hit.",
-    "Property Items": "",
+    "Property Items": [],
     "Property Grade": null,
     "Bomb": true,
     "Heal": true,
@@ -690,7 +1189,7 @@
     "Property Cost": 9,
     "Property Fusion": "Critical+ x Critical++",
     "Property Description": "Item will always critically hit.",
-    "Property Items": "",
+    "Property Items": [],
     "Property Grade": null,
     "Bomb": true,
     "Heal": true,
@@ -704,7 +1203,7 @@
     "Property Cost": 15,
     "Property Fusion": "Decently Crafted x Critical Hit",
     "Property Description": "Item critically hits & causes instant kills (exclude bosses).",
-    "Property Items": "",
+    "Property Items": [],
     "Property Grade": null,
     "Bomb": true,
     "Heal": false,
@@ -718,7 +1217,20 @@
     "Property Cost": 3,
     "Property Fusion": null,
     "Property Description": "Reduces number variation, making it easier to produce larger numbers.",
-    "Property Items": "Drying Sand, Abrasive, Polished Crystal",
+    "Property Items": [
+      {
+        "name": "Drying Sand",
+        "url": "https://barrelwisdom.com/escha/items/drying-sand/en"
+      },
+      {
+        "name": "Abrasive",
+        "url": "https://barrelwisdom.com/escha/items/abrasive/en"
+      },
+      {
+        "name": "Polished Crystal",
+        "url": "https://barrelwisdom.com/escha/items/polished-crystal/en"
+      }
+    ],
     "Property Grade": 7,
     "Bomb": true,
     "Heal": true,
@@ -732,7 +1244,24 @@
     "Property Cost": 4,
     "Property Fusion": null,
     "Property Description": "Halves number variation, making it easier to produce larger numbers.",
-    "Property Items": "Jewel Beans, Preserved Tablet, Purifying Liquid, And more...",
+    "Property Items": [
+      {
+        "name": "Jewel Beans",
+        "url": "https://barrelwisdom.com/escha/items/jewel-beans/en"
+      },
+      {
+        "name": "Preserved Tablet",
+        "url": "https://barrelwisdom.com/escha/items/preserved-tablet/en"
+      },
+      {
+        "name": "Purifying Liquid",
+        "url": "https://barrelwisdom.com/escha/items/purifying-liquid/en"
+      },
+      {
+        "name": "View more...",
+        "url": "https://barrelwisdom.com/escha/properties/reliable-effect-plus/en"
+      }
+    ],
     "Property Grade": 10,
     "Bomb": true,
     "Heal": true,
@@ -746,7 +1275,7 @@
     "Property Cost": 7,
     "Property Fusion": "Reliable Effect x Reliable Effect+",
     "Property Description": "Turns number variation into set number, always producing the largest number.",
-    "Property Items": "",
+    "Property Items": [],
     "Property Grade": null,
     "Bomb": true,
     "Heal": true,
@@ -760,7 +1289,24 @@
     "Property Cost": 4,
     "Property Fusion": null,
     "Property Description": "15% chance not to consume item count during battle. Decreases amount of gauge it produces.",
-    "Property Items": "Bent Screw, Rusty Cog, Scrap Metal, And more...",
+    "Property Items": [
+      {
+        "name": "Bent Screw",
+        "url": "https://barrelwisdom.com/escha/items/bent-screw/en"
+      },
+      {
+        "name": "Rusty Cog",
+        "url": "https://barrelwisdom.com/escha/items/rusty-cog/en"
+      },
+      {
+        "name": "Scrap Metal",
+        "url": "https://barrelwisdom.com/escha/items/scrap-metal/en"
+      },
+      {
+        "name": "View more...",
+        "url": "https://barrelwisdom.com/escha/properties/recycle/en"
+      }
+    ],
     "Property Grade": 10,
     "Bomb": true,
     "Heal": true,
@@ -774,7 +1320,24 @@
     "Property Cost": 7,
     "Property Fusion": null,
     "Property Description": "25% chance not to consume item count during battle. Decreases amount of gauge it produces.",
-    "Property Items": "Paper Scraps, Dried Grass, Green Crystal, And more...",
+    "Property Items": [
+      {
+        "name": "Paper Scraps",
+        "url": "https://barrelwisdom.com/escha/items/paper-scraps/en"
+      },
+      {
+        "name": "Dried Grass",
+        "url": "https://barrelwisdom.com/escha/items/dried-grass/en"
+      },
+      {
+        "name": "Green Crystal",
+        "url": "https://barrelwisdom.com/escha/items/green-crystal/en"
+      },
+      {
+        "name": "View more...",
+        "url": "https://barrelwisdom.com/escha/properties/recycle-plus/en"
+      }
+    ],
     "Property Grade": 20,
     "Bomb": true,
     "Heal": true,
@@ -788,7 +1351,16 @@
     "Property Cost": 10,
     "Property Fusion": null,
     "Property Description": "35% chance not to consume item count during battle. Decreases amount of gauge it produces.",
-    "Property Items": "Junk, Gold Dust",
+    "Property Items": [
+      {
+        "name": "Junk",
+        "url": "https://barrelwisdom.com/escha/items/junk/en"
+      },
+      {
+        "name": "Gold Dust",
+        "url": "https://barrelwisdom.com/escha/items/gold-dust/en"
+      }
+    ],
     "Property Grade": 30,
     "Bomb": true,
     "Heal": true,
@@ -802,7 +1374,7 @@
     "Property Cost": 11,
     "Property Fusion": "Recycle x Recycle+",
     "Property Description": "30% chance not consume item. Decreases gauge amount.",
-    "Property Items": "",
+    "Property Items": [],
     "Property Grade": null,
     "Bomb": true,
     "Heal": true,
@@ -816,7 +1388,7 @@
     "Property Cost": 17,
     "Property Fusion": "Recycle+ x Recycle++",
     "Property Description": "50% chance not consume item. Decreases gauge amount.",
-    "Property Items": "",
+    "Property Items": [],
     "Property Grade": null,
     "Bomb": true,
     "Heal": true,
@@ -830,7 +1402,7 @@
     "Property Cost": 33,
     "Property Fusion": "Low Energy Mode x Reuse Resources",
     "Property Description": "Item count will not decrease. Reduces gauge amount.",
-    "Property Items": "",
+    "Property Items": [],
     "Property Grade": null,
     "Bomb": true,
     "Heal": true,
@@ -844,7 +1416,20 @@
     "Property Cost": 2,
     "Property Fusion": null,
     "Property Description": "HP drops below 20%, item will be used. It decreases the amount of gauge it produces.",
-    "Property Items": "Living Clay, Traveler's Ration, Healthy Ration",
+    "Property Items": [
+      {
+        "name": "Living Clay",
+        "url": "https://barrelwisdom.com/escha/items/living-clay/en"
+      },
+      {
+        "name": "Traveler's Ration",
+        "url": "https://barrelwisdom.com/escha/items/traveler-s-ration/en"
+      },
+      {
+        "name": "Healthy Ration",
+        "url": "https://barrelwisdom.com/escha/items/healthy-ration/en"
+      }
+    ],
     "Property Grade": 5,
     "Bomb": false,
     "Heal": true,
@@ -858,7 +1443,20 @@
     "Property Cost": 4,
     "Property Fusion": null,
     "Property Description": "HP drops below 30%, item will be used. It decreases the amount of gauge it produces.",
-    "Property Items": "Living Tail, Healing Aroma, Refuel Ointment",
+    "Property Items": [
+      {
+        "name": "Living Tail",
+        "url": "https://barrelwisdom.com/escha/items/living-tail/en"
+      },
+      {
+        "name": "Healing Aroma",
+        "url": "https://barrelwisdom.com/escha/items/healing-aroma/en"
+      },
+      {
+        "name": "Refuel Ointment",
+        "url": "https://barrelwisdom.com/escha/items/refuel-ointment/en"
+      }
+    ],
     "Property Grade": 10,
     "Bomb": false,
     "Heal": true,
@@ -872,7 +1470,24 @@
     "Property Cost": 5,
     "Property Fusion": null,
     "Property Description": "HP drops below 50%, item will be used. It decreases the amount of gauge it produces.",
-    "Property Items": "Junk, Natural Extract, Medical Solution, And more...",
+    "Property Items": [
+      {
+        "name": "Junk",
+        "url": "https://barrelwisdom.com/escha/items/junk/en"
+      },
+      {
+        "name": "Natural Extract",
+        "url": "https://barrelwisdom.com/escha/items/natural-extract/en"
+      },
+      {
+        "name": "Medical Solution",
+        "url": "https://barrelwisdom.com/escha/items/medical-solution/en"
+      },
+      {
+        "name": "View more...",
+        "url": "https://barrelwisdom.com/escha/properties/50-automatic/en"
+      }
+    ],
     "Property Grade": 15,
     "Bomb": false,
     "Heal": true,
@@ -886,7 +1501,16 @@
     "Property Cost": 2,
     "Property Fusion": null,
     "Property Description": "Increases item use count by 1. Slightly reduces power.",
-    "Property Items": "Big Milch Bean, Lucky Clover",
+    "Property Items": [
+      {
+        "name": "Big Milch Bean",
+        "url": "https://barrelwisdom.com/escha/items/big-milch-bean/en"
+      },
+      {
+        "name": "Lucky Clover",
+        "url": "https://barrelwisdom.com/escha/items/lucky-clover/en"
+      }
+    ],
     "Property Grade": 6,
     "Bomb": true,
     "Heal": true,
@@ -900,7 +1524,12 @@
     "Property Cost": 3,
     "Property Fusion": null,
     "Property Description": "Increases item use count by 2. Moderately reduces power.",
-    "Property Items": "Heaven's Branch",
+    "Property Items": [
+      {
+        "name": "Heaven's Branch",
+        "url": "https://barrelwisdom.com/escha/items/heaven-s-branch/en"
+      }
+    ],
     "Property Grade": 8,
     "Bomb": true,
     "Heal": true,
@@ -914,7 +1543,12 @@
     "Property Cost": 5,
     "Property Fusion": "Use Count +1 x Use Count +2",
     "Property Description": "Increases item use count by 3.",
-    "Property Items": "Ancient Root",
+    "Property Items": [
+      {
+        "name": "Ancient Root",
+        "url": "https://barrelwisdom.com/escha/items/ancient-root/en"
+      }
+    ],
     "Property Grade": 15,
     "Bomb": true,
     "Heal": true,
@@ -928,7 +1562,12 @@
     "Property Cost": 2,
     "Property Fusion": null,
     "Property Description": "Reduces item use count by 1. Slightly increases power.",
-    "Property Items": "Hard Taro",
+    "Property Items": [
+      {
+        "name": "Hard Taro",
+        "url": "https://barrelwisdom.com/escha/items/hard-taro/en"
+      }
+    ],
     "Property Grade": 6,
     "Bomb": true,
     "Heal": true,
@@ -942,7 +1581,7 @@
     "Property Cost": 3,
     "Property Fusion": null,
     "Property Description": "Reduces item use count by 2. Increases power.",
-    "Property Items": "",
+    "Property Items": [],
     "Property Grade": null,
     "Bomb": true,
     "Heal": true,
@@ -956,7 +1595,12 @@
     "Property Cost": 5,
     "Property Fusion": "Use Count -1 x Use Count -2",
     "Property Description": "Reduces item use by 5. Increases power.",
-    "Property Items": "Fairy Tail",
+    "Property Items": [
+      {
+        "name": "Fairy Tail",
+        "url": "https://barrelwisdom.com/escha/items/fairy-tail/en"
+      }
+    ],
     "Property Grade": 15,
     "Bomb": true,
     "Heal": true,
@@ -970,7 +1614,24 @@
     "Property Cost": 2,
     "Property Fusion": null,
     "Property Description": "PP will increase by 3 when this item is used in Synthesis.",
-    "Property Items": "Bomb, Ice Bomb, Lightning Bomb, And more...",
+    "Property Items": [
+      {
+        "name": "Bomb",
+        "url": "https://barrelwisdom.com/escha/items/bomb/en"
+      },
+      {
+        "name": "Ice Bomb",
+        "url": "https://barrelwisdom.com/escha/items/ice-bomb/en"
+      },
+      {
+        "name": "Lightning Bomb",
+        "url": "https://barrelwisdom.com/escha/items/lightning-bomb/en"
+      },
+      {
+        "name": "View more...",
+        "url": "https://barrelwisdom.com/escha/properties/inherit-pp-3/en"
+      }
+    ],
     "Property Grade": 3,
     "Bomb": true,
     "Heal": true,
@@ -984,7 +1645,24 @@
     "Property Cost": 3,
     "Property Fusion": null,
     "Property Description": "PP will increase by 5 when this item is used in Synthesis.",
-    "Property Items": "Garden Stone, Poly. Poison, Dream Book, And more...",
+    "Property Items": [
+      {
+        "name": "Garden Stone",
+        "url": "https://barrelwisdom.com/escha/items/garden-stone/en"
+      },
+      {
+        "name": "Poly. Poison",
+        "url": "https://barrelwisdom.com/escha/items/poly-poison/en"
+      },
+      {
+        "name": "Dream Book",
+        "url": "https://barrelwisdom.com/escha/items/dream-book/en"
+      },
+      {
+        "name": "View more...",
+        "url": "https://barrelwisdom.com/escha/properties/inherit-pp-5/en"
+      }
+    ],
     "Property Grade": 7,
     "Bomb": true,
     "Heal": true,
@@ -998,7 +1676,24 @@
     "Property Cost": 5,
     "Property Fusion": null,
     "Property Description": "PP will increase by 7 when this item is used in Synthesis.",
-    "Property Items": "Legged Radish, Yellow Crystal, Comet Crest Stone, And more...",
+    "Property Items": [
+      {
+        "name": "Legged Radish",
+        "url": "https://barrelwisdom.com/escha/items/legged-radish/en"
+      },
+      {
+        "name": "Yellow Crystal",
+        "url": "https://barrelwisdom.com/escha/items/yellow-crystal/en"
+      },
+      {
+        "name": "Comet Crest Stone",
+        "url": "https://barrelwisdom.com/escha/items/comet-crest-stone/en"
+      },
+      {
+        "name": "View more...",
+        "url": "https://barrelwisdom.com/escha/properties/inherit-pp-7/en"
+      }
+    ],
     "Property Grade": 10,
     "Bomb": true,
     "Heal": true,
@@ -1012,7 +1707,16 @@
     "Property Cost": 5,
     "Property Fusion": "Inherit PP +3 x Inherit PP +5",
     "Property Description": "PP increase by 8 when used in Synthesis.",
-    "Property Items": "Trio Taun, Earth Root",
+    "Property Items": [
+      {
+        "name": "Trio Taun",
+        "url": "https://barrelwisdom.com/escha/items/trio-taun/en"
+      },
+      {
+        "name": "Earth Root",
+        "url": "https://barrelwisdom.com/escha/items/earth-root/en"
+      }
+    ],
     "Property Grade": 15,
     "Bomb": true,
     "Heal": true,
@@ -1026,7 +1730,7 @@
     "Property Cost": 8,
     "Property Fusion": "Inherit PP +5 x Inherit PP +7",
     "Property Description": "PP increase by 12 when used in Synthesis.",
-    "Property Items": "",
+    "Property Items": [],
     "Property Grade": null,
     "Bomb": true,
     "Heal": true,
@@ -1040,7 +1744,7 @@
     "Property Cost": 13,
     "Property Fusion": "PP Expansion x PP Enhancement",
     "Property Description": "PP increase by 20 when used in Synthesis.",
-    "Property Items": "",
+    "Property Items": [],
     "Property Grade": null,
     "Bomb": true,
     "Heal": true,
@@ -1054,7 +1758,24 @@
     "Property Cost": 1,
     "Property Fusion": null,
     "Property Description": "Increases maximum HP on armor by 5.",
-    "Property Items": "Cloth Scraps, Multi-patch, Leather, And more...",
+    "Property Items": [
+      {
+        "name": "Cloth Scraps",
+        "url": "https://barrelwisdom.com/escha/items/cloth-scraps/en"
+      },
+      {
+        "name": "Multi-patch",
+        "url": "https://barrelwisdom.com/escha/items/multi-patch/en"
+      },
+      {
+        "name": "Leather",
+        "url": "https://barrelwisdom.com/escha/items/leather/en"
+      },
+      {
+        "name": "View more...",
+        "url": "https://barrelwisdom.com/escha/properties/hp-5/en"
+      }
+    ],
     "Property Grade": 3,
     "Bomb": false,
     "Heal": false,
@@ -1068,7 +1789,24 @@
     "Property Cost": 2,
     "Property Fusion": null,
     "Property Description": "Increases maximum HP on armor by 10.",
-    "Property Items": "Amber Soil, Cardboard, Iron Plate, And more...",
+    "Property Items": [
+      {
+        "name": "Amber Soil",
+        "url": "https://barrelwisdom.com/escha/items/amber-soil/en"
+      },
+      {
+        "name": "Cardboard",
+        "url": "https://barrelwisdom.com/escha/items/cardboard/en"
+      },
+      {
+        "name": "Iron Plate",
+        "url": "https://barrelwisdom.com/escha/items/iron-plate/en"
+      },
+      {
+        "name": "View more...",
+        "url": "https://barrelwisdom.com/escha/properties/hp-10/en"
+      }
+    ],
     "Property Grade": 6,
     "Bomb": false,
     "Heal": false,
@@ -1082,7 +1820,24 @@
     "Property Cost": 3,
     "Property Fusion": null,
     "Property Description": "Increases maximum HP on armor by 15.",
-    "Property Items": "Blaze Ore, Wood Chips, Ziegel Nugget, And more...",
+    "Property Items": [
+      {
+        "name": "Blaze Ore",
+        "url": "https://barrelwisdom.com/escha/items/blaze-ore/en"
+      },
+      {
+        "name": "Wood Chips",
+        "url": "https://barrelwisdom.com/escha/items/wood-chips/en"
+      },
+      {
+        "name": "Ziegel Nugget",
+        "url": "https://barrelwisdom.com/escha/items/ziegel-nugget/en"
+      },
+      {
+        "name": "View more...",
+        "url": "https://barrelwisdom.com/escha/properties/hp-15/en"
+      }
+    ],
     "Property Grade": 9,
     "Bomb": false,
     "Heal": false,
@@ -1096,7 +1851,7 @@
     "Property Cost": 3,
     "Property Fusion": "HP +5 x HP +10",
     "Property Description": "Increases maximum HP by 15.",
-    "Property Items": "",
+    "Property Items": [],
     "Property Grade": null,
     "Bomb": false,
     "Heal": false,
@@ -1110,7 +1865,7 @@
     "Property Cost": 5,
     "Property Fusion": "HP +10 x HP +15",
     "Property Description": "Increases maximum HP by 25.",
-    "Property Items": "",
+    "Property Items": [],
     "Property Grade": null,
     "Bomb": false,
     "Heal": false,
@@ -1124,7 +1879,7 @@
     "Property Cost": 8,
     "Property Fusion": "HP Reinforcement x HP Boost",
     "Property Description": "Increases maximum HP by 40.",
-    "Property Items": "",
+    "Property Items": [],
     "Property Grade": null,
     "Bomb": false,
     "Heal": false,
@@ -1138,7 +1893,24 @@
     "Property Cost": 1,
     "Property Fusion": null,
     "Property Description": "Increases maximum MP on armor by 5.",
-    "Property Items": "Iron Plate, Cloth Scraps, Crystal Ball, And more...",
+    "Property Items": [
+      {
+        "name": "Iron Plate",
+        "url": "https://barrelwisdom.com/escha/items/iron-plate/en"
+      },
+      {
+        "name": "Cloth Scraps",
+        "url": "https://barrelwisdom.com/escha/items/cloth-scraps/en"
+      },
+      {
+        "name": "Crystal Ball",
+        "url": "https://barrelwisdom.com/escha/items/crystal-ball/en"
+      },
+      {
+        "name": "View more...",
+        "url": "https://barrelwisdom.com/escha/properties/mp-5/en"
+      }
+    ],
     "Property Grade": 2,
     "Bomb": false,
     "Heal": false,
@@ -1152,7 +1924,24 @@
     "Property Cost": 2,
     "Property Fusion": null,
     "Property Description": "Increases maximum MP on armor by 10.",
-    "Property Items": "Ultramarine Soil, Cardboard, Wood Chips, And more...",
+    "Property Items": [
+      {
+        "name": "Ultramarine Soil",
+        "url": "https://barrelwisdom.com/escha/items/ultramarine-soil/en"
+      },
+      {
+        "name": "Cardboard",
+        "url": "https://barrelwisdom.com/escha/items/cardboard/en"
+      },
+      {
+        "name": "Wood Chips",
+        "url": "https://barrelwisdom.com/escha/items/wood-chips/en"
+      },
+      {
+        "name": "View more...",
+        "url": "https://barrelwisdom.com/escha/properties/mp-10/en"
+      }
+    ],
     "Property Grade": 5,
     "Bomb": false,
     "Heal": false,
@@ -1166,7 +1955,24 @@
     "Property Cost": 3,
     "Property Fusion": null,
     "Property Description": "Increases maximum MP on armor by 15.",
-    "Property Items": "Yellow Crystal, Precious Stone, Moon Tablet, And more...",
+    "Property Items": [
+      {
+        "name": "Yellow Crystal",
+        "url": "https://barrelwisdom.com/escha/items/yellow-crystal/en"
+      },
+      {
+        "name": "Precious Stone",
+        "url": "https://barrelwisdom.com/escha/items/precious-stone/en"
+      },
+      {
+        "name": "Moon Tablet",
+        "url": "https://barrelwisdom.com/escha/items/moon-tablet/en"
+      },
+      {
+        "name": "View more...",
+        "url": "https://barrelwisdom.com/escha/properties/mp-15/en"
+      }
+    ],
     "Property Grade": 9,
     "Bomb": false,
     "Heal": false,
@@ -1180,7 +1986,12 @@
     "Property Cost": 3,
     "Property Fusion": "MP +5 x MP +10",
     "Property Description": "Increases maximum MP by 15.",
-    "Property Items": "Golden Yarn",
+    "Property Items": [
+      {
+        "name": "Golden Yarn",
+        "url": "https://barrelwisdom.com/escha/items/golden-yarn/en"
+      }
+    ],
     "Property Grade": 10,
     "Bomb": false,
     "Heal": false,
@@ -1194,7 +2005,7 @@
     "Property Cost": 5,
     "Property Fusion": "MP +10 x MP +15",
     "Property Description": "Increases maximum MP by 25.",
-    "Property Items": "",
+    "Property Items": [],
     "Property Grade": null,
     "Bomb": false,
     "Heal": false,
@@ -1208,7 +2019,7 @@
     "Property Cost": 8,
     "Property Fusion": "MP Reinforcement x MP Boost",
     "Property Description": "Increases maximum MP by 40.",
-    "Property Items": "",
+    "Property Items": [],
     "Property Grade": null,
     "Bomb": false,
     "Heal": false,
@@ -1222,7 +2033,24 @@
     "Property Cost": 2,
     "Property Fusion": null,
     "Property Description": "Increases base stats on armor by 5%.",
-    "Property Items": "Cloth Scraps, Multi-patch, Leather, And more...",
+    "Property Items": [
+      {
+        "name": "Cloth Scraps",
+        "url": "https://barrelwisdom.com/escha/items/cloth-scraps/en"
+      },
+      {
+        "name": "Multi-patch",
+        "url": "https://barrelwisdom.com/escha/items/multi-patch/en"
+      },
+      {
+        "name": "Leather",
+        "url": "https://barrelwisdom.com/escha/items/leather/en"
+      },
+      {
+        "name": "View more...",
+        "url": "https://barrelwisdom.com/escha/properties/parameters-5/en"
+      }
+    ],
     "Property Grade": 5,
     "Bomb": false,
     "Heal": false,
@@ -1236,7 +2064,24 @@
     "Property Cost": 4,
     "Property Fusion": null,
     "Property Description": "Increases base stats on armor by 7%.",
-    "Property Items": "Cardboard, Moon Tablet, Magic Fiber, And more...",
+    "Property Items": [
+      {
+        "name": "Cardboard",
+        "url": "https://barrelwisdom.com/escha/items/cardboard/en"
+      },
+      {
+        "name": "Moon Tablet",
+        "url": "https://barrelwisdom.com/escha/items/moon-tablet/en"
+      },
+      {
+        "name": "Magic Fiber",
+        "url": "https://barrelwisdom.com/escha/items/magic-fiber/en"
+      },
+      {
+        "name": "View more...",
+        "url": "https://barrelwisdom.com/escha/properties/parameters-7/en"
+      }
+    ],
     "Property Grade": 10,
     "Bomb": false,
     "Heal": false,
@@ -1250,7 +2095,16 @@
     "Property Cost": 5,
     "Property Fusion": null,
     "Property Description": "Increases base stats on armor by 10%.",
-    "Property Items": "Bendy Materia, Einzel Steel",
+    "Property Items": [
+      {
+        "name": "Bendy Materia",
+        "url": "https://barrelwisdom.com/escha/items/bendy-materia/en"
+      },
+      {
+        "name": "Einzel Steel",
+        "url": "https://barrelwisdom.com/escha/items/einzel-steel/en"
+      }
+    ],
     "Property Grade": 15,
     "Bomb": false,
     "Heal": false,
@@ -1264,7 +2118,7 @@
     "Property Cost": 6,
     "Property Fusion": "Parameters +5% x Parameters +7%",
     "Property Description": "Increases base stats by 10%.",
-    "Property Items": "",
+    "Property Items": [],
     "Property Grade": null,
     "Bomb": false,
     "Heal": false,
@@ -1278,7 +2132,7 @@
     "Property Cost": 9,
     "Property Fusion": "Parameters +7% x Parameters +10%",
     "Property Description": "Increases base stats by 15%.",
-    "Property Items": "",
+    "Property Items": [],
     "Property Grade": null,
     "Bomb": false,
     "Heal": false,
@@ -1292,7 +2146,7 @@
     "Property Cost": 15,
     "Property Fusion": "Reinforce Body x Draw Power",
     "Property Description": "Increases base stats by 25%.",
-    "Property Items": "",
+    "Property Items": [],
     "Property Grade": null,
     "Bomb": false,
     "Heal": false,
@@ -1306,7 +2160,24 @@
     "Property Cost": 1,
     "Property Fusion": null,
     "Property Description": "Increases weapon attack power by 3.",
-    "Property Items": "Iron Plate, Handmade Pottery, Glass Rod, And more...",
+    "Property Items": [
+      {
+        "name": "Iron Plate",
+        "url": "https://barrelwisdom.com/escha/items/iron-plate/en"
+      },
+      {
+        "name": "Handmade Pottery",
+        "url": "https://barrelwisdom.com/escha/items/handmade-pottery/en"
+      },
+      {
+        "name": "Glass Rod",
+        "url": "https://barrelwisdom.com/escha/items/glass-rod/en"
+      },
+      {
+        "name": "View more...",
+        "url": "https://barrelwisdom.com/escha/properties/attack-power-3/en"
+      }
+    ],
     "Property Grade": 2,
     "Bomb": false,
     "Heal": false,
@@ -1320,7 +2191,24 @@
     "Property Cost": 2,
     "Property Fusion": null,
     "Property Description": "Increases weapon attack power by 6.",
-    "Property Items": "Crimson Soil, Wood Chips, Ziegel Nugget, And more...",
+    "Property Items": [
+      {
+        "name": "Crimson Soil",
+        "url": "https://barrelwisdom.com/escha/items/crimson-soil/en"
+      },
+      {
+        "name": "Wood Chips",
+        "url": "https://barrelwisdom.com/escha/items/wood-chips/en"
+      },
+      {
+        "name": "Ziegel Nugget",
+        "url": "https://barrelwisdom.com/escha/items/ziegel-nugget/en"
+      },
+      {
+        "name": "View more...",
+        "url": "https://barrelwisdom.com/escha/properties/attack-power-6/en"
+      }
+    ],
     "Property Grade": 5,
     "Bomb": false,
     "Heal": false,
@@ -1334,7 +2222,24 @@
     "Property Cost": 3,
     "Property Fusion": null,
     "Property Description": "Increases weapon attack power by 9.",
-    "Property Items": "Moon Tablet, Flowing Metal, Golt Board, And more...",
+    "Property Items": [
+      {
+        "name": "Moon Tablet",
+        "url": "https://barrelwisdom.com/escha/items/moon-tablet/en"
+      },
+      {
+        "name": "Flowing Metal",
+        "url": "https://barrelwisdom.com/escha/items/flowing-metal/en"
+      },
+      {
+        "name": "Golt Board",
+        "url": "https://barrelwisdom.com/escha/items/golt-board/en"
+      },
+      {
+        "name": "View more...",
+        "url": "https://barrelwisdom.com/escha/properties/attack-power-9/en"
+      }
+    ],
     "Property Grade": 9,
     "Bomb": false,
     "Heal": false,
@@ -1348,7 +2253,7 @@
     "Property Cost": 3,
     "Property Fusion": "Attack Power +3 x Attack Power +6",
     "Property Description": "Increases attack power by 10.",
-    "Property Items": "",
+    "Property Items": [],
     "Property Grade": null,
     "Bomb": false,
     "Heal": false,
@@ -1362,7 +2267,7 @@
     "Property Cost": 5,
     "Property Fusion": "Attack Power +6 x Attack Power +9",
     "Property Description": "Increases attack power by 15.",
-    "Property Items": "",
+    "Property Items": [],
     "Property Grade": null,
     "Bomb": false,
     "Heal": false,
@@ -1376,7 +2281,7 @@
     "Property Cost": 8,
     "Property Fusion": "Attack Reinforce x Attack Boost",
     "Property Description": "Increases attack power by 25.",
-    "Property Items": "",
+    "Property Items": [],
     "Property Grade": null,
     "Bomb": false,
     "Heal": false,
@@ -1390,7 +2295,24 @@
     "Property Cost": 1,
     "Property Fusion": null,
     "Property Description": "Increases defense power of armor by 3.",
-    "Property Items": "Iron Plate, Cloth Scraps, Multi-patch, And more...",
+    "Property Items": [
+      {
+        "name": "Iron Plate",
+        "url": "https://barrelwisdom.com/escha/items/iron-plate/en"
+      },
+      {
+        "name": "Cloth Scraps",
+        "url": "https://barrelwisdom.com/escha/items/cloth-scraps/en"
+      },
+      {
+        "name": "Multi-patch",
+        "url": "https://barrelwisdom.com/escha/items/multi-patch/en"
+      },
+      {
+        "name": "View more...",
+        "url": "https://barrelwisdom.com/escha/properties/defense-3/en"
+      }
+    ],
     "Property Grade": 3,
     "Bomb": false,
     "Heal": false,
@@ -1404,7 +2326,24 @@
     "Property Cost": 2,
     "Property Fusion": null,
     "Property Description": "Increases defense power of armor by 6.",
-    "Property Items": "River Wood, Cardboard, Wood Chips, And more...",
+    "Property Items": [
+      {
+        "name": "River Wood",
+        "url": "https://barrelwisdom.com/escha/items/river-wood/en"
+      },
+      {
+        "name": "Cardboard",
+        "url": "https://barrelwisdom.com/escha/items/cardboard/en"
+      },
+      {
+        "name": "Wood Chips",
+        "url": "https://barrelwisdom.com/escha/items/wood-chips/en"
+      },
+      {
+        "name": "View more...",
+        "url": "https://barrelwisdom.com/escha/properties/defense-6/en"
+      }
+    ],
     "Property Grade": 4,
     "Bomb": false,
     "Heal": false,
@@ -1418,7 +2357,24 @@
     "Property Cost": 3,
     "Property Fusion": null,
     "Property Description": "Increases defense power of armor by 9.",
-    "Property Items": "Cardboard, Moon Tablet, Magic Fiber, And more...",
+    "Property Items": [
+      {
+        "name": "Cardboard",
+        "url": "https://barrelwisdom.com/escha/items/cardboard/en"
+      },
+      {
+        "name": "Moon Tablet",
+        "url": "https://barrelwisdom.com/escha/items/moon-tablet/en"
+      },
+      {
+        "name": "Magic Fiber",
+        "url": "https://barrelwisdom.com/escha/items/magic-fiber/en"
+      },
+      {
+        "name": "View more...",
+        "url": "https://barrelwisdom.com/escha/properties/defense-9/en"
+      }
+    ],
     "Property Grade": 9,
     "Bomb": false,
     "Heal": false,
@@ -1432,7 +2388,7 @@
     "Property Cost": 3,
     "Property Fusion": "Defense +3 x Defense +6",
     "Property Description": "Increases defense power by 10.",
-    "Property Items": "",
+    "Property Items": [],
     "Property Grade": null,
     "Bomb": false,
     "Heal": false,
@@ -1446,7 +2402,7 @@
     "Property Cost": 5,
     "Property Fusion": "Defense +6 x Defense +9",
     "Property Description": "Increases defense power by 15.",
-    "Property Items": "",
+    "Property Items": [],
     "Property Grade": null,
     "Bomb": false,
     "Heal": false,
@@ -1460,7 +2416,7 @@
     "Property Cost": 8,
     "Property Fusion": "Defense Reinforce x Defense Boost",
     "Property Description": "Increases defense power by 25.",
-    "Property Items": "",
+    "Property Items": [],
     "Property Grade": null,
     "Bomb": false,
     "Heal": false,
@@ -1474,7 +2430,24 @@
     "Property Cost": 1,
     "Property Fusion": null,
     "Property Description": "Increases speed on accessories by 3.",
-    "Property Items": "Mountain Feather, Iron Plate, Crystal Ball, And more...",
+    "Property Items": [
+      {
+        "name": "Mountain Feather",
+        "url": "https://barrelwisdom.com/escha/items/mountain-feather/en"
+      },
+      {
+        "name": "Iron Plate",
+        "url": "https://barrelwisdom.com/escha/items/iron-plate/en"
+      },
+      {
+        "name": "Crystal Ball",
+        "url": "https://barrelwisdom.com/escha/items/crystal-ball/en"
+      },
+      {
+        "name": "View more...",
+        "url": "https://barrelwisdom.com/escha/properties/speed-3/en"
+      }
+    ],
     "Property Grade": 1,
     "Bomb": false,
     "Heal": false,
@@ -1488,7 +2461,24 @@
     "Property Cost": 2,
     "Property Fusion": null,
     "Property Description": "Increases speed on accessories by 6.",
-    "Property Items": "Green Soil, Wood Chips, Beast King Relief, And more...",
+    "Property Items": [
+      {
+        "name": "Green Soil",
+        "url": "https://barrelwisdom.com/escha/items/green-soil/en"
+      },
+      {
+        "name": "Wood Chips",
+        "url": "https://barrelwisdom.com/escha/items/wood-chips/en"
+      },
+      {
+        "name": "Beast King Relief",
+        "url": "https://barrelwisdom.com/escha/items/beast-king-relief/en"
+      },
+      {
+        "name": "View more...",
+        "url": "https://barrelwisdom.com/escha/properties/speed-6/en"
+      }
+    ],
     "Property Grade": 4,
     "Bomb": false,
     "Heal": false,
@@ -1502,7 +2492,24 @@
     "Property Cost": 3,
     "Property Fusion": null,
     "Property Description": "Increases speed on accessories by 9.",
-    "Property Items": "Beast Fang, Yellow Crystal, Precious Stone, And more...",
+    "Property Items": [
+      {
+        "name": "Beast Fang",
+        "url": "https://barrelwisdom.com/escha/items/beast-fang/en"
+      },
+      {
+        "name": "Yellow Crystal",
+        "url": "https://barrelwisdom.com/escha/items/yellow-crystal/en"
+      },
+      {
+        "name": "Precious Stone",
+        "url": "https://barrelwisdom.com/escha/items/precious-stone/en"
+      },
+      {
+        "name": "View more...",
+        "url": "https://barrelwisdom.com/escha/properties/speed-9/en"
+      }
+    ],
     "Property Grade": 8,
     "Bomb": false,
     "Heal": false,
@@ -1516,7 +2523,7 @@
     "Property Cost": 3,
     "Property Fusion": "Speed +3 x Speed +6",
     "Property Description": "Increases speed by 10.",
-    "Property Items": "",
+    "Property Items": [],
     "Property Grade": null,
     "Bomb": false,
     "Heal": false,
@@ -1530,7 +2537,12 @@
     "Property Cost": 5,
     "Property Fusion": "Speed +6 x Speed +9",
     "Property Description": "Increases speed by 15.",
-    "Property Items": "Paradise Feather",
+    "Property Items": [
+      {
+        "name": "Paradise Feather",
+        "url": "https://barrelwisdom.com/escha/items/paradise-feather/en"
+      }
+    ],
     "Property Grade": 25,
     "Bomb": false,
     "Heal": false,
@@ -1544,7 +2556,7 @@
     "Property Cost": 8,
     "Property Fusion": "Speed Reinforce x Speed Boost",
     "Property Description": "Increases speed by 25.",
-    "Property Items": "",
+    "Property Items": [],
     "Property Grade": null,
     "Bomb": false,
     "Heal": false,
@@ -1558,7 +2570,7 @@
     "Property Cost": 6,
     "Property Fusion": "Attack Reinforce x Defense Reinforce",
     "Property Description": "Increases attack + defense power by 7.",
-    "Property Items": "",
+    "Property Items": [],
     "Property Grade": null,
     "Bomb": false,
     "Heal": false,
@@ -1572,7 +2584,7 @@
     "Property Cost": 6,
     "Property Fusion": "Attack Reinforce x Speed Reinforce",
     "Property Description": "Increases attack power + speed by 7.",
-    "Property Items": "",
+    "Property Items": [],
     "Property Grade": null,
     "Bomb": false,
     "Heal": false,
@@ -1586,7 +2598,7 @@
     "Property Cost": 6,
     "Property Fusion": "Defense Reinforce x Speed Reinforce",
     "Property Description": "Increases defense power + speed by 7.",
-    "Property Items": "",
+    "Property Items": [],
     "Property Grade": null,
     "Bomb": false,
     "Heal": false,
@@ -1600,7 +2612,7 @@
     "Property Cost": 12,
     "Property Fusion": "ATK/DEF Up x ATK/SPD Up x DEF/SPD Up",
     "Property Description": "Increases all stats except resistance by 10.",
-    "Property Items": "",
+    "Property Items": [],
     "Property Grade": null,
     "Bomb": false,
     "Heal": false,
@@ -1614,7 +2626,7 @@
     "Property Cost": 10,
     "Property Fusion": "Attack Boost x Defense Boost",
     "Property Description": "Attack + defense power increased by 10.",
-    "Property Items": "",
+    "Property Items": [],
     "Property Grade": null,
     "Bomb": false,
     "Heal": false,
@@ -1628,7 +2640,7 @@
     "Property Cost": 10,
     "Property Fusion": "Attack Boost x Speed Boost",
     "Property Description": "Attack power + speed increased by 10.",
-    "Property Items": "",
+    "Property Items": [],
     "Property Grade": null,
     "Bomb": false,
     "Heal": false,
@@ -1642,7 +2654,7 @@
     "Property Cost": 10,
     "Property Fusion": "Defense Boost x Speed Boost",
     "Property Description": "Defense power + speed increased by 10.",
-    "Property Items": "",
+    "Property Items": [],
     "Property Grade": null,
     "Bomb": false,
     "Heal": false,
@@ -1656,7 +2668,7 @@
     "Property Cost": 20,
     "Property Fusion": "ATK/DEF Boost x ATK/SPD Boost x DEF/SPD Boost",
     "Property Description": "All stats except resistance increase 15.",
-    "Property Items": "",
+    "Property Items": [],
     "Property Grade": null,
     "Bomb": false,
     "Heal": false,
@@ -1670,7 +2682,24 @@
     "Property Cost": 2,
     "Property Fusion": null,
     "Property Description": "Reduces skill MP consumption by 10%.",
-    "Property Items": "Eagle Feather, Crystal Ball, Polarized Gem, And more...",
+    "Property Items": [
+      {
+        "name": "Eagle Feather",
+        "url": "https://barrelwisdom.com/escha/items/eagle-feather/en"
+      },
+      {
+        "name": "Crystal Ball",
+        "url": "https://barrelwisdom.com/escha/items/crystal-ball/en"
+      },
+      {
+        "name": "Polarized Gem",
+        "url": "https://barrelwisdom.com/escha/items/polarized-gem/en"
+      },
+      {
+        "name": "View more...",
+        "url": "https://barrelwisdom.com/escha/properties/consumption-10/en"
+      }
+    ],
     "Property Grade": 4,
     "Bomb": false,
     "Heal": false,
@@ -1684,7 +2713,24 @@
     "Property Cost": 3,
     "Property Fusion": null,
     "Property Description": "Reduces skill MP consumption by 15%.",
-    "Property Items": "Beast King Relief, Purple Crystal, Bi-color Corundum, And more...",
+    "Property Items": [
+      {
+        "name": "Beast King Relief",
+        "url": "https://barrelwisdom.com/escha/items/beast-king-relief/en"
+      },
+      {
+        "name": "Purple Crystal",
+        "url": "https://barrelwisdom.com/escha/items/purple-crystal/en"
+      },
+      {
+        "name": "Bi-color Corundum",
+        "url": "https://barrelwisdom.com/escha/items/bi-color-corundum/en"
+      },
+      {
+        "name": "View more...",
+        "url": "https://barrelwisdom.com/escha/properties/consumption-15/en"
+      }
+    ],
     "Property Grade": 7,
     "Bomb": false,
     "Heal": false,
@@ -1698,7 +2744,24 @@
     "Property Cost": 4,
     "Property Fusion": null,
     "Property Description": "Reduces skill MP consumption by 20%.",
-    "Property Items": "Diamond Gemstone, Yellow Crystal, Precious Stone, And more...",
+    "Property Items": [
+      {
+        "name": "Diamond Gemstone",
+        "url": "https://barrelwisdom.com/escha/items/diamond-gemstone/en"
+      },
+      {
+        "name": "Yellow Crystal",
+        "url": "https://barrelwisdom.com/escha/items/yellow-crystal/en"
+      },
+      {
+        "name": "Precious Stone",
+        "url": "https://barrelwisdom.com/escha/items/precious-stone/en"
+      },
+      {
+        "name": "View more...",
+        "url": "https://barrelwisdom.com/escha/properties/consumption-20/en"
+      }
+    ],
     "Property Grade": 10,
     "Bomb": false,
     "Heal": false,
@@ -1712,7 +2775,7 @@
     "Property Cost": 5,
     "Property Fusion": "Consumption -10% x Consumption -15%",
     "Property Description": "Reduces skill MP consumption 20%.",
-    "Property Items": "",
+    "Property Items": [],
     "Property Grade": null,
     "Bomb": false,
     "Heal": false,
@@ -1726,7 +2789,12 @@
     "Property Cost": 7,
     "Property Fusion": "Consumption -15% x Consumption -20%",
     "Property Description": "Reduces skill MP consumption 30%.",
-    "Property Items": "Sky Slag Stone",
+    "Property Items": [
+      {
+        "name": "Sky Slag Stone",
+        "url": "https://barrelwisdom.com/escha/items/sky-slag-stone/en"
+      }
+    ],
     "Property Grade": 20,
     "Bomb": false,
     "Heal": false,
@@ -1740,7 +2808,7 @@
     "Property Cost": 12,
     "Property Fusion": "MP Use Reduced x MP Use Cut",
     "Property Description": "Reduces skill MP consumption 50%.",
-    "Property Items": "",
+    "Property Items": [],
     "Property Grade": null,
     "Bomb": false,
     "Heal": false,
@@ -1754,7 +2822,24 @@
     "Property Cost": 2,
     "Property Fusion": null,
     "Property Description": "Increases skill power and cost.",
-    "Property Items": "Metal Chips, Traditional Staff, Golden Wing Staff, And more...",
+    "Property Items": [
+      {
+        "name": "Metal Chips",
+        "url": "https://barrelwisdom.com/escha/items/metal-chips/en"
+      },
+      {
+        "name": "Traditional Staff",
+        "url": "https://barrelwisdom.com/escha/items/traditional-staff/en"
+      },
+      {
+        "name": "Golden Wing Staff",
+        "url": "https://barrelwisdom.com/escha/items/golden-wing-staff/en"
+      },
+      {
+        "name": "View more...",
+        "url": "https://barrelwisdom.com/escha/properties/skill-power-10/en"
+      }
+    ],
     "Property Grade": 4,
     "Bomb": false,
     "Heal": false,
@@ -1768,7 +2853,24 @@
     "Property Cost": 3,
     "Property Fusion": null,
     "Property Description": "Increases skill power and cost.",
-    "Property Items": "Flowing Metal, Feather Staff, Crystal Fang, And more...",
+    "Property Items": [
+      {
+        "name": "Flowing Metal",
+        "url": "https://barrelwisdom.com/escha/items/flowing-metal/en"
+      },
+      {
+        "name": "Feather Staff",
+        "url": "https://barrelwisdom.com/escha/items/feather-staff/en"
+      },
+      {
+        "name": "Crystal Fang",
+        "url": "https://barrelwisdom.com/escha/items/crystal-fang/en"
+      },
+      {
+        "name": "View more...",
+        "url": "https://barrelwisdom.com/escha/properties/skill-power-15/en"
+      }
+    ],
     "Property Grade": 7,
     "Bomb": false,
     "Heal": false,
@@ -1782,7 +2884,24 @@
     "Property Cost": 4,
     "Property Fusion": null,
     "Property Description": "Increases skill power and cost.",
-    "Property Items": "Golt Board, Proto Phantom, Brave Bunker, And more...",
+    "Property Items": [
+      {
+        "name": "Golt Board",
+        "url": "https://barrelwisdom.com/escha/items/golt-board/en"
+      },
+      {
+        "name": "Proto Phantom",
+        "url": "https://barrelwisdom.com/escha/items/proto-phantom/en"
+      },
+      {
+        "name": "Brave Bunker",
+        "url": "https://barrelwisdom.com/escha/items/brave-bunker/en"
+      },
+      {
+        "name": "View more...",
+        "url": "https://barrelwisdom.com/escha/properties/skill-power-20/en"
+      }
+    ],
     "Property Grade": 10,
     "Bomb": false,
     "Heal": false,
@@ -1796,7 +2915,7 @@
     "Property Cost": 5,
     "Property Fusion": "Skill Power +10% x Skill Power +15%",
     "Property Description": "Increases skill power and cost.",
-    "Property Items": "",
+    "Property Items": [],
     "Property Grade": null,
     "Bomb": false,
     "Heal": false,
@@ -1810,7 +2929,16 @@
     "Property Cost": 7,
     "Property Fusion": "Skill Power +15% x Skill Power +20%",
     "Property Description": "Increases skill power and cost.",
-    "Property Items": "Moon Milk, Earth Slag Stone",
+    "Property Items": [
+      {
+        "name": "Moon Milk",
+        "url": "https://barrelwisdom.com/escha/items/moon-milk/en"
+      },
+      {
+        "name": "Earth Slag Stone",
+        "url": "https://barrelwisdom.com/escha/items/earth-slag-stone/en"
+      }
+    ],
     "Property Grade": 20,
     "Bomb": false,
     "Heal": false,
@@ -1824,7 +2952,7 @@
     "Property Cost": 12,
     "Property Fusion": "Skill Reinforce x Skill Boost",
     "Property Description": "Increases skill power and cost.",
-    "Property Items": "",
+    "Property Items": [],
     "Property Grade": null,
     "Bomb": false,
     "Heal": false,
@@ -1838,7 +2966,12 @@
     "Property Cost": 10,
     "Property Fusion": "MP Use Reduced x Skill Reinforce",
     "Property Description": "Skill power increased by 20%.",
-    "Property Items": "Jelly Gem",
+    "Property Items": [
+      {
+        "name": "Jelly Gem",
+        "url": "https://barrelwisdom.com/escha/items/jelly-gem/en"
+      }
+    ],
     "Property Grade": 15,
     "Bomb": false,
     "Heal": false,
@@ -1852,7 +2985,12 @@
     "Property Cost": 14,
     "Property Fusion": "MP Use Cut x Skill Boost",
     "Property Description": "Skill power increased by 30%.",
-    "Property Items": "Dragon Fin",
+    "Property Items": [
+      {
+        "name": "Dragon Fin",
+        "url": "https://barrelwisdom.com/escha/items/dragon-fin/en"
+      }
+    ],
     "Property Grade": 20,
     "Bomb": false,
     "Heal": false,
@@ -1866,7 +3004,7 @@
     "Property Cost": 24,
     "Property Fusion": "MP Use 1/2 x Skill Surge",
     "Property Description": "Skill power increased by 50%.",
-    "Property Items": "",
+    "Property Items": [],
     "Property Grade": null,
     "Bomb": false,
     "Heal": false,
@@ -1880,7 +3018,24 @@
     "Property Cost": 3,
     "Property Fusion": null,
     "Property Description": "Adds additional fire damage to attacks.",
-    "Property Items": "Blaze Ore, Rouge Gemstone, Scorching Ore, And more...",
+    "Property Items": [
+      {
+        "name": "Blaze Ore",
+        "url": "https://barrelwisdom.com/escha/items/blaze-ore/en"
+      },
+      {
+        "name": "Rouge Gemstone",
+        "url": "https://barrelwisdom.com/escha/items/rouge-gemstone/en"
+      },
+      {
+        "name": "Scorching Ore",
+        "url": "https://barrelwisdom.com/escha/items/scorching-ore/en"
+      },
+      {
+        "name": "View more...",
+        "url": "https://barrelwisdom.com/escha/properties/fire-damage/en"
+      }
+    ],
     "Property Grade": 7,
     "Bomb": false,
     "Heal": false,
@@ -1894,7 +3049,24 @@
     "Property Cost": 3,
     "Property Fusion": null,
     "Property Description": "Adds additional water damage to attacks.",
-    "Property Items": "Blue Gemstone, Liquid Crystal, Ice Slag Stone, And more...",
+    "Property Items": [
+      {
+        "name": "Blue Gemstone",
+        "url": "https://barrelwisdom.com/escha/items/blue-gemstone/en"
+      },
+      {
+        "name": "Liquid Crystal",
+        "url": "https://barrelwisdom.com/escha/items/liquid-crystal/en"
+      },
+      {
+        "name": "Ice Slag Stone",
+        "url": "https://barrelwisdom.com/escha/items/ice-slag-stone/en"
+      },
+      {
+        "name": "View more...",
+        "url": "https://barrelwisdom.com/escha/properties/water-damage/en"
+      }
+    ],
     "Property Grade": 7,
     "Bomb": false,
     "Heal": false,
@@ -1908,7 +3080,20 @@
     "Property Cost": 3,
     "Property Fusion": null,
     "Property Description": "Adds additional earth damage to attacks.",
-    "Property Items": "Earth Stone, Soul Breaker, Magic Talisman",
+    "Property Items": [
+      {
+        "name": "Earth Stone",
+        "url": "https://barrelwisdom.com/escha/items/earth-stone/en"
+      },
+      {
+        "name": "Soul Breaker",
+        "url": "https://barrelwisdom.com/escha/items/soul-breaker/en"
+      },
+      {
+        "name": "Magic Talisman",
+        "url": "https://barrelwisdom.com/escha/items/magic-talisman/en"
+      }
+    ],
     "Property Grade": 8,
     "Bomb": false,
     "Heal": false,
@@ -1922,7 +3107,20 @@
     "Property Cost": 3,
     "Property Fusion": null,
     "Property Description": "Adds additional wind damage to attacks.",
-    "Property Items": "Green Gemstone, Wind Talisman, Red Starter",
+    "Property Items": [
+      {
+        "name": "Green Gemstone",
+        "url": "https://barrelwisdom.com/escha/items/green-gemstone/en"
+      },
+      {
+        "name": "Wind Talisman",
+        "url": "https://barrelwisdom.com/escha/items/wind-talisman/en"
+      },
+      {
+        "name": "Red Starter",
+        "url": "https://barrelwisdom.com/escha/items/red-starter/en"
+      }
+    ],
     "Property Grade": 8,
     "Bomb": false,
     "Heal": false,
@@ -1936,7 +3134,7 @@
     "Property Cost": 6,
     "Property Fusion": "Fire Damage x Water Damage",
     "Property Description": "Adds fire and water damage to attacks.",
-    "Property Items": "",
+    "Property Items": [],
     "Property Grade": null,
     "Bomb": false,
     "Heal": false,
@@ -1950,7 +3148,7 @@
     "Property Cost": 6,
     "Property Fusion": "Earth Damage x Wind Damage",
     "Property Description": "Adds earth and wind damage to attacks.",
-    "Property Items": "",
+    "Property Items": [],
     "Property Grade": null,
     "Bomb": false,
     "Heal": false,
@@ -1964,7 +3162,7 @@
     "Property Cost": 12,
     "Property Fusion": "Crimson Blue x Verdant Gold",
     "Property Description": "Adds all elemental damage.",
-    "Property Items": "",
+    "Property Items": [],
     "Property Grade": null,
     "Bomb": false,
     "Heal": false,
@@ -1978,7 +3176,7 @@
     "Property Cost": 19,
     "Property Fusion": "Spirit Blessing x Spirit Slayer",
     "Property Description": "Adds damage from all elements to attacks.",
-    "Property Items": "",
+    "Property Items": [],
     "Property Grade": null,
     "Bomb": false,
     "Heal": false,
@@ -1992,7 +3190,20 @@
     "Property Cost": 7,
     "Property Fusion": null,
     "Property Description": "Attacks against Slag type enemies will always be critical hits.",
-    "Property Items": "Treasure Grimoire, Blessed Ring, Proto Phantom",
+    "Property Items": [
+      {
+        "name": "Treasure Grimoire",
+        "url": "https://barrelwisdom.com/escha/items/treasure-grimoire/en"
+      },
+      {
+        "name": "Blessed Ring",
+        "url": "https://barrelwisdom.com/escha/items/blessed-ring/en"
+      },
+      {
+        "name": "Proto Phantom",
+        "url": "https://barrelwisdom.com/escha/items/proto-phantom/en"
+      }
+    ],
     "Property Grade": 20,
     "Bomb": false,
     "Heal": false,
@@ -2006,7 +3217,24 @@
     "Property Cost": 7,
     "Property Fusion": null,
     "Property Description": "Attacks against Beast type enemies will always be critical hits.",
-    "Property Items": "Ruler's Claw, Beast Fang, Seven Star Medal, And more...",
+    "Property Items": [
+      {
+        "name": "Ruler's Claw",
+        "url": "https://barrelwisdom.com/escha/items/ruler-s-claw/en"
+      },
+      {
+        "name": "Beast Fang",
+        "url": "https://barrelwisdom.com/escha/items/beast-fang/en"
+      },
+      {
+        "name": "Seven Star Medal",
+        "url": "https://barrelwisdom.com/escha/items/seven-star-medal/en"
+      },
+      {
+        "name": "View more...",
+        "url": "https://barrelwisdom.com/escha/properties/beast-slayer/en"
+      }
+    ],
     "Property Grade": 20,
     "Bomb": false,
     "Heal": false,
@@ -2020,7 +3248,24 @@
     "Property Cost": 7,
     "Property Fusion": null,
     "Property Description": "Attacks against Spirit type enemies will always be critical hits.",
-    "Property Items": "Crystal Claw, Heart of Flame, Phoenix Bracelet, And more...",
+    "Property Items": [
+      {
+        "name": "Crystal Claw",
+        "url": "https://barrelwisdom.com/escha/items/crystal-claw/en"
+      },
+      {
+        "name": "Heart of Flame",
+        "url": "https://barrelwisdom.com/escha/items/heart-of-flame/en"
+      },
+      {
+        "name": "Phoenix Bracelet",
+        "url": "https://barrelwisdom.com/escha/items/phoenix-bracelet/en"
+      },
+      {
+        "name": "View more...",
+        "url": "https://barrelwisdom.com/escha/properties/spirit-slayer/en"
+      }
+    ],
     "Property Grade": 20,
     "Bomb": false,
     "Heal": false,
@@ -2034,7 +3279,20 @@
     "Property Cost": 7,
     "Property Fusion": null,
     "Property Description": "Attacks against Dragon type enemies will always be critical hits.",
-    "Property Items": "Dragon Scale, White Feather 9, Peerless Sabre",
+    "Property Items": [
+      {
+        "name": "Dragon Scale",
+        "url": "https://barrelwisdom.com/escha/items/dragon-scale/en"
+      },
+      {
+        "name": "White Feather 9",
+        "url": "https://barrelwisdom.com/escha/items/white-feather-9/en"
+      },
+      {
+        "name": "Peerless Sabre",
+        "url": "https://barrelwisdom.com/escha/items/peerless-sabre/en"
+      }
+    ],
     "Property Grade": 20,
     "Bomb": false,
     "Heal": false,
@@ -2048,7 +3306,24 @@
     "Property Cost": 2,
     "Property Fusion": null,
     "Property Description": "Chance to Poison targets when dealing damage.",
-    "Property Items": "Poison Apple, Dried Fat, Traditional Staff, And more...",
+    "Property Items": [
+      {
+        "name": "Poison Apple",
+        "url": "https://barrelwisdom.com/escha/items/poison-apple/en"
+      },
+      {
+        "name": "Dried Fat",
+        "url": "https://barrelwisdom.com/escha/items/dried-fat/en"
+      },
+      {
+        "name": "Traditional Staff",
+        "url": "https://barrelwisdom.com/escha/items/traditional-staff/en"
+      },
+      {
+        "name": "View more...",
+        "url": "https://barrelwisdom.com/escha/properties/poison/en"
+      }
+    ],
     "Property Grade": 4,
     "Bomb": true,
     "Heal": false,
@@ -2062,7 +3337,12 @@
     "Property Cost": 5,
     "Property Fusion": "Poison x Fire Damage",
     "Property Description": "Poison and adds Fire damage. Increases attack.",
-    "Property Items": "Rot Snake Skin",
+    "Property Items": [
+      {
+        "name": "Rot Snake Skin",
+        "url": "https://barrelwisdom.com/escha/items/rot-snake-skin/en"
+      }
+    ],
     "Property Grade": 40,
     "Bomb": false,
     "Heal": false,
@@ -2076,7 +3356,24 @@
     "Property Cost": 2,
     "Property Fusion": null,
     "Property Description": "Causes some delay to an enemy's next turn when dealing damage.",
-    "Property Items": "Smoke Mushroom, Eternal Crystal, Golden Wing Staff, And more...",
+    "Property Items": [
+      {
+        "name": "Smoke Mushroom",
+        "url": "https://barrelwisdom.com/escha/items/smoke-mushroom/en"
+      },
+      {
+        "name": "Eternal Crystal",
+        "url": "https://barrelwisdom.com/escha/items/eternal-crystal/en"
+      },
+      {
+        "name": "Golden Wing Staff",
+        "url": "https://barrelwisdom.com/escha/items/golden-wing-staff/en"
+      },
+      {
+        "name": "View more...",
+        "url": "https://barrelwisdom.com/escha/properties/add-wt-delay/en"
+      }
+    ],
     "Property Grade": 5,
     "Bomb": true,
     "Heal": false,
@@ -2090,7 +3387,7 @@
     "Property Cost": 5,
     "Property Fusion": "Add WT Delay x Water Damage",
     "Property Description": "Delays turn, adds Water damage, & increase HP.",
-    "Property Items": "",
+    "Property Items": [],
     "Property Grade": null,
     "Bomb": false,
     "Heal": false,
@@ -2104,7 +3401,24 @@
     "Property Cost": 2,
     "Property Fusion": null,
     "Property Description": "Chance to cause Weakness when dealing damage.",
-    "Property Items": "Night Crystal, Glass Shaker, Sledge Head, And more...",
+    "Property Items": [
+      {
+        "name": "Night Crystal",
+        "url": "https://barrelwisdom.com/escha/items/night-crystal/en"
+      },
+      {
+        "name": "Glass Shaker",
+        "url": "https://barrelwisdom.com/escha/items/glass-shaker/en"
+      },
+      {
+        "name": "Sledge Head",
+        "url": "https://barrelwisdom.com/escha/items/sledge-head/en"
+      },
+      {
+        "name": "View more...",
+        "url": "https://barrelwisdom.com/escha/properties/weakness/en"
+      }
+    ],
     "Property Grade": 6,
     "Bomb": true,
     "Heal": false,
@@ -2118,7 +3432,7 @@
     "Property Cost": 5,
     "Property Fusion": "Weakness x Earth Damage",
     "Property Description": "Cause Weakness, adds Earth damage, and increase defense.",
-    "Property Items": "",
+    "Property Items": [],
     "Property Grade": null,
     "Bomb": false,
     "Heal": false,
@@ -2132,7 +3446,20 @@
     "Property Cost": 3,
     "Property Fusion": null,
     "Property Description": "Chance to cause Blindness when dealing damage.",
-    "Property Items": "Darkness Shoot, Graviton Gale, Ruby Talisman",
+    "Property Items": [
+      {
+        "name": "Darkness Shoot",
+        "url": "https://barrelwisdom.com/escha/items/darkness-shoot/en"
+      },
+      {
+        "name": "Graviton Gale",
+        "url": "https://barrelwisdom.com/escha/items/graviton-gale/en"
+      },
+      {
+        "name": "Ruby Talisman",
+        "url": "https://barrelwisdom.com/escha/items/ruby-talisman/en"
+      }
+    ],
     "Property Grade": 9,
     "Bomb": true,
     "Heal": false,
@@ -2146,7 +3473,7 @@
     "Property Cost": 6,
     "Property Fusion": "Blindness x Wind Damage",
     "Property Description": "Blind target, adds Wind damage, and increase speed.",
-    "Property Items": "",
+    "Property Items": [],
     "Property Grade": null,
     "Bomb": false,
     "Heal": false,
@@ -2160,7 +3487,20 @@
     "Property Cost": 4,
     "Property Fusion": null,
     "Property Description": "Chance to Slow when dealing damage.",
-    "Property Items": "Eternal Crystal, Aqua Talisman, Scattershot",
+    "Property Items": [
+      {
+        "name": "Eternal Crystal",
+        "url": "https://barrelwisdom.com/escha/items/eternal-crystal/en"
+      },
+      {
+        "name": "Aqua Talisman",
+        "url": "https://barrelwisdom.com/escha/items/aqua-talisman/en"
+      },
+      {
+        "name": "Scattershot",
+        "url": "https://barrelwisdom.com/escha/items/scattershot/en"
+      }
+    ],
     "Property Grade": 10,
     "Bomb": true,
     "Heal": false,
@@ -2174,7 +3514,7 @@
     "Property Cost": 10,
     "Property Fusion": "Slow x Spirit Attack",
     "Property Description": "Slow target, adds element damage, and raises stats.",
-    "Property Items": "",
+    "Property Items": [],
     "Property Grade": null,
     "Bomb": false,
     "Heal": false,
@@ -2188,7 +3528,24 @@
     "Property Cost": 1,
     "Property Fusion": null,
     "Property Description": "Increases all stats except resistances by 2.",
-    "Property Items": "Pendelock, Fluorite, Crystal Ball, And more...",
+    "Property Items": [
+      {
+        "name": "Pendelock",
+        "url": "https://barrelwisdom.com/escha/items/pendelock/en"
+      },
+      {
+        "name": "Fluorite",
+        "url": "https://barrelwisdom.com/escha/items/fluorite/en"
+      },
+      {
+        "name": "Crystal Ball",
+        "url": "https://barrelwisdom.com/escha/items/crystal-ball/en"
+      },
+      {
+        "name": "View more...",
+        "url": "https://barrelwisdom.com/escha/properties/all-stats-2/en"
+      }
+    ],
     "Property Grade": 3,
     "Bomb": false,
     "Heal": false,
@@ -2202,7 +3559,24 @@
     "Property Cost": 2,
     "Property Fusion": null,
     "Property Description": "Increases all stats except resistances by 4.",
-    "Property Items": "Beast King Relief, Purple Crystal, Bi-color Corundum, And more...",
+    "Property Items": [
+      {
+        "name": "Beast King Relief",
+        "url": "https://barrelwisdom.com/escha/items/beast-king-relief/en"
+      },
+      {
+        "name": "Purple Crystal",
+        "url": "https://barrelwisdom.com/escha/items/purple-crystal/en"
+      },
+      {
+        "name": "Bi-color Corundum",
+        "url": "https://barrelwisdom.com/escha/items/bi-color-corundum/en"
+      },
+      {
+        "name": "View more...",
+        "url": "https://barrelwisdom.com/escha/properties/all-stats-4/en"
+      }
+    ],
     "Property Grade": 6,
     "Bomb": false,
     "Heal": false,
@@ -2216,7 +3590,24 @@
     "Property Cost": 3,
     "Property Fusion": null,
     "Property Description": "Increases all stats except resistances by 6.",
-    "Property Items": "Dragon Bone, Dragon Scale, Yellow Crystal, And more...",
+    "Property Items": [
+      {
+        "name": "Dragon Bone",
+        "url": "https://barrelwisdom.com/escha/items/dragon-bone/en"
+      },
+      {
+        "name": "Dragon Scale",
+        "url": "https://barrelwisdom.com/escha/items/dragon-scale/en"
+      },
+      {
+        "name": "Yellow Crystal",
+        "url": "https://barrelwisdom.com/escha/items/yellow-crystal/en"
+      },
+      {
+        "name": "View more...",
+        "url": "https://barrelwisdom.com/escha/properties/all-stats-6/en"
+      }
+    ],
     "Property Grade": 9,
     "Bomb": false,
     "Heal": false,
@@ -2230,7 +3621,7 @@
     "Property Cost": 3,
     "Property Fusion": "All Stats +2 x All Stats +4",
     "Property Description": "Increases all stats except resistances by 6.",
-    "Property Items": "",
+    "Property Items": [],
     "Property Grade": null,
     "Bomb": false,
     "Heal": false,
@@ -2244,7 +3635,12 @@
     "Property Cost": 5,
     "Property Fusion": "All Stats +4 x All Stats +6",
     "Property Description": "Increases all stats except resistances by 10.",
-    "Property Items": "Golden Apple",
+    "Property Items": [
+      {
+        "name": "Golden Apple",
+        "url": "https://barrelwisdom.com/escha/items/golden-apple/en"
+      }
+    ],
     "Property Grade": 25,
     "Bomb": false,
     "Heal": false,
@@ -2258,7 +3654,7 @@
     "Property Cost": 8,
     "Property Fusion": "All Stats Up x All Stats +10",
     "Property Description": "Increases all stats except resistances by 20.",
-    "Property Items": "",
+    "Property Items": [],
     "Property Grade": null,
     "Bomb": false,
     "Heal": false,
@@ -2272,7 +3668,24 @@
     "Property Cost": 2,
     "Property Fusion": null,
     "Property Description": "Absorbs 3% of damage dealt to recover HP.",
-    "Property Items": "Metal Chips, Feather Staff, Goltriat, And more...",
+    "Property Items": [
+      {
+        "name": "Metal Chips",
+        "url": "https://barrelwisdom.com/escha/items/metal-chips/en"
+      },
+      {
+        "name": "Feather Staff",
+        "url": "https://barrelwisdom.com/escha/items/feather-staff/en"
+      },
+      {
+        "name": "Goltriat",
+        "url": "https://barrelwisdom.com/escha/items/goltriat/en"
+      },
+      {
+        "name": "View more...",
+        "url": "https://barrelwisdom.com/escha/properties/damage-absorb/en"
+      }
+    ],
     "Property Grade": 4,
     "Bomb": false,
     "Heal": false,
@@ -2286,7 +3699,20 @@
     "Property Cost": 3,
     "Property Fusion": null,
     "Property Description": "Absorbs 5% of damage dealt to recover HP.",
-    "Property Items": "Flowing Metal, Lifetree Staff, Traveling Doctor",
+    "Property Items": [
+      {
+        "name": "Flowing Metal",
+        "url": "https://barrelwisdom.com/escha/items/flowing-metal/en"
+      },
+      {
+        "name": "Lifetree Staff",
+        "url": "https://barrelwisdom.com/escha/items/lifetree-staff/en"
+      },
+      {
+        "name": "Traveling Doctor",
+        "url": "https://barrelwisdom.com/escha/items/traveling-doctor/en"
+      }
+    ],
     "Property Grade": 7,
     "Bomb": false,
     "Heal": false,
@@ -2300,7 +3726,20 @@
     "Property Cost": 4,
     "Property Fusion": null,
     "Property Description": "Absorbs 7% of damage dealt to recover HP.",
-    "Property Items": "Earth Slag Stone, Black Fang, Golt Board",
+    "Property Items": [
+      {
+        "name": "Earth Slag Stone",
+        "url": "https://barrelwisdom.com/escha/items/earth-slag-stone/en"
+      },
+      {
+        "name": "Black Fang",
+        "url": "https://barrelwisdom.com/escha/items/black-fang/en"
+      },
+      {
+        "name": "Golt Board",
+        "url": "https://barrelwisdom.com/escha/items/golt-board/en"
+      }
+    ],
     "Property Grade": 10,
     "Bomb": false,
     "Heal": false,
@@ -2314,7 +3753,7 @@
     "Property Cost": 5,
     "Property Fusion": "Damage Absorb x Damage Absorb+",
     "Property Description": "Absorbs 7% of damage dealt to recover HP.",
-    "Property Items": "",
+    "Property Items": [],
     "Property Grade": null,
     "Bomb": false,
     "Heal": false,
@@ -2328,7 +3767,12 @@
     "Property Cost": 7,
     "Property Fusion": "Damage Absorb+ x Damage Absorb++",
     "Property Description": "Absorbs 10% of damage dealt to recover HP.",
-    "Property Items": "Moon Milk",
+    "Property Items": [
+      {
+        "name": "Moon Milk",
+        "url": "https://barrelwisdom.com/escha/items/moon-milk/en"
+      }
+    ],
     "Property Grade": 25,
     "Bomb": false,
     "Heal": false,
@@ -2342,7 +3786,7 @@
     "Property Cost": 12,
     "Property Fusion": "HP Absorb x Steal Vitality",
     "Property Description": "Absorbs 15% of damage dealt to recover HP.",
-    "Property Items": "",
+    "Property Items": [],
     "Property Grade": null,
     "Bomb": false,
     "Heal": false,
@@ -2356,7 +3800,20 @@
     "Property Cost": 1,
     "Property Fusion": null,
     "Property Description": "Reduces Fire damage by 15%.",
-    "Property Items": "Unburning Web, Phlogiston, Cotton Shirt",
+    "Property Items": [
+      {
+        "name": "Unburning Web",
+        "url": "https://barrelwisdom.com/escha/items/unburning-web/en"
+      },
+      {
+        "name": "Phlogiston",
+        "url": "https://barrelwisdom.com/escha/items/phlogiston/en"
+      },
+      {
+        "name": "Cotton Shirt",
+        "url": "https://barrelwisdom.com/escha/items/cotton-shirt/en"
+      }
+    ],
     "Property Grade": 3,
     "Bomb": false,
     "Heal": false,
@@ -2370,7 +3827,24 @@
     "Property Cost": 3,
     "Property Fusion": null,
     "Property Description": "Reduces Fire damage by 25%.",
-    "Property Items": "Flame Root, Scorching Ore, Lava Stone, And more...",
+    "Property Items": [
+      {
+        "name": "Flame Root",
+        "url": "https://barrelwisdom.com/escha/items/flame-root/en"
+      },
+      {
+        "name": "Scorching Ore",
+        "url": "https://barrelwisdom.com/escha/items/scorching-ore/en"
+      },
+      {
+        "name": "Lava Stone",
+        "url": "https://barrelwisdom.com/escha/items/lava-stone/en"
+      },
+      {
+        "name": "View more...",
+        "url": "https://barrelwisdom.com/escha/properties/fire-resist-plus/en"
+      }
+    ],
     "Property Grade": 7,
     "Bomb": false,
     "Heal": false,
@@ -2384,7 +3858,20 @@
     "Property Cost": 2,
     "Property Fusion": null,
     "Property Description": "Reduces Water damage by 15%.",
-    "Property Items": "Aqua Light, Sturdy Shirt, Chest Plate",
+    "Property Items": [
+      {
+        "name": "Aqua Light",
+        "url": "https://barrelwisdom.com/escha/items/aqua-light/en"
+      },
+      {
+        "name": "Sturdy Shirt",
+        "url": "https://barrelwisdom.com/escha/items/sturdy-shirt/en"
+      },
+      {
+        "name": "Chest Plate",
+        "url": "https://barrelwisdom.com/escha/items/chest-plate/en"
+      }
+    ],
     "Property Grade": 4,
     "Bomb": false,
     "Heal": false,
@@ -2398,7 +3885,12 @@
     "Property Cost": 3,
     "Property Fusion": null,
     "Property Description": "Reduces Water damage by 25%.",
-    "Property Items": "Crystal Plate",
+    "Property Items": [
+      {
+        "name": "Crystal Plate",
+        "url": "https://barrelwisdom.com/escha/items/crystal-plate/en"
+      }
+    ],
     "Property Grade": 8,
     "Bomb": false,
     "Heal": false,
@@ -2412,7 +3904,16 @@
     "Property Cost": 1,
     "Property Fusion": null,
     "Property Description": "Reduces Wind damage by 15%.",
-    "Property Items": "Wind Core, Knitted Shirt",
+    "Property Items": [
+      {
+        "name": "Wind Core",
+        "url": "https://barrelwisdom.com/escha/items/wind-core/en"
+      },
+      {
+        "name": "Knitted Shirt",
+        "url": "https://barrelwisdom.com/escha/items/knitted-shirt/en"
+      }
+    ],
     "Property Grade": 3,
     "Bomb": false,
     "Heal": false,
@@ -2426,7 +3927,12 @@
     "Property Cost": 3,
     "Property Fusion": null,
     "Property Description": "Reduces Wind damage by 25%.",
-    "Property Items": "Chain Shirt",
+    "Property Items": [
+      {
+        "name": "Chain Shirt",
+        "url": "https://barrelwisdom.com/escha/items/chain-shirt/en"
+      }
+    ],
     "Property Grade": 7,
     "Bomb": false,
     "Heal": false,
@@ -2440,7 +3946,20 @@
     "Property Cost": 2,
     "Property Fusion": null,
     "Property Description": "Reduces Earth damage by 15%.",
-    "Property Items": "Earth Stone, Stylish Shirt, Alloy Plate",
+    "Property Items": [
+      {
+        "name": "Earth Stone",
+        "url": "https://barrelwisdom.com/escha/items/earth-stone/en"
+      },
+      {
+        "name": "Stylish Shirt",
+        "url": "https://barrelwisdom.com/escha/items/stylish-shirt/en"
+      },
+      {
+        "name": "Alloy Plate",
+        "url": "https://barrelwisdom.com/escha/items/alloy-plate/en"
+      }
+    ],
     "Property Grade": 4,
     "Bomb": false,
     "Heal": false,
@@ -2454,7 +3973,12 @@
     "Property Cost": 3,
     "Property Fusion": null,
     "Property Description": "Reduces Earth damage by 25%.",
-    "Property Items": "Jewel Plate",
+    "Property Items": [
+      {
+        "name": "Jewel Plate",
+        "url": "https://barrelwisdom.com/escha/items/jewel-plate/en"
+      }
+    ],
     "Property Grade": 8,
     "Bomb": false,
     "Heal": false,
@@ -2468,7 +3992,7 @@
     "Property Cost": 3,
     "Property Fusion": "Fire Resist x Water Resist",
     "Property Description": "Reduces Fire and Water damage by 15%.",
-    "Property Items": "",
+    "Property Items": [],
     "Property Grade": null,
     "Bomb": false,
     "Heal": false,
@@ -2482,7 +4006,7 @@
     "Property Cost": 3,
     "Property Fusion": "Wind Resist x Earth Resist",
     "Property Description": "Reduces Wind and Earth damage by 15%.",
-    "Property Items": "",
+    "Property Items": [],
     "Property Grade": null,
     "Bomb": false,
     "Heal": false,
@@ -2496,7 +4020,12 @@
     "Property Cost": 6,
     "Property Fusion": "Fire Resist+ x Water Resist+",
     "Property Description": "Reduces Fire and Water damage by 25%.",
-    "Property Items": "Cryptid Fur",
+    "Property Items": [
+      {
+        "name": "Cryptid Fur",
+        "url": "https://barrelwisdom.com/escha/items/cryptid-fur/en"
+      }
+    ],
     "Property Grade": 20,
     "Bomb": false,
     "Heal": false,
@@ -2510,7 +4039,7 @@
     "Property Cost": 6,
     "Property Fusion": "Wind Resist+ x Earth Resist+",
     "Property Description": "Wind Resist+ x Earth Resist+ Reduces Wind and Earth damage by 25%.",
-    "Property Items": "",
+    "Property Items": [],
     "Property Grade": null,
     "Bomb": false,
     "Heal": false,
@@ -2524,7 +4053,16 @@
     "Property Cost": 4,
     "Property Fusion": null,
     "Property Description": "Increases item effect. Stronger properties give a higher effect.",
-    "Property Items": "Abrasive, Polished Crystal",
+    "Property Items": [
+      {
+        "name": "Abrasive",
+        "url": "https://barrelwisdom.com/escha/items/abrasive/en"
+      },
+      {
+        "name": "Polished Crystal",
+        "url": "https://barrelwisdom.com/escha/items/polished-crystal/en"
+      }
+    ],
     "Property Grade": 10,
     "Bomb": true,
     "Heal": true,
@@ -2538,7 +4076,20 @@
     "Property Cost": 7,
     "Property Fusion": null,
     "Property Description": "Increases item effect. Stronger properties give a higher effect.",
-    "Property Items": "Jet Black Cube, Comet Crest Stone, Automatic Drive",
+    "Property Items": [
+      {
+        "name": "Jet Black Cube",
+        "url": "https://barrelwisdom.com/escha/items/jet-black-cube/en"
+      },
+      {
+        "name": "Comet Crest Stone",
+        "url": "https://barrelwisdom.com/escha/items/comet-crest-stone/en"
+      },
+      {
+        "name": "Automatic Drive",
+        "url": "https://barrelwisdom.com/escha/items/automatic-drive/en"
+      }
+    ],
     "Property Grade": 20,
     "Bomb": true,
     "Heal": true,
@@ -2552,7 +4103,7 @@
     "Property Cost": 11,
     "Property Fusion": null,
     "Property Description": "Increases item effect. Stronger properties give a higher effect.",
-    "Property Items": "",
+    "Property Items": [],
     "Property Grade": null,
     "Bomb": true,
     "Heal": true,
@@ -2566,7 +4117,16 @@
     "Property Cost": 2,
     "Property Fusion": null,
     "Property Description": "Launches extremely sharp thorns, causing large continuous damage.",
-    "Property Items": "Craft, Omega Craft",
+    "Property Items": [
+      {
+        "name": "Craft",
+        "url": "https://barrelwisdom.com/escha/items/craft/en"
+      },
+      {
+        "name": "Omega Craft",
+        "url": "https://barrelwisdom.com/escha/items/omega-craft/en"
+      }
+    ],
     "Property Grade": -1,
     "Bomb": true,
     "Heal": false,
@@ -2580,7 +4140,16 @@
     "Property Cost": 5,
     "Property Fusion": null,
     "Property Description": "Superheats the target, greatly decreasing their defense.",
-    "Property Items": "Bomb, Dire Bomb",
+    "Property Items": [
+      {
+        "name": "Bomb",
+        "url": "https://barrelwisdom.com/escha/items/bomb/en"
+      },
+      {
+        "name": "Dire Bomb",
+        "url": "https://barrelwisdom.com/escha/items/dire-bomb/en"
+      }
+    ],
     "Property Grade": -1,
     "Bomb": true,
     "Heal": false,
@@ -2594,7 +4163,16 @@
     "Property Cost": 5,
     "Property Fusion": null,
     "Property Description": "Surrounds the target in chilled air, greatly decreasing their speed.",
-    "Property Items": "Ice Bomb, Eis Ice Bomb",
+    "Property Items": [
+      {
+        "name": "Ice Bomb",
+        "url": "https://barrelwisdom.com/escha/items/ice-bomb/en"
+      },
+      {
+        "name": "Eis Ice Bomb",
+        "url": "https://barrelwisdom.com/escha/items/eis-ice-bomb/en"
+      }
+    ],
     "Property Grade": -1,
     "Bomb": true,
     "Heal": false,
@@ -2608,7 +4186,16 @@
     "Property Cost": 5,
     "Property Fusion": null,
     "Property Description": "Generates electrical current, making them susceptible to status ailments.",
-    "Property Items": "Lightning Bomb, Blitz Stone",
+    "Property Items": [
+      {
+        "name": "Lightning Bomb",
+        "url": "https://barrelwisdom.com/escha/items/lightning-bomb/en"
+      },
+      {
+        "name": "Blitz Stone",
+        "url": "https://barrelwisdom.com/escha/items/blitz-stone/en"
+      }
+    ],
     "Property Grade": -1,
     "Bomb": true,
     "Heal": false,
@@ -2622,7 +4209,12 @@
     "Property Cost": 5,
     "Property Fusion": null,
     "Property Description": "Dehydrates the enemy, greatly reducing their attack power.",
-    "Property Items": "Living Bomb",
+    "Property Items": [
+      {
+        "name": "Living Bomb",
+        "url": "https://barrelwisdom.com/escha/items/living-bomb/en"
+      }
+    ],
     "Property Grade": -1,
     "Bomb": true,
     "Heal": false,
@@ -2636,7 +4228,12 @@
     "Property Cost": 6,
     "Property Fusion": null,
     "Property Description": "Utilizes geothermal heat to deal massive continuous damage to the target.",
-    "Property Items": "Lava Cube",
+    "Property Items": [
+      {
+        "name": "Lava Cube",
+        "url": "https://barrelwisdom.com/escha/items/lava-cube/en"
+      }
+    ],
     "Property Grade": -1,
     "Bomb": true,
     "Heal": false,
@@ -2650,7 +4247,12 @@
     "Property Cost": 6,
     "Property Fusion": null,
     "Property Description": "Manipulates an intense water current, with a high chance to slow the target.",
-    "Property Items": "Divine Jar",
+    "Property Items": [
+      {
+        "name": "Divine Jar",
+        "url": "https://barrelwisdom.com/escha/items/divine-jar/en"
+      }
+    ],
     "Property Grade": -1,
     "Bomb": true,
     "Heal": false,
@@ -2664,7 +4266,12 @@
     "Property Cost": 6,
     "Property Fusion": null,
     "Property Description": "Generates an intense headwind, pushing the target's turn back a small amount.",
-    "Property Items": "Demon Eye",
+    "Property Items": [
+      {
+        "name": "Demon Eye",
+        "url": "https://barrelwisdom.com/escha/items/demon-eye/en"
+      }
+    ],
     "Property Grade": -1,
     "Bomb": true,
     "Heal": false,
@@ -2678,7 +4285,12 @@
     "Property Cost": 6,
     "Property Fusion": null,
     "Property Description": "Performs an extremely heavy attack, with a high critical chance.",
-    "Property Items": "Titan Hammer",
+    "Property Items": [
+      {
+        "name": "Titan Hammer",
+        "url": "https://barrelwisdom.com/escha/items/titan-hammer/en"
+      }
+    ],
     "Property Grade": -1,
     "Bomb": true,
     "Heal": false,
@@ -2692,7 +4304,12 @@
     "Property Cost": 6,
     "Property Fusion": null,
     "Property Description": "Uses a deadly chemical with a high chance of poisoning the target.",
-    "Property Items": "Poly. Poison",
+    "Property Items": [
+      {
+        "name": "Poly. Poison",
+        "url": "https://barrelwisdom.com/escha/items/poly-poison/en"
+      }
+    ],
     "Property Grade": -1,
     "Bomb": true,
     "Heal": false,
@@ -2706,7 +4323,12 @@
     "Property Cost": 6,
     "Property Fusion": null,
     "Property Description": "Reduces all enemy's stats with the power of a mysterious statue. Effect lasts 5 turns.",
-    "Property Items": "Slag Figure",
+    "Property Items": [
+      {
+        "name": "Slag Figure",
+        "url": "https://barrelwisdom.com/escha/items/slag-figure/en"
+      }
+    ],
     "Property Grade": -1,
     "Bomb": true,
     "Heal": false,
@@ -2720,7 +4342,12 @@
     "Property Cost": 10,
     "Property Fusion": null,
     "Property Description": "Drags the target between dimensions, pushing their turn back.",
-    "Property Items": "Dimension Bomb",
+    "Property Items": [
+      {
+        "name": "Dimension Bomb",
+        "url": "https://barrelwisdom.com/escha/items/dimension-bomb/en"
+      }
+    ],
     "Property Grade": -1,
     "Bomb": true,
     "Heal": false,
@@ -2734,7 +4361,12 @@
     "Property Cost": 6,
     "Property Fusion": null,
     "Property Description": "Deals physical damage. Part of the damage dealt heals the user's HP.",
-    "Property Items": "Dream Book",
+    "Property Items": [
+      {
+        "name": "Dream Book",
+        "url": "https://barrelwisdom.com/escha/items/dream-book/en"
+      }
+    ],
     "Property Grade": -1,
     "Bomb": true,
     "Heal": false,
@@ -2748,7 +4380,12 @@
     "Property Cost": 10,
     "Property Fusion": null,
     "Property Description": "A divine wave pours forth from the heavens, dealing a set amount of additional damage.",
-    "Property Items": "Knowledge Book",
+    "Property Items": [
+      {
+        "name": "Knowledge Book",
+        "url": "https://barrelwisdom.com/escha/items/knowledge-book/en"
+      }
+    ],
     "Property Grade": -1,
     "Bomb": true,
     "Heal": false,
@@ -2762,7 +4399,12 @@
     "Property Cost": 6,
     "Property Fusion": null,
     "Property Description": "Unleashes a blade of flames, dealing fire damage to the target.",
-    "Property Items": "Roten Blitz",
+    "Property Items": [
+      {
+        "name": "Roten Blitz",
+        "url": "https://barrelwisdom.com/escha/items/roten-blitz/en"
+      }
+    ],
     "Property Grade": -1,
     "Bomb": true,
     "Heal": false,
@@ -2776,7 +4418,12 @@
     "Property Cost": 6,
     "Property Fusion": null,
     "Property Description": "Unleashes a blade of ice, dealing water damage to the target.",
-    "Property Items": "Flava Blitz",
+    "Property Items": [
+      {
+        "name": "Flava Blitz",
+        "url": "https://barrelwisdom.com/escha/items/flava-blitz/en"
+      }
+    ],
     "Property Grade": -1,
     "Bomb": true,
     "Heal": false,
@@ -2790,7 +4437,12 @@
     "Property Cost": 6,
     "Property Fusion": null,
     "Property Description": "Unleashes a blade of wind, dealing wind damage to the target.",
-    "Property Items": "Guryun Blitz",
+    "Property Items": [
+      {
+        "name": "Guryun Blitz",
+        "url": "https://barrelwisdom.com/escha/items/guryun-blitz/en"
+      }
+    ],
     "Property Grade": -1,
     "Bomb": true,
     "Heal": false,
@@ -2804,7 +4456,12 @@
     "Property Cost": 6,
     "Property Fusion": null,
     "Property Description": "Unleashes a blade of earth, dealing earth damage to the target.",
-    "Property Items": "Airto Blitz",
+    "Property Items": [
+      {
+        "name": "Airto Blitz",
+        "url": "https://barrelwisdom.com/escha/items/airto-blitz/en"
+      }
+    ],
     "Property Grade": -1,
     "Bomb": true,
     "Heal": false,
@@ -2818,7 +4475,12 @@
     "Property Cost": 10,
     "Property Fusion": null,
     "Property Description": "Unleashes a blade of light, dealing damage of all elements to the target.",
-    "Property Items": "Tauzent Blitz",
+    "Property Items": [
+      {
+        "name": "Tauzent Blitz",
+        "url": "https://barrelwisdom.com/escha/items/tauzent-blitz/en"
+      }
+    ],
     "Property Grade": -1,
     "Bomb": true,
     "Heal": false,
@@ -2832,7 +4494,16 @@
     "Property Cost": 2,
     "Property Fusion": null,
     "Property Description": "Heals wounds, restoring a small amount of HP to the target.",
-    "Property Items": "Purple Flower, Healing Salve",
+    "Property Items": [
+      {
+        "name": "Purple Flower",
+        "url": "https://barrelwisdom.com/escha/items/purple-flower/en"
+      },
+      {
+        "name": "Healing Salve",
+        "url": "https://barrelwisdom.com/escha/items/healing-salve/en"
+      }
+    ],
     "Property Grade": -1,
     "Bomb": false,
     "Heal": true,
@@ -2846,7 +4517,12 @@
     "Property Cost": 4,
     "Property Fusion": null,
     "Property Description": "Creates pure air, giving the target HP regeneration.",
-    "Property Items": "Healing Cloud",
+    "Property Items": [
+      {
+        "name": "Healing Cloud",
+        "url": "https://barrelwisdom.com/escha/items/healing-cloud/en"
+      }
+    ],
     "Property Grade": -1,
     "Bomb": false,
     "Heal": true,
@@ -2860,7 +4536,12 @@
     "Property Cost": 2,
     "Property Fusion": null,
     "Property Description": "A delicious sweetness restores the target's MP.",
-    "Property Items": "Clear Jelly",
+    "Property Items": [
+      {
+        "name": "Clear Jelly",
+        "url": "https://barrelwisdom.com/escha/items/clear-jelly/en"
+      }
+    ],
     "Property Grade": -1,
     "Bomb": false,
     "Heal": true,
@@ -2874,7 +4555,12 @@
     "Property Cost": 2,
     "Property Fusion": null,
     "Property Description": "Creates a pleasant mood with a high quality sound, reducing the effect of status ailments.",
-    "Property Items": "Music Box",
+    "Property Items": [
+      {
+        "name": "Music Box",
+        "url": "https://barrelwisdom.com/escha/items/music-box/en"
+      }
+    ],
     "Property Grade": -1,
     "Bomb": false,
     "Heal": true,
@@ -2888,7 +4574,12 @@
     "Property Cost": 2,
     "Property Fusion": null,
     "Property Description": "A medicine for all illnesses removes all status ailments from the target.",
-    "Property Items": "SP Medicine",
+    "Property Items": [
+      {
+        "name": "SP Medicine",
+        "url": "https://barrelwisdom.com/escha/items/sp-medicine/en"
+      }
+    ],
     "Property Grade": -1,
     "Bomb": false,
     "Heal": true,
@@ -2902,7 +4593,12 @@
     "Property Cost": 4,
     "Property Fusion": null,
     "Property Description": "Relaxes the target, restoring MP.",
-    "Property Items": "Healing Aroma",
+    "Property Items": [
+      {
+        "name": "Healing Aroma",
+        "url": "https://barrelwisdom.com/escha/items/healing-aroma/en"
+      }
+    ],
     "Property Grade": -1,
     "Bomb": false,
     "Heal": true,
@@ -2916,7 +4612,16 @@
     "Property Cost": 2,
     "Property Fusion": null,
     "Property Description": "Reduces the target's perception of pain, reducing physical damage.",
-    "Property Items": "Oblivion Clover, Heal Bandage",
+    "Property Items": [
+      {
+        "name": "Oblivion Clover",
+        "url": "https://barrelwisdom.com/escha/items/oblivion-clover/en"
+      },
+      {
+        "name": "Heal Bandage",
+        "url": "https://barrelwisdom.com/escha/items/heal-bandage/en"
+      }
+    ],
     "Property Grade": -1,
     "Bomb": false,
     "Heal": true,
@@ -2930,7 +4635,12 @@
     "Property Cost": 4,
     "Property Fusion": null,
     "Property Description": "Water infused with the power of life revives the target.",
-    "Property Items": "Cup of Life",
+    "Property Items": [
+      {
+        "name": "Cup of Life",
+        "url": "https://barrelwisdom.com/escha/items/cup-of-life/en"
+      }
+    ],
     "Property Grade": -1,
     "Bomb": false,
     "Heal": true,
@@ -2944,7 +4654,12 @@
     "Property Cost": 8,
     "Property Fusion": null,
     "Property Description": "Unleashes the power of the miracle drug, reviving the target and giving HP regen.",
-    "Property Items": "Elixir",
+    "Property Items": [
+      {
+        "name": "Elixir",
+        "url": "https://barrelwisdom.com/escha/items/elixir/en"
+      }
+    ],
     "Property Grade": -1,
     "Bomb": false,
     "Heal": true,
@@ -2958,7 +4673,12 @@
     "Property Cost": 8,
     "Property Fusion": null,
     "Property Description": "Fills the target with the power of dragons, increasing the damage bonus from critical hits.",
-    "Property Items": "Dragon's Secret",
+    "Property Items": [
+      {
+        "name": "Dragon's Secret",
+        "url": "https://barrelwisdom.com/escha/items/dragon-s-secret/en"
+      }
+    ],
     "Property Grade": -1,
     "Bomb": false,
     "Heal": true,
@@ -2972,7 +4692,12 @@
     "Property Cost": 2,
     "Property Fusion": null,
     "Property Description": "Erases all traces of disease, removing all status ailments from the target.",
-    "Property Items": "Immune Medicine",
+    "Property Items": [
+      {
+        "name": "Immune Medicine",
+        "url": "https://barrelwisdom.com/escha/items/immune-medicine/en"
+      }
+    ],
     "Property Grade": -1,
     "Bomb": false,
     "Heal": true,
@@ -2986,7 +4711,12 @@
     "Property Cost": 4,
     "Property Fusion": null,
     "Property Description": "Camouflages the target with their surroundings, increasing dodge chance for 5 turns.",
-    "Property Items": "Magical Paint",
+    "Property Items": [
+      {
+        "name": "Magical Paint",
+        "url": "https://barrelwisdom.com/escha/items/magical-paint/en"
+      }
+    ],
     "Property Grade": -1,
     "Bomb": false,
     "Heal": true,
@@ -3000,7 +4730,12 @@
     "Property Cost": 6,
     "Property Fusion": null,
     "Property Description": "Reduces waiting time after the target's next turn by a small amount.",
-    "Property Items": "Time Watch",
+    "Property Items": [
+      {
+        "name": "Time Watch",
+        "url": "https://barrelwisdom.com/escha/items/time-watch/en"
+      }
+    ],
     "Property Grade": -1,
     "Bomb": false,
     "Heal": true,
@@ -3014,7 +4749,12 @@
     "Property Cost": 6,
     "Property Fusion": null,
     "Property Description": "Receive a blessing from the Slag statue, increasing the target's defense for 5 turns.",
-    "Property Items": "Slag Statue",
+    "Property Items": [
+      {
+        "name": "Slag Statue",
+        "url": "https://barrelwisdom.com/escha/items/slag-statue/en"
+      }
+    ],
     "Property Grade": -1,
     "Bomb": false,
     "Heal": true,
@@ -3028,7 +4768,12 @@
     "Property Cost": 6,
     "Property Fusion": null,
     "Property Description": "Receive a blessing from the Goddess, reducing physical damage taken by the target.",
-    "Property Items": "Goddess Shield",
+    "Property Items": [
+      {
+        "name": "Goddess Shield",
+        "url": "https://barrelwisdom.com/escha/items/goddess-shield/en"
+      }
+    ],
     "Property Grade": -1,
     "Bomb": false,
     "Heal": true,
@@ -3042,7 +4787,12 @@
     "Property Cost": 2,
     "Property Fusion": null,
     "Property Description": "The target becomes able to track movements, increasing their critical chance.",
-    "Property Items": "Eye-Opener",
+    "Property Items": [
+      {
+        "name": "Eye-Opener",
+        "url": "https://barrelwisdom.com/escha/items/eye-opener/en"
+      }
+    ],
     "Property Grade": -1,
     "Bomb": false,
     "Heal": true,
@@ -3056,7 +4806,12 @@
     "Property Cost": 8,
     "Property Fusion": null,
     "Property Description": "Using magic from the golden ring, the support gauge increases by a large amount.",
-    "Property Items": "Gold Curse Ring",
+    "Property Items": [
+      {
+        "name": "Gold Curse Ring",
+        "url": "https://barrelwisdom.com/escha/items/gold-curse-ring/en"
+      }
+    ],
     "Property Grade": -1,
     "Bomb": false,
     "Heal": true,
@@ -3070,7 +4825,12 @@
     "Property Cost": 8,
     "Property Fusion": null,
     "Property Description": "Using magic from the demon ring, the waiting time after the next move is shortened.",
-    "Property Items": "Demon Crucible",
+    "Property Items": [
+      {
+        "name": "Demon Crucible",
+        "url": "https://barrelwisdom.com/escha/items/demon-crucible/en"
+      }
+    ],
     "Property Grade": -1,
     "Bomb": false,
     "Heal": true,
@@ -3084,7 +4844,12 @@
     "Property Cost": 8,
     "Property Fusion": null,
     "Property Description": "A command increases the target's speed by a large amount.",
-    "Property Items": "Command Chime",
+    "Property Items": [
+      {
+        "name": "Command Chime",
+        "url": "https://barrelwisdom.com/escha/items/command-chime/en"
+      }
+    ],
     "Property Grade": -1,
     "Bomb": false,
     "Heal": true,
@@ -3098,7 +4863,12 @@
     "Property Cost": 4,
     "Property Fusion": null,
     "Property Description": "Vitality fills the target's body, increasing maximum HP by a large amount temporarily.",
-    "Property Items": "Medicine Bread",
+    "Property Items": [
+      {
+        "name": "Medicine Bread",
+        "url": "https://barrelwisdom.com/escha/items/medicine-bread/en"
+      }
+    ],
     "Property Grade": -1,
     "Bomb": false,
     "Heal": true,
@@ -3112,7 +4882,12 @@
     "Property Cost": 2,
     "Property Fusion": null,
     "Property Description": "A beautiful decoration refreshes the spirit, restoring large amounts of MP.",
-    "Property Items": "Apple Tart",
+    "Property Items": [
+      {
+        "name": "Apple Tart",
+        "url": "https://barrelwisdom.com/escha/items/apple-tart/en"
+      }
+    ],
     "Property Grade": -1,
     "Bomb": false,
     "Heal": true,
@@ -3126,7 +4901,12 @@
     "Property Cost": 4,
     "Property Fusion": null,
     "Property Description": "A taste of the forbidden. Reduces waiting time, but damage is taken every turn.",
-    "Property Items": "Forbidden Candy",
+    "Property Items": [
+      {
+        "name": "Forbidden Candy",
+        "url": "https://barrelwisdom.com/escha/items/forbidden-candy/en"
+      }
+    ],
     "Property Grade": -1,
     "Bomb": false,
     "Heal": true,
@@ -3140,7 +4920,12 @@
     "Property Cost": 6,
     "Property Fusion": null,
     "Property Description": "Mountain of pancakes assaults target, restoring HP. Amount restored increases by max HP.",
-    "Property Items": "Pancake Stack",
+    "Property Items": [
+      {
+        "name": "Pancake Stack",
+        "url": "https://barrelwisdom.com/escha/items/pancake-stack/en"
+      }
+    ],
     "Property Grade": -1,
     "Bomb": false,
     "Heal": true,
@@ -3154,7 +4939,12 @@
     "Property Cost": 6,
     "Property Fusion": null,
     "Property Description": "Preserves the target's life, automatically reviving them on their turn after being KO'd.",
-    "Property Items": "Fruit Ration",
+    "Property Items": [
+      {
+        "name": "Fruit Ration",
+        "url": "https://barrelwisdom.com/escha/items/fruit-ration/en"
+      }
+    ],
     "Property Grade": -1,
     "Bomb": false,
     "Heal": true,
@@ -3168,7 +4958,12 @@
     "Property Cost": 8,
     "Property Fusion": null,
     "Property Description": "The power of countless seeds automatically revives the target after being KO'd.",
-    "Property Items": "Apple Story",
+    "Property Items": [
+      {
+        "name": "Apple Story",
+        "url": "https://barrelwisdom.com/escha/items/apple-story/en"
+      }
+    ],
     "Property Grade": -1,
     "Bomb": false,
     "Heal": true,
@@ -3182,7 +4977,24 @@
     "Property Cost": 3,
     "Property Fusion": null,
     "Property Description": "Increases power by number of targets in area of effect x10%.",
-    "Property Items": "Slag Heart, Divine Jar, Command Chime, And more...",
+    "Property Items": [
+      {
+        "name": "Slag Heart",
+        "url": "https://barrelwisdom.com/escha/items/slag-heart/en"
+      },
+      {
+        "name": "Divine Jar",
+        "url": "https://barrelwisdom.com/escha/items/divine-jar/en"
+      },
+      {
+        "name": "Command Chime",
+        "url": "https://barrelwisdom.com/escha/items/command-chime/en"
+      },
+      {
+        "name": "View more...",
+        "url": "https://barrelwisdom.com/escha/properties/area-bonus/en"
+      }
+    ],
     "Property Grade": 8,
     "Bomb": true,
     "Heal": true,
@@ -3196,7 +5008,24 @@
     "Property Cost": 4,
     "Property Fusion": null,
     "Property Description": "Increases power by number of targets in area of effect x20%.",
-    "Property Items": "Divine Jar, Command Chime, Apple Story, And more...",
+    "Property Items": [
+      {
+        "name": "Divine Jar",
+        "url": "https://barrelwisdom.com/escha/items/divine-jar/en"
+      },
+      {
+        "name": "Command Chime",
+        "url": "https://barrelwisdom.com/escha/items/command-chime/en"
+      },
+      {
+        "name": "Apple Story",
+        "url": "https://barrelwisdom.com/escha/items/apple-story/en"
+      },
+      {
+        "name": "View more...",
+        "url": "https://barrelwisdom.com/escha/properties/area-bonus-plus/en"
+      }
+    ],
     "Property Grade": 12,
     "Bomb": true,
     "Heal": true,
@@ -3210,7 +5039,7 @@
     "Property Cost": 7,
     "Property Fusion": "Area Bonus x Area Bonus+",
     "Property Description": "Increases power by # of targets of effect x30%.",
-    "Property Items": "",
+    "Property Items": [],
     "Property Grade": null,
     "Bomb": true,
     "Heal": true,
@@ -3224,7 +5053,24 @@
     "Property Cost": 3,
     "Property Fusion": null,
     "Property Description": "Increases power by 25/number of targets in area %.",
-    "Property Items": "Ancient Jerky, Lightning Bomb, Flava Blitz, And more...",
+    "Property Items": [
+      {
+        "name": "Ancient Jerky",
+        "url": "https://barrelwisdom.com/escha/items/ancient-jerky/en"
+      },
+      {
+        "name": "Lightning Bomb",
+        "url": "https://barrelwisdom.com/escha/items/lightning-bomb/en"
+      },
+      {
+        "name": "Flava Blitz",
+        "url": "https://barrelwisdom.com/escha/items/flava-blitz/en"
+      },
+      {
+        "name": "View more...",
+        "url": "https://barrelwisdom.com/escha/properties/number-bonus/en"
+      }
+    ],
     "Property Grade": 8,
     "Bomb": true,
     "Heal": true,
@@ -3238,7 +5084,24 @@
     "Property Cost": 4,
     "Property Fusion": null,
     "Property Description": "Increases power by 50/number of targets in area %.",
-    "Property Items": "Flava Blitz, Cup of Life, Gold Curse Ring, And more...",
+    "Property Items": [
+      {
+        "name": "Flava Blitz",
+        "url": "https://barrelwisdom.com/escha/items/flava-blitz/en"
+      },
+      {
+        "name": "Cup of Life",
+        "url": "https://barrelwisdom.com/escha/items/cup-of-life/en"
+      },
+      {
+        "name": "Gold Curse Ring",
+        "url": "https://barrelwisdom.com/escha/items/gold-curse-ring/en"
+      },
+      {
+        "name": "View more...",
+        "url": "https://barrelwisdom.com/escha/properties/number-bonus-plus/en"
+      }
+    ],
     "Property Grade": 12,
     "Bomb": true,
     "Heal": true,
@@ -3252,7 +5115,7 @@
     "Property Cost": 7,
     "Property Fusion": "Number Bonus x Number Bonus+",
     "Property Description": "Increase power 75/number of targets in area %.",
-    "Property Items": "",
+    "Property Items": [],
     "Property Grade": null,
     "Bomb": true,
     "Heal": true,
@@ -3266,7 +5129,20 @@
     "Property Cost": 3,
     "Property Fusion": null,
     "Property Description": "Increases item power by 30% when only 1 use is left.",
-    "Property Items": "Slag Cable, Abrasive, Polished Crystal",
+    "Property Items": [
+      {
+        "name": "Slag Cable",
+        "url": "https://barrelwisdom.com/escha/items/slag-cable/en"
+      },
+      {
+        "name": "Abrasive",
+        "url": "https://barrelwisdom.com/escha/items/abrasive/en"
+      },
+      {
+        "name": "Polished Crystal",
+        "url": "https://barrelwisdom.com/escha/items/polished-crystal/en"
+      }
+    ],
     "Property Grade": 8,
     "Bomb": true,
     "Heal": true,
@@ -3280,7 +5156,16 @@
     "Property Cost": 4,
     "Property Fusion": null,
     "Property Description": "Increases item power by 60% when only 1 use is left.",
-    "Property Items": "Jet Black Cube, Flight Gas Jar",
+    "Property Items": [
+      {
+        "name": "Jet Black Cube",
+        "url": "https://barrelwisdom.com/escha/items/jet-black-cube/en"
+      },
+      {
+        "name": "Flight Gas Jar",
+        "url": "https://barrelwisdom.com/escha/items/flight-gas-jar/en"
+      }
+    ],
     "Property Grade": 12,
     "Bomb": true,
     "Heal": true,
@@ -3294,7 +5179,7 @@
     "Property Cost": 7,
     "Property Fusion": "Last Use Bonus x Last Use Bonus+",
     "Property Description": "Increases item power by 90% when 1 use left.",
-    "Property Items": "",
+    "Property Items": [],
     "Property Grade": null,
     "Bomb": true,
     "Heal": true,
@@ -3308,7 +5193,24 @@
     "Property Cost": 4,
     "Property Fusion": null,
     "Property Description": "Reduces WT caused by using item by 10%. Power also slightly decreases.",
-    "Property Items": "Slag Antenna, Demon Eye, Titan Hammer, And more...",
+    "Property Items": [
+      {
+        "name": "Slag Antenna",
+        "url": "https://barrelwisdom.com/escha/items/slag-antenna/en"
+      },
+      {
+        "name": "Demon Eye",
+        "url": "https://barrelwisdom.com/escha/items/demon-eye/en"
+      },
+      {
+        "name": "Titan Hammer",
+        "url": "https://barrelwisdom.com/escha/items/titan-hammer/en"
+      },
+      {
+        "name": "View more...",
+        "url": "https://barrelwisdom.com/escha/properties/quick-use/en"
+      }
+    ],
     "Property Grade": 10,
     "Bomb": true,
     "Heal": true,
@@ -3322,7 +5224,24 @@
     "Property Cost": 7,
     "Property Fusion": null,
     "Property Description": "Reduces WT caused by using item by 20%. Power also decreases a little.",
-    "Property Items": "Salt Leaf, Titan Hammer, Dream Book, And more...",
+    "Property Items": [
+      {
+        "name": "Salt Leaf",
+        "url": "https://barrelwisdom.com/escha/items/salt-leaf/en"
+      },
+      {
+        "name": "Titan Hammer",
+        "url": "https://barrelwisdom.com/escha/items/titan-hammer/en"
+      },
+      {
+        "name": "Dream Book",
+        "url": "https://barrelwisdom.com/escha/items/dream-book/en"
+      },
+      {
+        "name": "View more...",
+        "url": "https://barrelwisdom.com/escha/properties/quick-use-plus/en"
+      }
+    ],
     "Property Grade": 20,
     "Bomb": true,
     "Heal": true,
@@ -3336,7 +5255,7 @@
     "Property Cost": 11,
     "Property Fusion": "Quick Use x Quick Use+",
     "Property Description": "Reduces WT by 30%. Power also decreases.",
-    "Property Items": "",
+    "Property Items": [],
     "Property Grade": null,
     "Bomb": true,
     "Heal": true,
@@ -3350,7 +5269,20 @@
     "Property Cost": 3,
     "Property Fusion": null,
     "Property Description": "Exchange for using up the item, power increases by use count x5%.",
-    "Property Items": "Spray, Neutralizer-Y, Apple Jam",
+    "Property Items": [
+      {
+        "name": "Spray",
+        "url": "https://barrelwisdom.com/escha/items/spray/en"
+      },
+      {
+        "name": "Neutralizer-Y",
+        "url": "https://barrelwisdom.com/escha/items/neutralizer-y/en"
+      },
+      {
+        "name": "Apple Jam",
+        "url": "https://barrelwisdom.com/escha/items/apple-jam/en"
+      }
+    ],
     "Property Grade": 8,
     "Bomb": true,
     "Heal": true,
@@ -3364,7 +5296,24 @@
     "Property Cost": 4,
     "Property Fusion": null,
     "Property Description": "Exchange for using up the item, power increases by use count x10%.",
-    "Property Items": "Buried Bomb, Green Crystal, Gold Dust, And more...",
+    "Property Items": [
+      {
+        "name": "Buried Bomb",
+        "url": "https://barrelwisdom.com/escha/items/buried-bomb/en"
+      },
+      {
+        "name": "Green Crystal",
+        "url": "https://barrelwisdom.com/escha/items/green-crystal/en"
+      },
+      {
+        "name": "Gold Dust",
+        "url": "https://barrelwisdom.com/escha/items/gold-dust/en"
+      },
+      {
+        "name": "View more...",
+        "url": "https://barrelwisdom.com/escha/properties/count-compress-plus/en"
+      }
+    ],
     "Property Grade": 12,
     "Bomb": true,
     "Heal": true,
@@ -3378,7 +5327,7 @@
     "Property Cost": 7,
     "Property Fusion": "Count Compress x Count Compress+",
     "Property Description": "For using up item, power increases by use count x15%.",
-    "Property Items": "",
+    "Property Items": [],
     "Property Grade": null,
     "Bomb": true,
     "Heal": true,
@@ -3392,7 +5341,24 @@
     "Property Cost": 3,
     "Property Fusion": null,
     "Property Description": "Increases item power by use count x3%.",
-    "Property Items": "Slag Figure, Eis Ice Bomb, Medicine Bread, And more...",
+    "Property Items": [
+      {
+        "name": "Slag Figure",
+        "url": "https://barrelwisdom.com/escha/items/slag-figure/en"
+      },
+      {
+        "name": "Eis Ice Bomb",
+        "url": "https://barrelwisdom.com/escha/items/eis-ice-bomb/en"
+      },
+      {
+        "name": "Medicine Bread",
+        "url": "https://barrelwisdom.com/escha/items/medicine-bread/en"
+      },
+      {
+        "name": "View more...",
+        "url": "https://barrelwisdom.com/escha/properties/count-bonus/en"
+      }
+    ],
     "Property Grade": 8,
     "Bomb": true,
     "Heal": true,
@@ -3406,7 +5372,24 @@
     "Property Cost": 4,
     "Property Fusion": null,
     "Property Description": "Increases item power by use count x6%.",
-    "Property Items": "Buried Bomb, Slag Figure, Eis Ice Bomb, And more...",
+    "Property Items": [
+      {
+        "name": "Buried Bomb",
+        "url": "https://barrelwisdom.com/escha/items/buried-bomb/en"
+      },
+      {
+        "name": "Slag Figure",
+        "url": "https://barrelwisdom.com/escha/items/slag-figure/en"
+      },
+      {
+        "name": "Eis Ice Bomb",
+        "url": "https://barrelwisdom.com/escha/items/eis-ice-bomb/en"
+      },
+      {
+        "name": "View more...",
+        "url": "https://barrelwisdom.com/escha/properties/count-bonus-plus/en"
+      }
+    ],
     "Property Grade": 12,
     "Bomb": true,
     "Heal": true,
@@ -3420,7 +5403,7 @@
     "Property Cost": 7,
     "Property Fusion": "Count Bonus x Count Bonus+",
     "Property Description": "Increases item power by use count x9%.",
-    "Property Items": "",
+    "Property Items": [],
     "Property Grade": null,
     "Bomb": true,
     "Heal": true,
@@ -3434,7 +5417,20 @@
     "Property Cost": 4,
     "Property Fusion": null,
     "Property Description": "Turns healing item into timed effect. Lasts 1 turn. WT after using the item increased.",
-    "Property Items": "Slag Heart, Bitter Leaf, Apple Tart",
+    "Property Items": [
+      {
+        "name": "Slag Heart",
+        "url": "https://barrelwisdom.com/escha/items/slag-heart/en"
+      },
+      {
+        "name": "Bitter Leaf",
+        "url": "https://barrelwisdom.com/escha/items/bitter-leaf/en"
+      },
+      {
+        "name": "Apple Tart",
+        "url": "https://barrelwisdom.com/escha/items/apple-tart/en"
+      }
+    ],
     "Property Grade": 10,
     "Bomb": false,
     "Heal": true,
@@ -3448,7 +5444,24 @@
     "Property Cost": 7,
     "Property Fusion": null,
     "Property Description": "Turns healing item into timed effect. Lasts 2 turn. WT after using the item increased.",
-    "Property Items": "Forbidden Candy, Fruit Pie, Natural Extract, And more...",
+    "Property Items": [
+      {
+        "name": "Forbidden Candy",
+        "url": "https://barrelwisdom.com/escha/items/forbidden-candy/en"
+      },
+      {
+        "name": "Fruit Pie",
+        "url": "https://barrelwisdom.com/escha/items/fruit-pie/en"
+      },
+      {
+        "name": "Natural Extract",
+        "url": "https://barrelwisdom.com/escha/items/natural-extract/en"
+      },
+      {
+        "name": "View more...",
+        "url": "https://barrelwisdom.com/escha/properties/time-type-plus/en"
+      }
+    ],
     "Property Grade": 20,
     "Bomb": false,
     "Heal": true,
@@ -3462,7 +5475,7 @@
     "Property Cost": 11,
     "Property Fusion": "Time Type x Time Type+",
     "Property Description": "Turns healing item into timed effect. Lasts 3 turns. WT after using increased.",
-    "Property Items": "",
+    "Property Items": [],
     "Property Grade": null,
     "Bomb": false,
     "Heal": true,
@@ -3476,7 +5489,7 @@
     "Property Cost": 17,
     "Property Fusion": null,
     "Property Description": "A traditional soul resides in the item, increasing inherited PP by 30.",
-    "Property Items": "",
+    "Property Items": [],
     "Property Grade": null,
     "Bomb": true,
     "Heal": true,
@@ -3490,7 +5503,7 @@
     "Property Cost": 25,
     "Property Fusion": null,
     "Property Description": "A fire soul resides in the item, increasing HP and attack power.",
-    "Property Items": "",
+    "Property Items": [],
     "Property Grade": null,
     "Bomb": false,
     "Heal": false,
@@ -3504,7 +5517,7 @@
     "Property Cost": 25,
     "Property Fusion": null,
     "Property Description": "A water soul resides in the item, increasing MP and defense power.",
-    "Property Items": "",
+    "Property Items": [],
     "Property Grade": null,
     "Bomb": false,
     "Heal": false,
@@ -3518,7 +5531,7 @@
     "Property Cost": 25,
     "Property Fusion": null,
     "Property Description": "A wind soul resides in the item, increasing critical bonus & hit.",
-    "Property Items": "",
+    "Property Items": [],
     "Property Grade": null,
     "Bomb": false,
     "Heal": false,
@@ -3532,7 +5545,7 @@
     "Property Cost": 25,
     "Property Fusion": null,
     "Property Description": "Earth soul resides in item, resistance to delay effects & increase healing.",
-    "Property Items": "",
+    "Property Items": [],
     "Property Grade": null,
     "Bomb": false,
     "Heal": false,
@@ -3546,7 +5559,7 @@
     "Property Cost": 22,
     "Property Fusion": null,
     "Property Description": "Light god resides in item, conferring damage reversal & immune to ailments.",
-    "Property Items": "",
+    "Property Items": [],
     "Property Grade": null,
     "Bomb": false,
     "Heal": false,
@@ -3560,7 +5573,7 @@
     "Property Cost": 22,
     "Property Fusion": null,
     "Property Description": "Dark god resides in item, increase speed & reduce wait after skills.",
-    "Property Items": "",
+    "Property Items": [],
     "Property Grade": null,
     "Bomb": false,
     "Heal": false,
@@ -3574,7 +5587,7 @@
     "Property Cost": 22,
     "Property Fusion": null,
     "Property Description": "Lord of day resides in item, conferring HP regeneration & chance to avoid KO.",
-    "Property Items": "",
+    "Property Items": [],
     "Property Grade": null,
     "Bomb": false,
     "Heal": false,
@@ -3588,7 +5601,7 @@
     "Property Cost": 22,
     "Property Fusion": null,
     "Property Description": "Lord of night resides in item, increase critical chance & reduce waiting time.",
-    "Property Items": "",
+    "Property Items": [],
     "Property Grade": null,
     "Bomb": false,
     "Heal": false,
@@ -3602,7 +5615,7 @@
     "Property Cost": 25,
     "Property Fusion": null,
     "Property Description": "Holy soul resides in item, conferring damage conversion & reducing physical damage.",
-    "Property Items": "",
+    "Property Items": [],
     "Property Grade": null,
     "Bomb": false,
     "Heal": false,
@@ -3616,7 +5629,7 @@
     "Property Cost": 25,
     "Property Fusion": null,
     "Property Description": "Demon soul resides in item, increasing attack power and HP drain per turn.",
-    "Property Items": "",
+    "Property Items": [],
     "Property Grade": null,
     "Bomb": false,
     "Heal": false,
@@ -3630,7 +5643,7 @@
     "Property Cost": 20,
     "Property Fusion": null,
     "Property Description": "Soul of sunlight resides in item, increasing stats and fire/water resistance.",
-    "Property Items": "",
+    "Property Items": [],
     "Property Grade": null,
     "Bomb": false,
     "Heal": false,
@@ -3644,7 +5657,7 @@
     "Property Cost": 20,
     "Property Fusion": null,
     "Property Description": "Soul of moonlight resides in item, increasing stats and wind/earth resistance.",
-    "Property Items": "",
+    "Property Items": [],
     "Property Grade": null,
     "Bomb": false,
     "Heal": false,
@@ -3658,7 +5671,7 @@
     "Property Cost": 20,
     "Property Fusion": null,
     "Property Description": "Planetary soul resides in item, switching HP/MP and increasing dodge chance.",
-    "Property Items": "",
+    "Property Items": [],
     "Property Grade": null,
     "Bomb": false,
     "Heal": false,
@@ -3672,7 +5685,7 @@
     "Property Cost": 20,
     "Property Fusion": null,
     "Property Description": "Aerial soul resides in item, increasing support effectiveness and support gauge.",
-    "Property Items": "",
+    "Property Items": [],
     "Property Grade": null,
     "Bomb": false,
     "Heal": false,
@@ -3686,7 +5699,7 @@
     "Property Cost": 33,
     "Property Fusion": null,
     "Property Description": "A brave soul resides in the item, greatly increasing skill power.",
-    "Property Items": "",
+    "Property Items": [],
     "Property Grade": null,
     "Bomb": false,
     "Heal": false,
@@ -3700,7 +5713,7 @@
     "Property Cost": 33,
     "Property Fusion": null,
     "Property Description": "A warlord's soul resides in the item, adding physical damage and status effects.",
-    "Property Items": "",
+    "Property Items": [],
     "Property Grade": null,
     "Bomb": false,
     "Heal": false,
@@ -3714,7 +5727,7 @@
     "Property Cost": 25,
     "Property Fusion": null,
     "Property Description": "A vampiric soul resides in the item, returning a portion of damage dealt to the user.",
-    "Property Items": "",
+    "Property Items": [],
     "Property Grade": null,
     "Bomb": false,
     "Heal": false,
@@ -3728,7 +5741,7 @@
     "Property Cost": 33,
     "Property Fusion": null,
     "Property Description": "Forceful soul resides in item, adding additional constant damage and physical damage.",
-    "Property Items": "",
+    "Property Items": [],
     "Property Grade": null,
     "Bomb": false,
     "Heal": false,
@@ -3742,7 +5755,7 @@
     "Property Cost": 33,
     "Property Fusion": null,
     "Property Description": "An awakened soul resides in the item, strengthening level proportions.",
-    "Property Items": "",
+    "Property Items": [],
     "Property Grade": null,
     "Bomb": false,
     "Heal": false,
@@ -3756,7 +5769,7 @@
     "Property Cost": 20,
     "Property Fusion": null,
     "Property Description": "Soul of vitality resides in item, increasing maximum HP and automatic KO revival.",
-    "Property Items": "",
+    "Property Items": [],
     "Property Grade": null,
     "Bomb": false,
     "Heal": false,
@@ -3770,7 +5783,7 @@
     "Property Cost": 17,
     "Property Fusion": null,
     "Property Description": "Heroic soul resides in item, increasing abilities against powerful foes & bosses.",
-    "Property Items": "",
+    "Property Items": [],
     "Property Grade": null,
     "Bomb": false,
     "Heal": false,
@@ -3784,7 +5797,7 @@
     "Property Cost": 25,
     "Property Fusion": null,
     "Property Description": "A loving soul resides in the item, strengthening support abilities.",
-    "Property Items": "",
+    "Property Items": [],
     "Property Grade": null,
     "Bomb": false,
     "Heal": false,
@@ -3798,7 +5811,7 @@
     "Property Cost": 20,
     "Property Fusion": null,
     "Property Description": "Increases item effect by 125%.",
-    "Property Items": "",
+    "Property Items": [],
     "Property Grade": null,
     "Bomb": true,
     "Heal": false,
@@ -3812,7 +5825,7 @@
     "Property Cost": 20,
     "Property Fusion": null,
     "Property Description": "Increases item effect by 100%.",
-    "Property Items": "",
+    "Property Items": [],
     "Property Grade": null,
     "Bomb": false,
     "Heal": true,
@@ -3826,7 +5839,7 @@
     "Property Cost": 17,
     "Property Fusion": null,
     "Property Description": "If HP drops below 60%, this item will be used. However, it will produce no gauge.",
-    "Property Items": "",
+    "Property Items": [],
     "Property Grade": null,
     "Bomb": false,
     "Heal": true,
@@ -3840,7 +5853,7 @@
     "Property Cost": 20,
     "Property Fusion": null,
     "Property Description": "Increases maximum HP and MP by 50.",
-    "Property Items": "",
+    "Property Items": [],
     "Property Grade": null,
     "Bomb": false,
     "Heal": false,
@@ -3854,7 +5867,7 @@
     "Property Cost": 20,
     "Property Fusion": null,
     "Property Description": "Increases defense power by 50, and all stats by 25%.",
-    "Property Items": "",
+    "Property Items": [],
     "Property Grade": null,
     "Bomb": false,
     "Heal": false,
@@ -3868,7 +5881,7 @@
     "Property Cost": 17,
     "Property Fusion": null,
     "Property Description": "Increases attack power by 20, and 10% of damage dealt is absorbed as HP recovery.",
-    "Property Items": "",
+    "Property Items": [],
     "Property Grade": null,
     "Bomb": false,
     "Heal": false,
@@ -3882,7 +5895,7 @@
     "Property Cost": 25,
     "Property Fusion": null,
     "Property Description": "Increases skill power by 50%, and reduces skill MP consumption by 25%.",
-    "Property Items": "",
+    "Property Items": [],
     "Property Grade": null,
     "Bomb": false,
     "Heal": false,
@@ -3896,7 +5909,7 @@
     "Property Cost": 17,
     "Property Fusion": null,
     "Property Description": "Increases item power by (number of targets in area x60)%.",
-    "Property Items": "",
+    "Property Items": [],
     "Property Grade": null,
     "Bomb": true,
     "Heal": true,
@@ -3910,7 +5923,7 @@
     "Property Cost": 17,
     "Property Fusion": null,
     "Property Description": "Increases item power by (120/number of targets in area)%.",
-    "Property Items": "",
+    "Property Items": [],
     "Property Grade": null,
     "Bomb": true,
     "Heal": true,
@@ -3924,7 +5937,7 @@
     "Property Cost": 20,
     "Property Fusion": null,
     "Property Description": "Increases item power by (90/# of targets in area)% + (# of targets in area x40)%.",
-    "Property Items": "",
+    "Property Items": [],
     "Property Grade": null,
     "Bomb": true,
     "Heal": true,
@@ -3938,7 +5951,7 @@
     "Property Cost": 17,
     "Property Fusion": null,
     "Property Description": "Item power increases by 150% when only 1 use remains.",
-    "Property Items": "",
+    "Property Items": [],
     "Property Grade": null,
     "Bomb": true,
     "Heal": true,
@@ -3952,7 +5965,7 @@
     "Property Cost": 25,
     "Property Fusion": null,
     "Property Description": "Reduces WT caused by using item by 50%.",
-    "Property Items": "",
+    "Property Items": [],
     "Property Grade": null,
     "Bomb": true,
     "Heal": true,
@@ -3966,7 +5979,7 @@
     "Property Cost": 17,
     "Property Fusion": null,
     "Property Description": "In exchange for using the item up in 1 use, its power increases by (use count x20)%.",
-    "Property Items": "",
+    "Property Items": [],
     "Property Grade": null,
     "Bomb": true,
     "Heal": true,
@@ -3980,7 +5993,7 @@
     "Property Cost": 25,
     "Property Fusion": null,
     "Property Description": "Item power increases by (use count x15)%.",
-    "Property Items": "",
+    "Property Items": [],
     "Property Grade": null,
     "Bomb": true,
     "Heal": true,
@@ -3994,7 +6007,7 @@
     "Property Cost": 25,
     "Property Fusion": null,
     "Property Description": "Turns healing item into timed effect, and also be used if HP drops below 25%.",
-    "Property Items": "",
+    "Property Items": [],
     "Property Grade": null,
     "Bomb": false,
     "Heal": true,
@@ -4008,7 +6021,7 @@
     "Property Cost": 14,
     "Property Fusion": null,
     "Property Description": "Adds additional physical damage to attacks. Skill power also increases.",
-    "Property Items": "",
+    "Property Items": [],
     "Property Grade": null,
     "Bomb": false,
     "Heal": false,
@@ -4022,7 +6035,7 @@
     "Property Cost": 25,
     "Property Fusion": null,
     "Property Description": "Adds very high physical damage to attacks. Skill power also greatly increases.",
-    "Property Items": "",
+    "Property Items": [],
     "Property Grade": null,
     "Bomb": false,
     "Heal": false,
@@ -4036,7 +6049,7 @@
     "Property Cost": 20,
     "Property Fusion": null,
     "Property Description": "Adds additional fixed damage to attacks. Skill power also increases.",
-    "Property Items": "",
+    "Property Items": [],
     "Property Grade": null,
     "Bomb": false,
     "Heal": false,
@@ -4050,7 +6063,7 @@
     "Property Cost": 20,
     "Property Fusion": null,
     "Property Description": "Adds additional fixed damage. Damage variation is large, but skill power greatly increases too.",
-    "Property Items": "",
+    "Property Items": [],
     "Property Grade": null,
     "Bomb": false,
     "Heal": false,
@@ -4064,7 +6077,12 @@
     "Property Cost": 7,
     "Property Fusion": null,
     "Property Description": "Adds large amount of additional physical damage. Skill power increases too.",
-    "Property Items": "Mantis Blade",
+    "Property Items": [
+      {
+        "name": "Mantis Blade",
+        "url": "https://barrelwisdom.com/escha/items/mantis-blade/en"
+      }
+    ],
     "Property Grade": 20,
     "Bomb": false,
     "Heal": false,
@@ -4078,7 +6096,12 @@
     "Property Cost": 17,
     "Property Fusion": null,
     "Property Description": "Adds 4 element damage and adds chance to poison/blind/weaken. Also increases skill power.",
-    "Property Items": "Aurora Stone",
+    "Property Items": [
+      {
+        "name": "Aurora Stone",
+        "url": "https://barrelwisdom.com/escha/items/aurora-stone/en"
+      }
+    ],
     "Property Grade": 50,
     "Bomb": false,
     "Heal": false,
@@ -4092,7 +6115,12 @@
     "Property Cost": 5,
     "Property Fusion": null,
     "Property Description": "Reduces target's fire resistance by 20.",
-    "Property Items": "Crimson Soil",
+    "Property Items": [
+      {
+        "name": "Crimson Soil",
+        "url": "https://barrelwisdom.com/escha/items/crimson-soil/en"
+      }
+    ],
     "Property Grade": 15,
     "Bomb": true,
     "Heal": false,
@@ -4106,7 +6134,12 @@
     "Property Cost": 5,
     "Property Fusion": null,
     "Property Description": "Reduces target's water resistance by 20.",
-    "Property Items": "Ultramarine Soil",
+    "Property Items": [
+      {
+        "name": "Ultramarine Soil",
+        "url": "https://barrelwisdom.com/escha/items/ultramarine-soil/en"
+      }
+    ],
     "Property Grade": 15,
     "Bomb": true,
     "Heal": false,
@@ -4120,7 +6153,12 @@
     "Property Cost": 5,
     "Property Fusion": null,
     "Property Description": "Reduces target's wind resistance by 20.",
-    "Property Items": "Green Soil",
+    "Property Items": [
+      {
+        "name": "Green Soil",
+        "url": "https://barrelwisdom.com/escha/items/green-soil/en"
+      }
+    ],
     "Property Grade": 15,
     "Bomb": true,
     "Heal": false,
@@ -4134,7 +6172,12 @@
     "Property Cost": 5,
     "Property Fusion": null,
     "Property Description": "Reduces target's earth resistance by 20.",
-    "Property Items": "Amber Soil",
+    "Property Items": [
+      {
+        "name": "Amber Soil",
+        "url": "https://barrelwisdom.com/escha/items/amber-soil/en"
+      }
+    ],
     "Property Grade": 15,
     "Bomb": true,
     "Heal": false,
@@ -4148,7 +6191,7 @@
     "Property Cost": 33,
     "Property Fusion": null,
     "Property Description": "Strengthens item effect by (equip cost squared x8)%.",
-    "Property Items": "",
+    "Property Items": [],
     "Property Grade": null,
     "Bomb": true,
     "Heal": true,
@@ -4162,7 +6205,7 @@
     "Property Cost": 33,
     "Property Fusion": null,
     "Property Description": "Attack item effect up fixed amount. Inversely proportional to original amount.",
-    "Property Items": "",
+    "Property Items": [],
     "Property Grade": null,
     "Bomb": true,
     "Heal": false,
@@ -4176,7 +6219,7 @@
     "Property Cost": 33,
     "Property Fusion": null,
     "Property Description": "Healing item effect up. Inversely proportional to original amount.",
-    "Property Items": "",
+    "Property Items": [],
     "Property Grade": null,
     "Bomb": false,
     "Heal": true,
@@ -4190,7 +6233,7 @@
     "Property Cost": 33,
     "Property Fusion": null,
     "Property Description": "All base stats increased by 50%.",
-    "Property Items": "",
+    "Property Items": [],
     "Property Grade": null,
     "Bomb": false,
     "Heal": false,
@@ -4204,7 +6247,7 @@
     "Property Cost": 33,
     "Property Fusion": null,
     "Property Description": "Item effect strengthened by properties on item. Stronger properties add higher amounts.",
-    "Property Items": "",
+    "Property Items": [],
     "Property Grade": null,
     "Bomb": true,
     "Heal": true,
@@ -4218,7 +6261,7 @@
     "Property Cost": 6,
     "Property Fusion": "HP Reinforcement x MP Reinforcement",
     "Property Description": "Maximum HP and MP increased by 15.",
-    "Property Items": "",
+    "Property Items": [],
     "Property Grade": null,
     "Bomb": false,
     "Heal": false,
@@ -4232,7 +6275,12 @@
     "Property Cost": 10,
     "Property Fusion": "HP Boost x MP Boost",
     "Property Description": "Maximum HP and MP increased by 25.",
-    "Property Items": "Mysterious Silk",
+    "Property Items": [
+      {
+        "name": "Mysterious Silk",
+        "url": "https://barrelwisdom.com/escha/items/mysterious-silk/en"
+      }
+    ],
     "Property Grade": 25,
     "Bomb": false,
     "Heal": false,
@@ -4246,7 +6294,7 @@
     "Property Cost": 16,
     "Property Fusion": "HP Max Enhance x MP Max Enhance",
     "Property Description": "Maximum HP and MP increased by 40.",
-    "Property Items": "",
+    "Property Items": [],
     "Property Grade": null,
     "Bomb": false,
     "Heal": false,
@@ -4260,7 +6308,16 @@
     "Property Cost": 2,
     "Property Fusion": null,
     "Property Description": "Adds HP regeneration and reduces physical damage taken. Effect is weak.",
-    "Property Items": "Fairy Soul, Fairy Tail",
+    "Property Items": [
+      {
+        "name": "Fairy Soul",
+        "url": "https://barrelwisdom.com/escha/items/fairy-soul/en"
+      },
+      {
+        "name": "Fairy Tail",
+        "url": "https://barrelwisdom.com/escha/items/fairy-tail/en"
+      }
+    ],
     "Property Grade": null,
     "Bomb": false,
     "Heal": false,
@@ -4274,7 +6331,12 @@
     "Property Cost": 4,
     "Property Fusion": null,
     "Property Description": "Adds HP regeneration and reduces physical damage taken. Effect is fairly weak.",
-    "Property Items": "Diamond Gemstone",
+    "Property Items": [
+      {
+        "name": "Diamond Gemstone",
+        "url": "https://barrelwisdom.com/escha/items/diamond-gemstone/en"
+      }
+    ],
     "Property Grade": null,
     "Bomb": false,
     "Heal": false,
@@ -4288,7 +6350,16 @@
     "Property Cost": 8,
     "Property Fusion": null,
     "Property Description": "Adds HP regeneration and reduces physical damage taken. Effect is moderate.",
-    "Property Items": "Sky King Fossil, Sky Slag Stone",
+    "Property Items": [
+      {
+        "name": "Sky King Fossil",
+        "url": "https://barrelwisdom.com/escha/items/sky-king-fossil/en"
+      },
+      {
+        "name": "Sky Slag Stone",
+        "url": "https://barrelwisdom.com/escha/items/sky-slag-stone/en"
+      }
+    ],
     "Property Grade": null,
     "Bomb": false,
     "Heal": false,
@@ -4302,7 +6373,12 @@
     "Property Cost": 2,
     "Property Fusion": null,
     "Property Description": "Increases critical chance and hit chance. Effect is weak.",
-    "Property Items": "Ruler's Claw",
+    "Property Items": [
+      {
+        "name": "Ruler's Claw",
+        "url": "https://barrelwisdom.com/escha/items/ruler-s-claw/en"
+      }
+    ],
     "Property Grade": null,
     "Bomb": false,
     "Heal": false,
@@ -4316,7 +6392,12 @@
     "Property Cost": 4,
     "Property Fusion": null,
     "Property Description": "Increases critical chance and hit chance. Effect is fairly weak.",
-    "Property Items": "Crystal Claw",
+    "Property Items": [
+      {
+        "name": "Crystal Claw",
+        "url": "https://barrelwisdom.com/escha/items/crystal-claw/en"
+      }
+    ],
     "Property Grade": null,
     "Bomb": false,
     "Heal": false,
@@ -4330,7 +6411,12 @@
     "Property Cost": 8,
     "Property Fusion": null,
     "Property Description": "Increases critical chance and hit chance. Effect is moderate.",
-    "Property Items": "Sky King Fossil",
+    "Property Items": [
+      {
+        "name": "Sky King Fossil",
+        "url": "https://barrelwisdom.com/escha/items/sky-king-fossil/en"
+      }
+    ],
     "Property Grade": null,
     "Bomb": false,
     "Heal": false,
@@ -4344,7 +6430,12 @@
     "Property Cost": 2,
     "Property Fusion": null,
     "Property Description": "Increases dodge chance, and chance to avoid being KO'd. Effect is weak.",
-    "Property Items": "Unburning Web",
+    "Property Items": [
+      {
+        "name": "Unburning Web",
+        "url": "https://barrelwisdom.com/escha/items/unburning-web/en"
+      }
+    ],
     "Property Grade": null,
     "Bomb": false,
     "Heal": false,
@@ -4358,7 +6449,12 @@
     "Property Cost": 4,
     "Property Fusion": null,
     "Property Description": "Increases dodge chance, and chance to avoid being KO'd. Effect is fairly weak.",
-    "Property Items": "Rough Disk",
+    "Property Items": [
+      {
+        "name": "Rough Disk",
+        "url": "https://barrelwisdom.com/escha/items/rough-disk/en"
+      }
+    ],
     "Property Grade": null,
     "Bomb": false,
     "Heal": false,
@@ -4372,7 +6468,12 @@
     "Property Cost": 8,
     "Property Fusion": null,
     "Property Description": "Increases dodge chance, and chance to avoid being KO'd. Effect is moderate.",
-    "Property Items": "Paradise Feather",
+    "Property Items": [
+      {
+        "name": "Paradise Feather",
+        "url": "https://barrelwisdom.com/escha/items/paradise-feather/en"
+      }
+    ],
     "Property Grade": null,
     "Bomb": false,
     "Heal": false,
@@ -4386,7 +6487,12 @@
     "Property Cost": 2,
     "Property Fusion": null,
     "Property Description": "Reduces effectiveness of status ailments. Effect is weak.",
-    "Property Items": "Pendelock",
+    "Property Items": [
+      {
+        "name": "Pendelock",
+        "url": "https://barrelwisdom.com/escha/items/pendelock/en"
+      }
+    ],
     "Property Grade": null,
     "Bomb": false,
     "Heal": false,
@@ -4400,7 +6506,12 @@
     "Property Cost": 4,
     "Property Fusion": null,
     "Property Description": "Reduces effectiveness of status ailments. Effect is fairly weak.",
-    "Property Items": "Fairy Soul",
+    "Property Items": [
+      {
+        "name": "Fairy Soul",
+        "url": "https://barrelwisdom.com/escha/items/fairy-soul/en"
+      }
+    ],
     "Property Grade": null,
     "Bomb": false,
     "Heal": false,
@@ -4414,7 +6525,12 @@
     "Property Cost": 8,
     "Property Fusion": null,
     "Property Description": "Reduces effectiveness of status ailments. Effect is moderate.",
-    "Property Items": "Cryptid Fur",
+    "Property Items": [
+      {
+        "name": "Cryptid Fur",
+        "url": "https://barrelwisdom.com/escha/items/cryptid-fur/en"
+      }
+    ],
     "Property Grade": null,
     "Bomb": false,
     "Heal": false,
@@ -4428,7 +6544,12 @@
     "Property Cost": 10,
     "Property Fusion": null,
     "Property Description": "Increases all resistances by 10.",
-    "Property Items": "Dragon Fang",
+    "Property Items": [
+      {
+        "name": "Dragon Fang",
+        "url": "https://barrelwisdom.com/escha/items/dragon-fang/en"
+      }
+    ],
     "Property Grade": 30,
     "Bomb": false,
     "Heal": false,
@@ -4442,7 +6563,12 @@
     "Property Cost": 17,
     "Property Fusion": null,
     "Property Description": "Increases all resistances by 20.",
-    "Property Items": "Dragon Crystal",
+    "Property Items": [
+      {
+        "name": "Dragon Crystal",
+        "url": "https://barrelwisdom.com/escha/items/dragon-crystal/en"
+      }
+    ],
     "Property Grade": 50,
     "Bomb": false,
     "Heal": false,
@@ -4456,7 +6582,16 @@
     "Property Cost": 4,
     "Property Fusion": null,
     "Property Description": "Stimulates one's life force to temporarily boost endurance. Maximum HP increases by 10%.",
-    "Property Items": "Decade Taro, Dragon Tail",
+    "Property Items": [
+      {
+        "name": "Decade Taro",
+        "url": "https://barrelwisdom.com/escha/items/decade-taro/en"
+      },
+      {
+        "name": "Dragon Tail",
+        "url": "https://barrelwisdom.com/escha/items/dragon-tail/en"
+      }
+    ],
     "Property Grade": null,
     "Bomb": false,
     "Heal": true,
@@ -4470,7 +6605,12 @@
     "Property Cost": 12,
     "Property Fusion": null,
     "Property Description": "A mysterious flower increases healing effect, adding HP and MP healing.",
-    "Property Items": "Dunkelheit",
+    "Property Items": [
+      {
+        "name": "Dunkelheit",
+        "url": "https://barrelwisdom.com/escha/items/dunkelheit/en"
+      }
+    ],
     "Property Grade": null,
     "Bomb": false,
     "Heal": true,
@@ -4484,7 +6624,20 @@
     "Property Cost": 2,
     "Property Fusion": null,
     "Property Description": "Heals poison status.",
-    "Property Items": "Moss Grass, Bitter Grass, White Flower",
+    "Property Items": [
+      {
+        "name": "Moss Grass",
+        "url": "https://barrelwisdom.com/escha/items/moss-grass/en"
+      },
+      {
+        "name": "Bitter Grass",
+        "url": "https://barrelwisdom.com/escha/items/bitter-grass/en"
+      },
+      {
+        "name": "White Flower",
+        "url": "https://barrelwisdom.com/escha/items/white-flower/en"
+      }
+    ],
     "Property Grade": null,
     "Bomb": false,
     "Heal": true,
@@ -4498,7 +6651,16 @@
     "Property Cost": 4,
     "Property Fusion": null,
     "Property Description": "Heals weakness and poison status.",
-    "Property Items": "Bitter Grass, Clean Water",
+    "Property Items": [
+      {
+        "name": "Bitter Grass",
+        "url": "https://barrelwisdom.com/escha/items/bitter-grass/en"
+      },
+      {
+        "name": "Clean Water",
+        "url": "https://barrelwisdom.com/escha/items/clean-water/en"
+      }
+    ],
     "Property Grade": null,
     "Bomb": false,
     "Heal": true,
@@ -4512,7 +6674,16 @@
     "Property Cost": 8,
     "Property Fusion": null,
     "Property Description": "Heals all status ailments.",
-    "Property Items": "Noble Berry, Spring Water",
+    "Property Items": [
+      {
+        "name": "Noble Berry",
+        "url": "https://barrelwisdom.com/escha/items/noble-berry/en"
+      },
+      {
+        "name": "Spring Water",
+        "url": "https://barrelwisdom.com/escha/items/spring-water/en"
+      }
+    ],
     "Property Grade": null,
     "Bomb": false,
     "Heal": true,
@@ -4526,7 +6697,20 @@
     "Property Cost": 2,
     "Property Fusion": null,
     "Property Description": "Recovers a small amount of MP.",
-    "Property Items": "Green Apple, Purify Block, Honey Poppy",
+    "Property Items": [
+      {
+        "name": "Green Apple",
+        "url": "https://barrelwisdom.com/escha/items/green-apple/en"
+      },
+      {
+        "name": "Purify Block",
+        "url": "https://barrelwisdom.com/escha/items/purify-block/en"
+      },
+      {
+        "name": "Honey Poppy",
+        "url": "https://barrelwisdom.com/escha/items/honey-poppy/en"
+      }
+    ],
     "Property Grade": null,
     "Bomb": false,
     "Heal": true,
@@ -4540,7 +6724,20 @@
     "Property Cost": 4,
     "Property Fusion": null,
     "Property Description": "Recovers a limited amount of MP.",
-    "Property Items": "Lotus, Purify Block, Oblivion Clover",
+    "Property Items": [
+      {
+        "name": "Lotus",
+        "url": "https://barrelwisdom.com/escha/items/lotus/en"
+      },
+      {
+        "name": "Purify Block",
+        "url": "https://barrelwisdom.com/escha/items/purify-block/en"
+      },
+      {
+        "name": "Oblivion Clover",
+        "url": "https://barrelwisdom.com/escha/items/oblivion-clover/en"
+      }
+    ],
     "Property Grade": null,
     "Bomb": false,
     "Heal": true,
@@ -4554,7 +6751,16 @@
     "Property Cost": 10,
     "Property Fusion": null,
     "Property Description": "Strengthens target's stats temporarily. Effect stronger against powerful foes.",
-    "Property Items": "Dragon Fin, Dragon Bone",
+    "Property Items": [
+      {
+        "name": "Dragon Fin",
+        "url": "https://barrelwisdom.com/escha/items/dragon-fin/en"
+      },
+      {
+        "name": "Dragon Bone",
+        "url": "https://barrelwisdom.com/escha/items/dragon-bone/en"
+      }
+    ],
     "Property Grade": null,
     "Bomb": false,
     "Heal": true,
@@ -4568,7 +6774,12 @@
     "Property Cost": 8,
     "Property Fusion": null,
     "Property Description": "Increases all of the target's stats. Effect lasts 5 turns.",
-    "Property Items": "Gold Meat",
+    "Property Items": [
+      {
+        "name": "Gold Meat",
+        "url": "https://barrelwisdom.com/escha/items/gold-meat/en"
+      }
+    ],
     "Property Grade": null,
     "Bomb": false,
     "Heal": true,
@@ -4582,7 +6793,12 @@
     "Property Cost": 8,
     "Property Fusion": null,
     "Property Description": "Reduces damage of the next attack on the target by 25%.",
-    "Property Items": "Golden Apple",
+    "Property Items": [
+      {
+        "name": "Golden Apple",
+        "url": "https://barrelwisdom.com/escha/items/golden-apple/en"
+      }
+    ],
     "Property Grade": null,
     "Bomb": false,
     "Heal": true,
@@ -4596,7 +6812,12 @@
     "Property Cost": 2,
     "Property Fusion": null,
     "Property Description": "Delays the target's turn a small amount.",
-    "Property Items": "Soul Vine",
+    "Property Items": [
+      {
+        "name": "Soul Vine",
+        "url": "https://barrelwisdom.com/escha/items/soul-vine/en"
+      }
+    ],
     "Property Grade": null,
     "Bomb": true,
     "Heal": false,
@@ -4610,7 +6831,12 @@
     "Property Cost": 4,
     "Property Fusion": null,
     "Property Description": "The target has a chance to be affected with random status effects.",
-    "Property Items": "Aurora Stone",
+    "Property Items": [
+      {
+        "name": "Aurora Stone",
+        "url": "https://barrelwisdom.com/escha/items/aurora-stone/en"
+      }
+    ],
     "Property Grade": null,
     "Bomb": true,
     "Heal": false,
@@ -4624,7 +6850,12 @@
     "Property Cost": 6,
     "Property Fusion": null,
     "Property Description": "Additional physical damage against the target, & slightly reduces their attack power.",
-    "Property Items": "Word Stone-Star",
+    "Property Items": [
+      {
+        "name": "Word Stone-Star",
+        "url": "https://barrelwisdom.com/escha/items/word-stone-star/en"
+      }
+    ],
     "Property Grade": null,
     "Bomb": true,
     "Heal": false,
@@ -4638,7 +6869,12 @@
     "Property Cost": 6,
     "Property Fusion": null,
     "Property Description": "Deals additional fixed damage to the target, and slightly reduces their defense power.",
-    "Property Items": "Word Stone-Moon",
+    "Property Items": [
+      {
+        "name": "Word Stone-Moon",
+        "url": "https://barrelwisdom.com/escha/items/word-stone-moon/en"
+      }
+    ],
     "Property Grade": null,
     "Bomb": true,
     "Heal": false,
@@ -4652,7 +6888,12 @@
     "Property Cost": 6,
     "Property Fusion": null,
     "Property Description": "Slightly delays the target's turn, and slightly reduces their speed.",
-    "Property Items": "Word Stone-Sun",
+    "Property Items": [
+      {
+        "name": "Word Stone-Sun",
+        "url": "https://barrelwisdom.com/escha/items/word-stone-sun/en"
+      }
+    ],
     "Property Grade": null,
     "Bomb": true,
     "Heal": false,
@@ -4666,7 +6907,12 @@
     "Property Cost": 6,
     "Property Fusion": null,
     "Property Description": "Deals physical damage to the target, and returns a portion to the user as HP recovery.",
-    "Property Items": "Word Stone-Sea",
+    "Property Items": [
+      {
+        "name": "Word Stone-Sea",
+        "url": "https://barrelwisdom.com/escha/items/word-stone-sea/en"
+      }
+    ],
     "Property Grade": null,
     "Bomb": true,
     "Heal": false,
@@ -4680,7 +6926,12 @@
     "Property Cost": 6,
     "Property Fusion": null,
     "Property Description": "Deals continuous damage to the target, and reduces their dodge chance.",
-    "Property Items": "Word Stone-Sea",
+    "Property Items": [
+      {
+        "name": "Word Stone-Sea",
+        "url": "https://barrelwisdom.com/escha/items/word-stone-sea/en"
+      }
+    ],
     "Property Grade": null,
     "Bomb": true,
     "Heal": false,
@@ -4694,7 +6945,12 @@
     "Property Cost": 8,
     "Property Fusion": null,
     "Property Description": "Has a chance to slow the target.",
-    "Property Items": "Black Bone",
+    "Property Items": [
+      {
+        "name": "Black Bone",
+        "url": "https://barrelwisdom.com/escha/items/black-bone/en"
+      }
+    ],
     "Property Grade": null,
     "Bomb": true,
     "Heal": false,
@@ -4708,7 +6964,12 @@
     "Property Cost": 10,
     "Property Fusion": null,
     "Property Description": "Slightly reduces the target's maximum HP. The effect becomes stronger with higher max HP.",
-    "Property Items": "Rot Snake Skin",
+    "Property Items": [
+      {
+        "name": "Rot Snake Skin",
+        "url": "https://barrelwisdom.com/escha/items/rot-snake-skin/en"
+      }
+    ],
     "Property Grade": null,
     "Bomb": true,
     "Heal": false,
@@ -4722,7 +6983,16 @@
     "Property Cost": 6,
     "Property Fusion": null,
     "Property Description": "Deals a large amount of fixed damage to the target.",
-    "Property Items": "King's Wing, Word Stone-Man",
+    "Property Items": [
+      {
+        "name": "King's Wing",
+        "url": "https://barrelwisdom.com/escha/items/king-s-wing/en"
+      },
+      {
+        "name": "Word Stone-Man",
+        "url": "https://barrelwisdom.com/escha/items/word-stone-man/en"
+      }
+    ],
     "Property Grade": null,
     "Bomb": true,
     "Heal": false,
@@ -4736,7 +7006,20 @@
     "Property Cost": 5,
     "Property Fusion": null,
     "Property Description": "Increases item power a small amount proportional to waiting time after use.",
-    "Property Items": "Mossy Driftwood, Demon Eye, Dire Bomb",
+    "Property Items": [
+      {
+        "name": "Mossy Driftwood",
+        "url": "https://barrelwisdom.com/escha/items/mossy-driftwood/en"
+      },
+      {
+        "name": "Demon Eye",
+        "url": "https://barrelwisdom.com/escha/items/demon-eye/en"
+      },
+      {
+        "name": "Dire Bomb",
+        "url": "https://barrelwisdom.com/escha/items/dire-bomb/en"
+      }
+    ],
     "Property Grade": 15,
     "Bomb": true,
     "Heal": true,
@@ -4750,7 +7033,20 @@
     "Property Cost": 10,
     "Property Fusion": null,
     "Property Description": "Increases item power a fair amount proportional to waiting time after use.",
-    "Property Items": "Empty Core, Dream Book, White Powder",
+    "Property Items": [
+      {
+        "name": "Empty Core",
+        "url": "https://barrelwisdom.com/escha/items/empty-core/en"
+      },
+      {
+        "name": "Dream Book",
+        "url": "https://barrelwisdom.com/escha/items/dream-book/en"
+      },
+      {
+        "name": "White Powder",
+        "url": "https://barrelwisdom.com/escha/items/white-powder/en"
+      }
+    ],
     "Property Grade": 30,
     "Bomb": true,
     "Heal": true,
@@ -4764,7 +7060,7 @@
     "Property Cost": 15,
     "Property Fusion": "Enhance WT x Enhance WT+",
     "Property Description": "Increases item power proportional to wait time.",
-    "Property Items": "",
+    "Property Items": [],
     "Property Grade": null,
     "Bomb": true,
     "Heal": true,
@@ -4778,7 +7074,20 @@
     "Property Cost": 5,
     "Property Fusion": null,
     "Property Description": "Increases item power a small amount in exchange for increasing waiting time.",
-    "Property Items": "Bendy Materia, Demon Eye, Dire Bomb",
+    "Property Items": [
+      {
+        "name": "Bendy Materia",
+        "url": "https://barrelwisdom.com/escha/items/bendy-materia/en"
+      },
+      {
+        "name": "Demon Eye",
+        "url": "https://barrelwisdom.com/escha/items/demon-eye/en"
+      },
+      {
+        "name": "Dire Bomb",
+        "url": "https://barrelwisdom.com/escha/items/dire-bomb/en"
+      }
+    ],
     "Property Grade": 15,
     "Bomb": true,
     "Heal": true,
@@ -4792,7 +7101,20 @@
     "Property Cost": 10,
     "Property Fusion": null,
     "Property Description": "Increases item power in exchange for increasing waiting time.",
-    "Property Items": "Empty Core, Dream Book, White Powder",
+    "Property Items": [
+      {
+        "name": "Empty Core",
+        "url": "https://barrelwisdom.com/escha/items/empty-core/en"
+      },
+      {
+        "name": "Dream Book",
+        "url": "https://barrelwisdom.com/escha/items/dream-book/en"
+      },
+      {
+        "name": "White Powder",
+        "url": "https://barrelwisdom.com/escha/items/white-powder/en"
+      }
+    ],
     "Property Grade": 30,
     "Bomb": true,
     "Heal": true,
@@ -4806,7 +7128,7 @@
     "Property Cost": 15,
     "Property Fusion": "Power Throw x Power Throw+",
     "Property Description": "Increases item power exchange for more waiting time.",
-    "Property Items": "",
+    "Property Items": [],
     "Property Grade": null,
     "Bomb": true,
     "Heal": true,
@@ -4820,7 +7142,12 @@
     "Property Cost": 4,
     "Property Fusion": null,
     "Property Description": "The target recovers HP. The effect is moderate.",
-    "Property Items": "Refuel Ointment",
+    "Property Items": [
+      {
+        "name": "Refuel Ointment",
+        "url": "https://barrelwisdom.com/escha/items/refuel-ointment/en"
+      }
+    ],
     "Property Grade": null,
     "Bomb": false,
     "Heal": true,
@@ -4834,7 +7161,16 @@
     "Property Cost": 6,
     "Property Fusion": null,
     "Property Description": "Reduces physical damage taken by the target by 10%.",
-    "Property Items": "Red Flower, Medical Bandage",
+    "Property Items": [
+      {
+        "name": "Red Flower",
+        "url": "https://barrelwisdom.com/escha/items/red-flower/en"
+      },
+      {
+        "name": "Medical Bandage",
+        "url": "https://barrelwisdom.com/escha/items/medical-bandage/en"
+      }
+    ],
     "Property Grade": null,
     "Bomb": false,
     "Heal": true,
@@ -4848,7 +7184,12 @@
     "Property Cost": 10,
     "Property Fusion": null,
     "Property Description": "Revives the target, and recovers HP.",
-    "Property Items": "Holy Chalice",
+    "Property Items": [
+      {
+        "name": "Holy Chalice",
+        "url": "https://barrelwisdom.com/escha/items/holy-chalice/en"
+      }
+    ],
     "Property Grade": null,
     "Bomb": false,
     "Heal": true,
@@ -4862,7 +7203,12 @@
     "Property Cost": 16,
     "Property Fusion": null,
     "Property Description": "Greatly heals the target's HP and MP.",
-    "Property Items": "Elixir Base",
+    "Property Items": [
+      {
+        "name": "Elixir Base",
+        "url": "https://barrelwisdom.com/escha/items/elixir-base/en"
+      }
+    ],
     "Property Grade": null,
     "Bomb": false,
     "Heal": true,
@@ -4876,7 +7222,12 @@
     "Property Cost": 16,
     "Property Fusion": null,
     "Property Description": "Increases the support gauge a small amount.",
-    "Property Items": "Slag Essence",
+    "Property Items": [
+      {
+        "name": "Slag Essence",
+        "url": "https://barrelwisdom.com/escha/items/slag-essence/en"
+      }
+    ],
     "Property Grade": null,
     "Bomb": true,
     "Heal": true,
@@ -4890,7 +7241,12 @@
     "Property Cost": 4,
     "Property Fusion": null,
     "Property Description": "Allows the target to avoid being KO's 1 time.",
-    "Property Items": "Angel Powder",
+    "Property Items": [
+      {
+        "name": "Angel Powder",
+        "url": "https://barrelwisdom.com/escha/items/angel-powder/en"
+      }
+    ],
     "Property Grade": null,
     "Bomb": false,
     "Heal": true,
@@ -4904,7 +7260,12 @@
     "Property Cost": 4,
     "Property Fusion": null,
     "Property Description": "Target recovers a small amount of HP. Amount healed increases with maximum HP.",
-    "Property Items": "Fruit Pie",
+    "Property Items": [
+      {
+        "name": "Fruit Pie",
+        "url": "https://barrelwisdom.com/escha/items/fruit-pie/en"
+      }
+    ],
     "Property Grade": null,
     "Bomb": false,
     "Heal": true,
@@ -4918,7 +7279,24 @@
     "Property Cost": 6,
     "Property Fusion": null,
     "Property Description": "Target recovers HP. Amount healed increases with maximum HP.",
-    "Property Items": "Epicure Nut, Squash Tea, Veggie Soup, And more...",
+    "Property Items": [
+      {
+        "name": "Epicure Nut",
+        "url": "https://barrelwisdom.com/escha/items/epicure-nut/en"
+      },
+      {
+        "name": "Squash Tea",
+        "url": "https://barrelwisdom.com/escha/items/squash-tea/en"
+      },
+      {
+        "name": "Veggie Soup",
+        "url": "https://barrelwisdom.com/escha/items/veggie-soup/en"
+      },
+      {
+        "name": "View more...",
+        "url": "https://barrelwisdom.com/escha/properties/tasty-healing/en"
+      }
+    ],
     "Property Grade": null,
     "Bomb": false,
     "Heal": true,
@@ -4932,7 +7310,20 @@
     "Property Cost": 4,
     "Property Fusion": null,
     "Property Description": "Reduces effectiveness of status ailments on the target.",
-    "Property Items": "Curing Powder, Trad. Medicine, Strong Powder",
+    "Property Items": [
+      {
+        "name": "Curing Powder",
+        "url": "https://barrelwisdom.com/escha/items/curing-powder/en"
+      },
+      {
+        "name": "Trad. Medicine",
+        "url": "https://barrelwisdom.com/escha/items/trad-medicine/en"
+      },
+      {
+        "name": "Strong Powder",
+        "url": "https://barrelwisdom.com/escha/items/strong-powder/en"
+      }
+    ],
     "Property Grade": null,
     "Bomb": false,
     "Heal": true,
@@ -4946,7 +7337,24 @@
     "Property Cost": 2,
     "Property Fusion": null,
     "Property Description": "Additional physical damage and increases skill power. Effect is very low.",
-    "Property Items": "Glass Core, Traditional Staff, Golden Wing Staff, And more...",
+    "Property Items": [
+      {
+        "name": "Glass Core",
+        "url": "https://barrelwisdom.com/escha/items/glass-core/en"
+      },
+      {
+        "name": "Traditional Staff",
+        "url": "https://barrelwisdom.com/escha/items/traditional-staff/en"
+      },
+      {
+        "name": "Golden Wing Staff",
+        "url": "https://barrelwisdom.com/escha/items/golden-wing-staff/en"
+      },
+      {
+        "name": "View more...",
+        "url": "https://barrelwisdom.com/escha/properties/sharpness-boost/en"
+      }
+    ],
     "Property Grade": null,
     "Bomb": false,
     "Heal": false,
@@ -4960,7 +7368,24 @@
     "Property Cost": 4,
     "Property Fusion": null,
     "Property Description": "Additional physical damage and increases skill power. Effect is fairly low.",
-    "Property Items": "Feather Staff, Sky Alchemy Staff, Black Wing Veil, And more...",
+    "Property Items": [
+      {
+        "name": "Feather Staff",
+        "url": "https://barrelwisdom.com/escha/items/feather-staff/en"
+      },
+      {
+        "name": "Sky Alchemy Staff",
+        "url": "https://barrelwisdom.com/escha/items/sky-alchemy-staff/en"
+      },
+      {
+        "name": "Black Wing Veil",
+        "url": "https://barrelwisdom.com/escha/items/black-wing-veil/en"
+      },
+      {
+        "name": "View more...",
+        "url": "https://barrelwisdom.com/escha/properties/explosive-boost/en"
+      }
+    ],
     "Property Grade": null,
     "Bomb": false,
     "Heal": false,
@@ -4974,7 +7399,24 @@
     "Property Cost": 6,
     "Property Fusion": null,
     "Property Description": "Additional physical damage and increases skill power. Effect is low.",
-    "Property Items": "Lifetree Staff, Proto Phantom, Brave Bunker, And more...",
+    "Property Items": [
+      {
+        "name": "Lifetree Staff",
+        "url": "https://barrelwisdom.com/escha/items/lifetree-staff/en"
+      },
+      {
+        "name": "Proto Phantom",
+        "url": "https://barrelwisdom.com/escha/items/proto-phantom/en"
+      },
+      {
+        "name": "Brave Bunker",
+        "url": "https://barrelwisdom.com/escha/items/brave-bunker/en"
+      },
+      {
+        "name": "View more...",
+        "url": "https://barrelwisdom.com/escha/properties/aggression-boost/en"
+      }
+    ],
     "Property Grade": null,
     "Bomb": false,
     "Heal": false,
@@ -4988,7 +7430,12 @@
     "Property Cost": 17,
     "Property Fusion": null,
     "Property Description": "Additional damage to attacks & skills when the target is affected by status effects.",
-    "Property Items": "Black Fang",
+    "Property Items": [
+      {
+        "name": "Black Fang",
+        "url": "https://barrelwisdom.com/escha/items/black-fang/en"
+      }
+    ],
     "Property Grade": 50,
     "Bomb": false,
     "Heal": false,
@@ -5002,7 +7449,16 @@
     "Property Cost": 17,
     "Property Fusion": null,
     "Property Description": "Additional physical damage. Power increases as target's HP decreases.",
-    "Property Items": "King's Wing, Word Stone-Man",
+    "Property Items": [
+      {
+        "name": "King's Wing",
+        "url": "https://barrelwisdom.com/escha/items/king-s-wing/en"
+      },
+      {
+        "name": "Word Stone-Man",
+        "url": "https://barrelwisdom.com/escha/items/word-stone-man/en"
+      }
+    ],
     "Property Grade": 50,
     "Bomb": false,
     "Heal": false,
@@ -5016,7 +7472,12 @@
     "Property Cost": 7,
     "Property Fusion": null,
     "Property Description": "Slightly delays the target's turn.",
-    "Property Items": "Slag Memory",
+    "Property Items": [
+      {
+        "name": "Slag Memory",
+        "url": "https://barrelwisdom.com/escha/items/slag-memory/en"
+      }
+    ],
     "Property Grade": null,
     "Bomb": false,
     "Heal": false,
@@ -5030,7 +7491,12 @@
     "Property Cost": 4,
     "Property Fusion": null,
     "Property Description": "Temporarily steals some attack power from the target and adds it to your own.",
-    "Property Items": "Word Stone-Star",
+    "Property Items": [
+      {
+        "name": "Word Stone-Star",
+        "url": "https://barrelwisdom.com/escha/items/word-stone-star/en"
+      }
+    ],
     "Property Grade": null,
     "Bomb": true,
     "Heal": false,
@@ -5044,7 +7510,12 @@
     "Property Cost": 4,
     "Property Fusion": null,
     "Property Description": "Temporarily steals some defense power from the target and adds it to your own.",
-    "Property Items": "Word Stone-Moon",
+    "Property Items": [
+      {
+        "name": "Word Stone-Moon",
+        "url": "https://barrelwisdom.com/escha/items/word-stone-moon/en"
+      }
+    ],
     "Property Grade": null,
     "Bomb": true,
     "Heal": false,
@@ -5058,7 +7529,12 @@
     "Property Cost": 4,
     "Property Fusion": null,
     "Property Description": "Temporarily steals some speed from the target and adds it to your own.",
-    "Property Items": "Word Stone-Sun",
+    "Property Items": [
+      {
+        "name": "Word Stone-Sun",
+        "url": "https://barrelwisdom.com/escha/items/word-stone-sun/en"
+      }
+    ],
     "Property Grade": null,
     "Bomb": true,
     "Heal": false,
@@ -5072,7 +7548,12 @@
     "Property Cost": 14,
     "Property Fusion": null,
     "Property Description": "Adds powerful damage from all elements to attacks.",
-    "Property Items": "Time Flower",
+    "Property Items": [
+      {
+        "name": "Time Flower",
+        "url": "https://barrelwisdom.com/escha/items/time-flower/en"
+      }
+    ],
     "Property Grade": 40,
     "Bomb": false,
     "Heal": false,
@@ -5086,7 +7567,12 @@
     "Property Cost": 20,
     "Property Fusion": null,
     "Property Description": "Adds extremely powerful damage from all elements to attacks.",
-    "Property Items": "Dragon Core",
+    "Property Items": [
+      {
+        "name": "Dragon Core",
+        "url": "https://barrelwisdom.com/escha/items/dragon-core/en"
+      }
+    ],
     "Property Grade": 60,
     "Bomb": false,
     "Heal": false,

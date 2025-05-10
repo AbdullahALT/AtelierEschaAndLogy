@@ -64,12 +64,13 @@ export default function CardView({
               <div className="flex items-start gap-2">
                 <Package className="w-4 h-4 mt-1 text-sky-500 flex-none" />
                 <div className="flex flex-wrap gap-2">
-                  {item['Property Items'].split(',').map((itm, i) => (
+                  {item['Property Items'].map((itms, i) => (
                     <span
                       key={i}
-                      className="bg-slate-200 dark:bg-slate-700 text-xs px-2 py-1 rounded-full text-foreground"
+                      onClick={() => window.open(itms.url, '_blank')}
+                      className="bg-slate-200 dark:bg-slate-700 text-xs px-2 py-1 rounded-full text-foreground cursor-pointer hover:bg-slate-300 dark:hover:bg-slate-600 transition-all duration-200"
                     >
-                      {itm.trim()}
+                      {itms.name}
                     </span>
                   ))}
                 </div>
