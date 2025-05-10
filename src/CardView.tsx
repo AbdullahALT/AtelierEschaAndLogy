@@ -6,7 +6,8 @@ import {
   SyringeIcon,
   SwordIcon,
   StarIcon,
-  PlusCircleIcon
+  PlusCircleIcon,
+  Coins, Flame, Package, Combine
 } from 'lucide-react';
 import { JSX } from 'react';
 
@@ -27,40 +28,63 @@ export default function CardView({
   fields: string[];
 }) {
   return (
-    <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+    <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
       {items.map((item, index) => (
         <div
           key={index}
-          className="rounded-xl shadow-lg bg-white dark:bg-card p-4 border border-border flex flex-col justify-between"
+          className="rounded-2xl bg-white/60 dark:bg-white/5 backdrop-blur-md border border-gray-200 dark:border-gray-700 shadow-sm hover:shadow-xl hover:scale-[1.01] transition-all duration-300 p-6 flex flex-col justify-between"
         >
-          <div>
-            <h2 className="text-lg font-semibold text-primary mb-2">
+          {/* Header Section */}
+          <div className="flex items-center mb-3">
+            <span className="px-2 w-10 py-1 bg-yellow-100 dark:bg-yellow-900/30 rounded-md text-yellow-700 dark:text-yellow-300 text-sm font-medium">
+              <h2>{item['Property Cost']}</h2>
+            </span>
+            <h2 className="text-lg font-bold text-primary truncate ml-3">
               {item['Property Name']}
             </h2>
-            <p className="text-sm text-muted-foreground mb-3">
-              {item['Property Description']}
-            </p>
-            <div className="text-sm text-foreground mb-2">
-              <strong>Cost:</strong> {item['Property Cost']}
-            </div>
+          </div>
+
+          <p className="text-sm text-start text-muted-foreground mb-4 line-clamp-3">
+            {item['Property Description']}
+          </p>
+
+          {/* Details Section */}
+          <div className="space-y-2 text-sm text-foreground">
+
             {item['Property Fusion'] && (
-              <div className="text-sm text-foreground mb-2">
-                <strong>Fusion:</strong> {item['Property Fusion']}
+              <div className="flex items-center gap-2 ">
+                <Flame className="w-4 h-4 text-purple-500 " />
+                <span className="inline-block bg-purple-100 dark:bg-purple-900/30 text-purple-800 dark:text-purple-300 rounded-md px-2 py-1">
+                  {item['Property Fusion']}
+                </span>
               </div>
             )}
+
             {item['Property Items'] && (
-              <div className="text-sm text-foreground mb-2">
-                <strong>Items:</strong> {item['Property Items']}
+              <div className="flex items-start gap-2">
+                <Package className="w-4 h-4 mt-1 text-sky-500 flex-none" />
+                <div className="flex flex-wrap gap-2">
+                  {item['Property Items'].split(',').map((itm, i) => (
+                    <span
+                      key={i}
+                      className="bg-slate-200 dark:bg-slate-700 text-xs px-2 py-1 rounded-full text-foreground"
+                    >
+                      {itm.trim()}
+                    </span>
+                  ))}
+                </div>
               </div>
             )}
           </div>
-          <div className="flex flex-wrap gap-2 mt-3">
+
+          {/* Footer Section */}
+          <div className="flex flex-wrap gap-2 mt-5">
             {Object.keys(groupIcons).map((group) =>
               item[group] ? (
                 <Badge
                   key={group}
-                  variant="outline"
-                  className="flex items-center gap-1 px-2 py-1 text-xs"
+                  variant="secondary"
+                  className="flex items-center gap-1 px-3 py-1 text-xs border border-gray-300 dark:border-gray-600 bg-background/70 dark:bg-muted text-foreground shadow-sm"
                 >
                   {groupIcons[group]}
                   {group}
@@ -71,5 +95,6 @@ export default function CardView({
         </div>
       ))}
     </div>
+
   );
 }
