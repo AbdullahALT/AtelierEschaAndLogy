@@ -60,7 +60,7 @@ export default function CardView({
               </div>
             )}
 
-            {item['Property Items'] && (
+            {item['Property Items'].length > 0 && (
               <div className="flex items-start gap-2">
                 <Package className="w-4 h-4 mt-1 text-sky-500 flex-none" />
                 <div className="flex flex-wrap gap-2">
