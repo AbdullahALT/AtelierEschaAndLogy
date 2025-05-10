@@ -1,5 +1,5 @@
 // App.tsx
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import propertiesRaw from '../files/properties.json';
 import { Tabs, TabsList, TabsTrigger } from '@/components/ui/tabs';
 import Filters from './Filters';
@@ -13,7 +13,7 @@ import {
   SelectValue,
 } from './components/ui/select';
 import { Checkbox } from './components/ui/checkbox';
-import { SortAscIcon, SortDescIcon, XIcon } from "lucide-react"; // Importing the SortAsc icon
+import { SortAscIcon, SortDescIcon, XIcon, MoonIcon, SunIcon } from "lucide-react"; // Importing icons
 import { Button } from './components/ui/button';
 
 export type PropertyItem = {
@@ -48,6 +48,17 @@ export default function App() {
   const [textFilters, setTextFilters] = useState<Record<string, string>>({});
   const [sortField, setSortField] = useState<string | null>(null);
   const [sortOrder, setSortOrder] = useState<'asc' | 'desc'>('asc');
+  const [isDarkMode, setIsDarkMode] = useState(false);
+
+  useEffect(() => {
+    if (isDarkMode) {
+      document.documentElement.classList.add('dark');
+    } else {
+      document.documentElement.classList.remove('dark');
+    }
+  }, [isDarkMode]);
+
+  const toggleDarkMode = () => setIsDarkMode(!isDarkMode);
 
   const fields = Object.keys(properties[0] || {});
 
@@ -110,61 +121,34 @@ export default function App() {
   const sorted = applySort(filtered);
 
   return (
-    <div className="p-4 w-full overflow-x-hidden">
+    <div className={`p-4 w-full overflow-x-hidden ${isDarkMode ? 'dark' : ''}`}>
+      <div className="flex justify-between items-center mb-4">
+        <h1 className="text-xl font-bold">Atelier Escha and Logy</h1>
+        <button
+          onClick={toggleDarkMode}
+          className="p-2 rounded-full bg-gray-200 dark:bg-gray-800"
+          aria-label="Toggle Dark Mode"
+        >
+          {isDarkMode ? <SunIcon className="w-5 h-5 text-yellow-500" /> : <MoonIcon className="w-5 h-5 text-gray-700" />}
+        </button>
+      </div>
 
       <Filters
         fields={fields}
         properties={properties}
         filters={filters}
         textFilters={textFilters}
+        sortField={sortField}
+        sortOrder={sortOrder}
         onChange={handleFilterChange}
         onTextChange={handleTextFilterChange}
+        onSortFieldChange={setSortField}
+        onSortOrderToggle={() => setSortOrder(sortOrder === 'asc' ? 'desc' : 'asc')}
+        onClearSort={() => {
+          setSortField(null);
+          setSortOrder('asc');
+        }}
       />
-
-      <div className="flex flex-col sm:flex-row items-center gap-2 w-full sm:w-auto mb-4">
-        {/* label "sort by" */}
-        <span className="text-sm font-medium whitespace-nowrap">Sort By:</span>
-
-        <div className="flex flex-row w-full items-center gap-2">
-          {/* Sort by dropdown */}
-          <Select
-            onValueChange={(value) => setSortField(value === "none" ? null : value)}
-            value={sortField ?? "none"}
-          >
-            <SelectTrigger>
-              <SelectValue placeholder="Sort By" />
-            </SelectTrigger>
-            <SelectContent>
-              <SelectItem value="none">None</SelectItem>
-              {fields.map((field) => (
-                <SelectItem key={field} value={field}>
-                  {field}
-                </SelectItem>
-              ))}
-            </SelectContent>
-          </Select>
-          <Button
-            onClick={() => {
-              setSortField(null);
-              setSortOrder('asc');
-            }}
-            disabled={!sortField}
-            type="button"
-            aria-label="Clear Sort"
-            title="Clear Sort"
-          >
-            <XIcon className="w-4" />
-          </Button>
-          <Button
-            onClick={() => toggleSort(sortField)}
-            disabled={!sortField}
-          >
-            {sortOrder === 'asc' ? <SortAscIcon className="w-4" /> : <SortDescIcon className="w-4" />}
-          </Button>
-        </div>
-
-
-      </div>
 
       <CardView items={sorted} fields={fields} />
     </div>
