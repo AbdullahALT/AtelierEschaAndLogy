@@ -49,7 +49,7 @@ export default function CardView({
             {item['Property Fusion'] && (
               <div className="flex items-center gap-2 mb-2">
                 <Flame className="w-4 h-4 text-purple-500" />
-                <span className="inline-block bg-purple-100 dark:bg-purple-900/30 text-purple-800 dark:text-purple-300 rounded-md px-2 py-1">
+                <span className="inline-block text-xs bg-purple-100 dark:bg-purple-900/30 text-purple-800 dark:text-purple-300 rounded-md px-2 py-1">
                   {item['Property Fusion']}
                 </span>
               </div>
